@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6288227065632906378
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2485155625862406841, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      propertyPath: maxHp
+      value: 9999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3895759684148327919, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      propertyPath: factionType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3895759684148327919, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      propertyPath: defaultStartWeapons.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3895759684148327919, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      propertyPath: defaultStartWeapons.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3895759684148327919, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      propertyPath: defaultStartWeapons.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651758497407288345, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      propertyPath: hybridComponents.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651758497407288345, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      propertyPath: hybridComponents.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 57c793bcd959e984ea5118b284466402,
+        type: 2}
+    - target: {fileID: 4651758497407288345, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      propertyPath: hybridComponents.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1d66e92e25d93b843830f10997513fbd,
+        type: 2}
+    - target: {fileID: 6873468100685802369, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6873468100685802369, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6873468100685802369, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6879220686869497533, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      propertyPath: m_Name
+      value: Gangster Mono outside Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6879220686869497533, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5262200210878350652}
+    - targetCorrespondingSourceObject: {fileID: 6879220686869497533, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1726307499205807576}
+    - targetCorrespondingSourceObject: {fileID: 6879220686869497533, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5718870577529759288}
+  m_SourcePrefab: {fileID: 100100000, guid: 0e88db289e43aee40a5f2a8fd6992f28, type: 3}
+--- !u!1 &590996259488913975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6879220686869497533, guid: 0e88db289e43aee40a5f2a8fd6992f28,
+    type: 3}
+  m_PrefabInstance: {fileID: 6288227065632906378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5262200210878350652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590996259488913975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 095b8f4d223f92d41a1e24ddcf873eeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actorType: 0
+--- !u!114 &1726307499205807576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590996259488913975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 340198ef566b40e4b85ad0e699674937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5718870577529759288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590996259488913975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c02ae9cf27cdcf44afdaf927f812943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raycastLayer:
+    serializedVersion: 2
+    m_Bits: 65536
+  castDistance: 0.5
+  castFrequncy: 0.1

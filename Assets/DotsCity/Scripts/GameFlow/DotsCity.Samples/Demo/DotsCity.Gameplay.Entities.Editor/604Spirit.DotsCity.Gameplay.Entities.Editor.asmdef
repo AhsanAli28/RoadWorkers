@@ -1,0 +1,47 @@
+{
+    "name": "604Spirit.DotsCity.Gameplay.Entities.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Transforms",
+        "Unity.Transforms.Hybrid",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "Unity.Mathematics.Extensions",
+        "Unity.Entities.Graphics",
+        "Unity.Physics",
+        "Unity.Physics.Hybrid",
+        "Unity.Physics.Custom",
+        "Unity.Scenes",
+        "Unity.TextMeshPro",
+        "604Spirit.DotsCity.Constans",
+        "604Spirit.DotsCity.Core",
+        "604Spirit.DotsCity.Hybrid.Core",
+        "604Spirit.DotsCity.Simulation",
+        "604Spirit.DotsCity.Simulation.Editor",
+        "604Spirit.DotsCity.Gameplay.Entities",
+        "604Spirit.DotsCity.Gameplay",
+        "604Spirit.RoadComponents.Core",
+        "604Spirit.StateMachine.Core",
+        "604Spirit.DotsExtensions.Core",
+        "604Spirit.Extensions.Core",
+        "604Spirit.SerializableDictionary.Core",
+        "604Spirit.AnimationBaker.Core",
+        "604Spirit.AnimationBaker.Entities"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY",
+        "!DOTS_SIMULATION"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

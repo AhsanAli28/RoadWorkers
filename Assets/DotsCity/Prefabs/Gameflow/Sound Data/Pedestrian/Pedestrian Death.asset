@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e31e975bb229fd45b20b00f1350b49b, type: 3}
+  m_Name: Pedestrian Death
+  m_EditorClassIdentifier: 
+  Id: 21
+  Name: event:/Pedestrian/Death
+  Loop: 0
+  ClipVolume: 1
+  randomSound: 1
+  AudioClip: {fileID: 0}
+  Multiclips:
+  - {fileID: 8300000, guid: e83a7a98cf3449843ae9dbe1407bb94d, type: 3}
+  - {fileID: 8300000, guid: e300fb76d0a36cd4f9bc9beffdab8f19, type: 3}
+  - {fileID: 8300000, guid: d443b50bb054ce349a439379a310c85c, type: 3}
+  - {fileID: 8300000, guid: 69e216c6eb0bd994bb20cb1d5524ac53, type: 3}
+  - {fileID: 8300000, guid: 9e5200650978e8c408c8473d4c4114f5, type: 3}
+  - {fileID: 8300000, guid: 946b3c9db2775364eb8df14b81490c1c, type: 3}
+  - {fileID: 8300000, guid: d9f03ee0572cacd4abaea32d619077bd, type: 3}
+  - {fileID: 8300000, guid: 23392fe0b0196e9479b83efb94e1a606, type: 3}
+  - {fileID: 8300000, guid: 4f74d7fcc5eb29e4caa21b5449f0b44a, type: 3}
+  - {fileID: 8300000, guid: 66e2bc8e2920b0248971d68ab251975d, type: 3}
+  - {fileID: 8300000, guid: f7515c3d0dafdba4ab50b3a3c817ed69, type: 3}
+  - {fileID: 8300000, guid: 460729eed8a958b44adb359772fc65fc, type: 3}
+  - {fileID: 8300000, guid: 7dc7d657e7ab9e84ea2d48c9dd1c862e, type: 3}
+  - {fileID: 8300000, guid: 42c56c1f8728a1b45a57ecb3c57b4ccf, type: 3}
+  - {fileID: 8300000, guid: 6b0beefa6861dfb4c9833f752e1ef3f6, type: 3}
+  - {fileID: 8300000, guid: 13a42bfd7be213842a53c0ee75c97293, type: 3}
+  - {fileID: 8300000, guid: b34845f586ff0b244b10484b573d8c0b, type: 3}
+  - {fileID: 8300000, guid: ad6f2732f872bec4cbe03387bfb385bb, type: 3}
+  - {fileID: 8300000, guid: 9459bfca735c6f446a91ef8a027fad22, type: 3}
+  - {fileID: 8300000, guid: 41059b5036e9ee440af384c4c867dc8a, type: 3}
+  Parameters: []

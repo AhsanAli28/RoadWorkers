@@ -1,0 +1,43 @@
+{
+    "name": "Spirit604.DotsCity.Rukhanka",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "Unity.Mathematics.Extensions",
+        "Unity.Transforms",
+        "Unity.Burst",
+        "Unity.Physics",
+        "604Spirit.DotsCity.Core",
+        "604Spirit.DotsCity.Hybrid.Core",
+        "604Spirit.DotsCity.Simulation",
+        "604Spirit.Extensions.Core",
+        "Rukhanka.Runtime",
+        "Rukhanka.Toolbox"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY",
+        "RUKHANKA"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.rukhanka.animation",
+            "expression": "",
+            "define": "RUKHANKA"
+        },
+        {
+            "name": "com.unity.physics",
+            "expression": "",
+            "define": "UNITY_PHYSICS"
+        }
+    ],
+    "noEngineReferences": false
+}

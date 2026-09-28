@@ -1,0 +1,1015 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2516c40279d6e2a4dac1b045e5fc9e56, type: 3}
+  m_Name: Character GPU Animation Container Polygon
+  m_EditorClassIdentifier: 
+  keys:
+  - Character_BusinessWoman
+  - Character_BusinessMan_Suit
+  - Character_BusinessMan_Shirt
+  - Character_Female_Coat
+  - Character_Female_Jacket
+  - Character_Female_Police
+  - Character_Male_Hoodie
+  - Character_Male_Jacket
+  - Character_Male_Police
+  values:
+  - Ragdoll: {fileID: 0}
+    LODs:
+    - Mesh: {fileID: 4300012, guid: 897b34267f422c1499700402763d096e, type: 3}
+      Material: {fileID: 2100000, guid: 85718b814c80ebf4ea5ce27ce4e8d34d, type: 2}
+      Animations:
+      - Guid: 2653f6db-d886-493c-909d-12f4b63f8690
+        ClipName: 0_Idle
+        AnimationHash: 2081823275
+        ClipLength: 2.1333334
+        OriginalFrameRate: 30
+        VertexCount: 4965
+        FrameRate: 6
+        FrameOffsetX: 1053
+        FrameOffsetY: 1080
+        FrameCount: 12
+        Interpolate: 1
+      - Guid: 5a5bc837-4179-4e4f-b210-96e2064b360f
+        ClipName: Walking
+        AnimationHash: 1744665739
+        ClipLength: 1.0333333
+        OriginalFrameRate: 30
+        VertexCount: 4965
+        FrameRate: 7
+        FrameOffsetX: 1082
+        FrameOffsetY: 1268
+        FrameCount: 7
+        Interpolate: 1
+      - Guid: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+        ClipName: Running
+        AnimationHash: -526601997
+        ClipLength: 0.7
+        OriginalFrameRate: 30
+        VertexCount: 4965
+        FrameRate: 10
+        FrameOffsetX: 1099
+        FrameOffsetY: 1207
+        FrameCount: 6
+        Interpolate: 1
+      - Guid: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+        ClipName: Talking1
+        AnimationHash: 2002669440
+        ClipLength: 3.8666666
+        OriginalFrameRate: 30
+        VertexCount: 4965
+        FrameRate: 9
+        FrameOffsetX: 1274
+        FrameOffsetY: 287
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+        ClipName: Talking2
+        AnimationHash: -296280518
+        ClipLength: 10.266666
+        OriginalFrameRate: 30
+        VertexCount: 4965
+        FrameRate: 9
+        FrameOffsetX: 1356
+        FrameOffsetY: 1161
+        FrameCount: 92
+        Interpolate: 1
+      - Guid: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+        ClipName: Talking3
+        AnimationHash: -1722798420
+        ClipLength: 3.9333334
+        OriginalFrameRate: 30
+        VertexCount: 4965
+        FrameRate: 9
+        FrameOffsetX: 1579
+        FrameOffsetY: 1237
+        FrameCount: 35
+        Interpolate: 1
+      - Guid: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+        ClipName: Stand To Sit
+        AnimationHash: 1798334025
+        ClipLength: 2.2333333
+        OriginalFrameRate: 30
+        VertexCount: 4965
+        FrameRate: 8
+        FrameOffsetX: 1232
+        FrameOffsetY: 1898
+        FrameCount: 17
+        Interpolate: 1
+      - Guid: a19cd58b-8f88-4e12-b64c-a74f74533202
+        ClipName: Sitting Idle
+        AnimationHash: 2028741046
+        ClipLength: 4.3
+        OriginalFrameRate: 30
+        VertexCount: 4965
+        FrameRate: 8
+        FrameOffsetX: 1150
+        FrameOffsetY: 1024
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288
+        ClipName: Sit To Stand
+        AnimationHash: 605113644
+        ClipLength: 2.2666667
+        OriginalFrameRate: 30
+        VertexCount: 4965
+        FrameRate: 7
+        FrameOffsetX: 1114
+        FrameOffsetY: 277
+        FrameCount: 15
+        Interpolate: 1
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+  - Ragdoll: {fileID: 0}
+    LODs:
+    - Mesh: {fileID: 4300004, guid: 897b34267f422c1499700402763d096e, type: 3}
+      Material: {fileID: 2100000, guid: 2360855be28925f46bd77c54accf5946, type: 2}
+      Animations:
+      - Guid: 2653f6db-d886-493c-909d-12f4b63f8690
+        ClipName: 0_Idle
+        AnimationHash: 2081823275
+        ClipLength: 2.1333334
+        OriginalFrameRate: 30
+        VertexCount: 4413
+        FrameRate: 6
+        FrameOffsetX: 510
+        FrameOffsetY: 1068
+        FrameCount: 12
+        Interpolate: 1
+      - Guid: 5a5bc837-4179-4e4f-b210-96e2064b360f
+        ClipName: Walking
+        AnimationHash: 1744665739
+        ClipLength: 1.0333333
+        OriginalFrameRate: 30
+        VertexCount: 4413
+        FrameRate: 7
+        FrameOffsetX: 536
+        FrameOffsetY: 776
+        FrameCount: 7
+        Interpolate: 1
+      - Guid: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+        ClipName: Running
+        AnimationHash: -526601997
+        ClipLength: 0.7
+        OriginalFrameRate: 30
+        VertexCount: 4413
+        FrameRate: 10
+        FrameOffsetX: 551
+        FrameOffsetY: 947
+        FrameCount: 6
+        Interpolate: 1
+      - Guid: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+        ClipName: Talking1
+        AnimationHash: 2002669440
+        ClipLength: 3.8666666
+        OriginalFrameRate: 30
+        VertexCount: 4413
+        FrameRate: 9
+        FrameOffsetX: 706
+        FrameOffsetY: 1243
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+        ClipName: Talking2
+        AnimationHash: -296280518
+        ClipLength: 10.266666
+        OriginalFrameRate: 30
+        VertexCount: 4413
+        FrameRate: 9
+        FrameOffsetX: 779
+        FrameOffsetY: 1781
+        FrameCount: 92
+        Interpolate: 1
+      - Guid: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+        ClipName: Talking3
+        AnimationHash: -1722798420
+        ClipLength: 3.9333334
+        OriginalFrameRate: 30
+        VertexCount: 4413
+        FrameRate: 9
+        FrameOffsetX: 978
+        FrameOffsetY: 225
+        FrameCount: 35
+        Interpolate: 1
+      - Guid: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+        ClipName: Stand To Sit
+        AnimationHash: 1798334025
+        ClipLength: 2.2333333
+        OriginalFrameRate: 30
+        VertexCount: 4413
+        FrameRate: 8
+        FrameOffsetX: 669
+        FrameOffsetY: 1998
+        FrameCount: 17
+        Interpolate: 1
+      - Guid: a19cd58b-8f88-4e12-b64c-a74f74533202
+        ClipName: Sitting Idle
+        AnimationHash: 2028741046
+        ClipLength: 4.3
+        OriginalFrameRate: 30
+        VertexCount: 4413
+        FrameRate: 8
+        FrameOffsetX: 596
+        FrameOffsetY: 1460
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288
+        ClipName: Sit To Stand
+        AnimationHash: 605113644
+        ClipLength: 2.2666667
+        OriginalFrameRate: 30
+        VertexCount: 4413
+        FrameRate: 7
+        FrameOffsetX: 564
+        FrameOffsetY: 801
+        FrameCount: 15
+        Interpolate: 1
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+  - Ragdoll: {fileID: 0}
+    LODs:
+    - Mesh: {fileID: 4300002, guid: 897b34267f422c1499700402763d096e, type: 3}
+      Material: {fileID: 2100000, guid: 00f5fda361a13114989063ff07335cdc, type: 2}
+      Animations:
+      - Guid: 2653f6db-d886-493c-909d-12f4b63f8690
+        ClipName: 0_Idle
+        AnimationHash: 2081823275
+        ClipLength: 2.1333334
+        OriginalFrameRate: 30
+        VertexCount: 4149
+        FrameRate: 6
+        FrameOffsetX: 0
+        FrameOffsetY: 0
+        FrameCount: 12
+        Interpolate: 1
+      - Guid: 5a5bc837-4179-4e4f-b210-96e2064b360f
+        ClipName: Walking
+        AnimationHash: 1744665739
+        ClipLength: 1.0333333
+        OriginalFrameRate: 30
+        VertexCount: 4149
+        FrameRate: 7
+        FrameOffsetX: 24
+        FrameOffsetY: 636
+        FrameCount: 7
+        Interpolate: 1
+      - Guid: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+        ClipName: Running
+        AnimationHash: -526601997
+        ClipLength: 0.7
+        OriginalFrameRate: 30
+        VertexCount: 4149
+        FrameRate: 10
+        FrameOffsetX: 38
+        FrameOffsetY: 1007
+        FrameCount: 6
+        Interpolate: 1
+      - Guid: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+        ClipName: Talking1
+        AnimationHash: 2002669440
+        ClipLength: 3.8666666
+        OriginalFrameRate: 30
+        VertexCount: 4149
+        FrameRate: 9
+        FrameOffsetX: 184
+        FrameOffsetY: 727
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+        ClipName: Talking2
+        AnimationHash: -296280518
+        ClipLength: 10.266666
+        OriginalFrameRate: 30
+        VertexCount: 4149
+        FrameRate: 9
+        FrameOffsetX: 253
+        FrameOffsetY: 481
+        FrameCount: 92
+        Interpolate: 1
+      - Guid: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+        ClipName: Talking3
+        AnimationHash: -1722798420
+        ClipLength: 3.9333334
+        OriginalFrameRate: 30
+        VertexCount: 4149
+        FrameRate: 9
+        FrameOffsetX: 439
+        FrameOffsetY: 1261
+        FrameCount: 35
+        Interpolate: 1
+      - Guid: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+        ClipName: Stand To Sit
+        AnimationHash: 1798334025
+        ClipLength: 2.2333333
+        OriginalFrameRate: 30
+        VertexCount: 4149
+        FrameRate: 8
+        FrameOffsetX: 149
+        FrameOffsetY: 1874
+        FrameCount: 17
+        Interpolate: 1
+      - Guid: a19cd58b-8f88-4e12-b64c-a74f74533202
+        ClipName: Sitting Idle
+        AnimationHash: 2028741046
+        ClipLength: 4.3
+        OriginalFrameRate: 30
+        VertexCount: 4149
+        FrameRate: 8
+        FrameOffsetX: 81
+        FrameOffsetY: 72
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288
+        ClipName: Sit To Stand
+        AnimationHash: 605113644
+        ClipLength: 2.2666667
+        OriginalFrameRate: 30
+        VertexCount: 4149
+        FrameRate: 7
+        FrameOffsetX: 50
+        FrameOffsetY: 1325
+        FrameCount: 15
+        Interpolate: 1
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+  - Ragdoll: {fileID: 0}
+    LODs:
+    - Mesh: {fileID: 4300010, guid: 897b34267f422c1499700402763d096e, type: 3}
+      Material: {fileID: 2100000, guid: a3998a238ecc1584786d77ef794ed94d, type: 2}
+      Animations:
+      - Guid: 2653f6db-d886-493c-909d-12f4b63f8690
+        ClipName: 0_Idle
+        AnimationHash: 2081823275
+        ClipLength: 2.1333334
+        OriginalFrameRate: 30
+        VertexCount: 5057
+        FrameRate: 6
+        FrameOffsetX: 0
+        FrameOffsetY: 0
+        FrameCount: 12
+        Interpolate: 1
+      - Guid: 5a5bc837-4179-4e4f-b210-96e2064b360f
+        ClipName: Walking
+        AnimationHash: 1744665739
+        ClipLength: 1.0333333
+        OriginalFrameRate: 30
+        VertexCount: 5057
+        FrameRate: 7
+        FrameOffsetX: 29
+        FrameOffsetY: 1292
+        FrameCount: 7
+        Interpolate: 1
+      - Guid: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+        ClipName: Running
+        AnimationHash: -526601997
+        ClipLength: 0.7
+        OriginalFrameRate: 30
+        VertexCount: 5057
+        FrameRate: 10
+        FrameOffsetX: 46
+        FrameOffsetY: 1875
+        FrameCount: 6
+        Interpolate: 1
+      - Guid: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+        ClipName: Talking1
+        AnimationHash: 2002669440
+        ClipLength: 3.8666666
+        OriginalFrameRate: 30
+        VertexCount: 5057
+        FrameRate: 9
+        FrameOffsetX: 224
+        FrameOffsetY: 1435
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+        ClipName: Talking2
+        AnimationHash: -296280518
+        ClipLength: 10.266666
+        OriginalFrameRate: 30
+        VertexCount: 5057
+        FrameRate: 9
+        FrameOffsetX: 308
+        FrameOffsetY: 1341
+        FrameCount: 92
+        Interpolate: 1
+      - Guid: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+        ClipName: Talking3
+        AnimationHash: -1722798420
+        ClipLength: 3.9333334
+        OriginalFrameRate: 30
+        VertexCount: 5057
+        FrameRate: 9
+        FrameOffsetX: 535
+        FrameOffsetY: 1689
+        FrameCount: 35
+        Interpolate: 1
+      - Guid: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+        ClipName: Stand To Sit
+        AnimationHash: 1798334025
+        ClipLength: 2.2333333
+        OriginalFrameRate: 30
+        VertexCount: 5057
+        FrameRate: 8
+        FrameOffsetX: 182
+        FrameOffsetY: 1482
+        FrameCount: 17
+        Interpolate: 1
+      - Guid: a19cd58b-8f88-4e12-b64c-a74f74533202
+        ClipName: Sitting Idle
+        AnimationHash: 2028741046
+        ClipLength: 4.3
+        OriginalFrameRate: 30
+        VertexCount: 5057
+        FrameRate: 8
+        FrameOffsetX: 98
+        FrameOffsetY: 1576
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288
+        ClipName: Sit To Stand
+        AnimationHash: 605113644
+        ClipLength: 2.2666667
+        OriginalFrameRate: 30
+        VertexCount: 5057
+        FrameRate: 7
+        FrameOffsetX: 61
+        FrameOffsetY: 1497
+        FrameCount: 15
+        Interpolate: 1
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+  - Ragdoll: {fileID: 0}
+    LODs:
+    - Mesh: {fileID: 4300016, guid: 897b34267f422c1499700402763d096e, type: 3}
+      Material: {fileID: 2100000, guid: 6387baedd0426d742a0eab6952396a05, type: 2}
+      Animations:
+      - Guid: 2653f6db-d886-493c-909d-12f4b63f8690
+        ClipName: 0_Idle
+        AnimationHash: 2081823275
+        ClipLength: 2.1333334
+        OriginalFrameRate: 30
+        VertexCount: 5129
+        FrameRate: 6
+        FrameOffsetX: 622
+        FrameOffsetY: 508
+        FrameCount: 12
+        Interpolate: 1
+      - Guid: 5a5bc837-4179-4e4f-b210-96e2064b360f
+        ClipName: Walking
+        AnimationHash: 1744665739
+        ClipLength: 1.0333333
+        OriginalFrameRate: 30
+        VertexCount: 5129
+        FrameRate: 7
+        FrameOffsetX: 652
+        FrameOffsetY: 616
+        FrameCount: 7
+        Interpolate: 1
+      - Guid: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+        ClipName: Running
+        AnimationHash: -526601997
+        ClipLength: 0.7
+        OriginalFrameRate: 30
+        VertexCount: 5129
+        FrameRate: 10
+        FrameOffsetX: 669
+        FrameOffsetY: 1703
+        FrameCount: 6
+        Interpolate: 1
+      - Guid: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+        ClipName: Talking1
+        AnimationHash: 2002669440
+        ClipLength: 3.8666666
+        OriginalFrameRate: 30
+        VertexCount: 5129
+        FrameRate: 9
+        FrameOffsetX: 850
+        FrameOffsetY: 303
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+        ClipName: Talking2
+        AnimationHash: -296280518
+        ClipLength: 10.266666
+        OriginalFrameRate: 30
+        VertexCount: 5129
+        FrameRate: 9
+        FrameOffsetX: 935
+        FrameOffsetY: 609
+        FrameCount: 92
+        Interpolate: 1
+      - Guid: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+        ClipName: Talking3
+        AnimationHash: -1722798420
+        ClipLength: 3.9333334
+        OriginalFrameRate: 30
+        VertexCount: 5129
+        FrameRate: 9
+        FrameOffsetX: 1165
+        FrameOffsetY: 1437
+        FrameCount: 35
+        Interpolate: 1
+      - Guid: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+        ClipName: Stand To Sit
+        AnimationHash: 1798334025
+        ClipLength: 2.2333333
+        OriginalFrameRate: 30
+        VertexCount: 5129
+        FrameRate: 8
+        FrameOffsetX: 807
+        FrameOffsetY: 1174
+        FrameCount: 17
+        Interpolate: 1
+      - Guid: a19cd58b-8f88-4e12-b64c-a74f74533202
+        ClipName: Sitting Idle
+        AnimationHash: 2028741046
+        ClipLength: 4.3
+        OriginalFrameRate: 30
+        VertexCount: 5129
+        FrameRate: 8
+        FrameOffsetX: 722
+        FrameOffsetY: 868
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288
+        ClipName: Sit To Stand
+        AnimationHash: 605113644
+        ClipLength: 2.2666667
+        OriginalFrameRate: 30
+        VertexCount: 5129
+        FrameRate: 7
+        FrameOffsetX: 684
+        FrameOffsetY: 1757
+        FrameCount: 15
+        Interpolate: 1
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+  - Ragdoll: {fileID: 0}
+    LODs:
+    - Mesh: {fileID: 4300014, guid: 897b34267f422c1499700402763d096e, type: 3}
+      Material: {fileID: 2100000, guid: 376518a6038ee5d46a77df07adac1525, type: 2}
+      Animations:
+      - Guid: 2653f6db-d886-493c-909d-12f4b63f8690
+        ClipName: 0_Idle
+        AnimationHash: 2081823275
+        ClipLength: 2.1333334
+        OriginalFrameRate: 30
+        VertexCount: 5671
+        FrameRate: 6
+        FrameOffsetX: 1253
+        FrameOffsetY: 728
+        FrameCount: 12
+        Interpolate: 1
+      - Guid: 5a5bc837-4179-4e4f-b210-96e2064b360f
+        ClipName: Walking
+        AnimationHash: 1744665739
+        ClipLength: 1.0333333
+        OriginalFrameRate: 30
+        VertexCount: 5671
+        FrameRate: 7
+        FrameOffsetX: 1286
+        FrameOffsetY: 1196
+        FrameCount: 7
+        Interpolate: 1
+      - Guid: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+        ClipName: Running
+        AnimationHash: -526601997
+        ClipLength: 0.7
+        OriginalFrameRate: 30
+        VertexCount: 5671
+        FrameRate: 10
+        FrameOffsetX: 1305
+        FrameOffsetY: 1981
+        FrameCount: 6
+        Interpolate: 1
+      - Guid: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+        ClipName: Talking1
+        AnimationHash: 2002669440
+        ClipLength: 3.8666666
+        OriginalFrameRate: 30
+        VertexCount: 5671
+        FrameRate: 9
+        FrameOffsetX: 1505
+        FrameOffsetY: 693
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+        ClipName: Talking2
+        AnimationHash: -296280518
+        ClipLength: 10.266666
+        OriginalFrameRate: 30
+        VertexCount: 5671
+        FrameRate: 9
+        FrameOffsetX: 1599
+        FrameOffsetY: 995
+        FrameCount: 92
+        Interpolate: 1
+      - Guid: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+        ClipName: Talking3
+        AnimationHash: -1722798420
+        ClipLength: 3.9333334
+        OriginalFrameRate: 30
+        VertexCount: 5671
+        FrameRate: 9
+        FrameOffsetX: 1854
+        FrameOffsetY: 487
+        FrameCount: 35
+        Interpolate: 1
+      - Guid: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+        ClipName: Stand To Sit
+        AnimationHash: 1798334025
+        ClipLength: 2.2333333
+        OriginalFrameRate: 30
+        VertexCount: 5671
+        FrameRate: 8
+        FrameOffsetX: 1458
+        FrameOffsetY: 542
+        FrameCount: 17
+        Interpolate: 1
+      - Guid: a19cd58b-8f88-4e12-b64c-a74f74533202
+        ClipName: Sitting Idle
+        AnimationHash: 2028741046
+        ClipLength: 4.3
+        OriginalFrameRate: 30
+        VertexCount: 5671
+        FrameRate: 8
+        FrameOffsetX: 1364
+        FrameOffsetY: 240
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288
+        ClipName: Sit To Stand
+        AnimationHash: 605113644
+        ClipLength: 2.2666667
+        OriginalFrameRate: 30
+        VertexCount: 5671
+        FrameRate: 7
+        FrameOffsetX: 1322
+        FrameOffsetY: 1191
+        FrameCount: 15
+        Interpolate: 1
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+  - Ragdoll: {fileID: 0}
+    LODs:
+    - Mesh: {fileID: 4300006, guid: 897b34267f422c1499700402763d096e, type: 3}
+      Material: {fileID: 2100000, guid: 888b7d9f1a8e0cf498f197b654a57a7b, type: 2}
+      Animations:
+      - Guid: 2653f6db-d886-493c-909d-12f4b63f8690
+        ClipName: 0_Idle
+        AnimationHash: 2081823275
+        ClipLength: 2.1333334
+        OriginalFrameRate: 30
+        VertexCount: 4185
+        FrameRate: 6
+        FrameOffsetX: 0
+        FrameOffsetY: 0
+        FrameCount: 12
+        Interpolate: 1
+      - Guid: 5a5bc837-4179-4e4f-b210-96e2064b360f
+        ClipName: Walking
+        AnimationHash: 1744665739
+        ClipLength: 1.0333333
+        OriginalFrameRate: 30
+        VertexCount: 4185
+        FrameRate: 7
+        FrameOffsetX: 24
+        FrameOffsetY: 1068
+        FrameCount: 7
+        Interpolate: 1
+      - Guid: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+        ClipName: Running
+        AnimationHash: -526601997
+        ClipLength: 0.7
+        OriginalFrameRate: 30
+        VertexCount: 4185
+        FrameRate: 10
+        FrameOffsetX: 38
+        FrameOffsetY: 1691
+        FrameCount: 6
+        Interpolate: 1
+      - Guid: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+        ClipName: Talking1
+        AnimationHash: 2002669440
+        ClipLength: 3.8666666
+        OriginalFrameRate: 30
+        VertexCount: 4185
+        FrameRate: 9
+        FrameOffsetX: 185
+        FrameOffsetY: 1955
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+        ClipName: Talking2
+        AnimationHash: -296280518
+        ClipLength: 10.266666
+        OriginalFrameRate: 30
+        VertexCount: 4185
+        FrameRate: 9
+        FrameOffsetX: 255
+        FrameOffsetY: 885
+        FrameCount: 92
+        Interpolate: 1
+      - Guid: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+        ClipName: Talking3
+        AnimationHash: -1722798420
+        ClipLength: 3.9333334
+        OriginalFrameRate: 30
+        VertexCount: 4185
+        FrameRate: 9
+        FrameOffsetX: 443
+        FrameOffsetY: 881
+        FrameCount: 35
+        Interpolate: 1
+      - Guid: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+        ClipName: Stand To Sit
+        AnimationHash: 1798334025
+        ClipLength: 2.2333333
+        OriginalFrameRate: 30
+        VertexCount: 4185
+        FrameRate: 8
+        FrameOffsetX: 151
+        FrameOffsetY: 442
+        FrameCount: 17
+        Interpolate: 1
+      - Guid: a19cd58b-8f88-4e12-b64c-a74f74533202
+        ClipName: Sitting Idle
+        AnimationHash: 2028741046
+        ClipLength: 4.3
+        OriginalFrameRate: 30
+        VertexCount: 4185
+        FrameRate: 8
+        FrameOffsetX: 81
+        FrameOffsetY: 1512
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288
+        ClipName: Sit To Stand
+        AnimationHash: 605113644
+        ClipLength: 2.2666667
+        OriginalFrameRate: 30
+        VertexCount: 4185
+        FrameRate: 7
+        FrameOffsetX: 51
+        FrameOffsetY: 177
+        FrameCount: 15
+        Interpolate: 1
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+  - Ragdoll: {fileID: 0}
+    LODs:
+    - Mesh: {fileID: 4300008, guid: 897b34267f422c1499700402763d096e, type: 3}
+      Material: {fileID: 2100000, guid: ddd394779f32c674b84b5a50a237f162, type: 2}
+      Animations:
+      - Guid: 2653f6db-d886-493c-909d-12f4b63f8690
+        ClipName: 0_Idle
+        AnimationHash: 2081823275
+        ClipLength: 2.1333334
+        OriginalFrameRate: 30
+        VertexCount: 4548
+        FrameRate: 6
+        FrameOffsetX: 514
+        FrameOffsetY: 1948
+        FrameCount: 12
+        Interpolate: 1
+      - Guid: 5a5bc837-4179-4e4f-b210-96e2064b360f
+        ClipName: Walking
+        AnimationHash: 1744665739
+        ClipLength: 1.0333333
+        OriginalFrameRate: 30
+        VertexCount: 4548
+        FrameRate: 7
+        FrameOffsetX: 541
+        FrameOffsetY: 1228
+        FrameCount: 7
+        Interpolate: 1
+      - Guid: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+        ClipName: Running
+        AnimationHash: -526601997
+        ClipLength: 0.7
+        OriginalFrameRate: 30
+        VertexCount: 4548
+        FrameRate: 10
+        FrameOffsetX: 557
+        FrameOffsetY: 296
+        FrameCount: 6
+        Interpolate: 1
+      - Guid: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+        ClipName: Talking1
+        AnimationHash: 2002669440
+        ClipLength: 3.8666666
+        OriginalFrameRate: 30
+        VertexCount: 4548
+        FrameRate: 9
+        FrameOffsetX: 717
+        FrameOffsetY: 72
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+        ClipName: Talking2
+        AnimationHash: -296280518
+        ClipLength: 10.266666
+        OriginalFrameRate: 30
+        VertexCount: 4548
+        FrameRate: 9
+        FrameOffsetX: 792
+        FrameOffsetY: 1104
+        FrameCount: 92
+        Interpolate: 1
+      - Guid: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+        ClipName: Talking3
+        AnimationHash: -1722798420
+        ClipLength: 3.9333334
+        OriginalFrameRate: 30
+        VertexCount: 4548
+        FrameRate: 9
+        FrameOffsetX: 996
+        FrameOffsetY: 1728
+        FrameCount: 35
+        Interpolate: 1
+      - Guid: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+        ClipName: Stand To Sit
+        AnimationHash: 1798334025
+        ClipLength: 2.2333333
+        OriginalFrameRate: 30
+        VertexCount: 4548
+        FrameRate: 8
+        FrameOffsetX: 679
+        FrameOffsetY: 580
+        FrameCount: 17
+        Interpolate: 1
+      - Guid: a19cd58b-8f88-4e12-b64c-a74f74533202
+        ClipName: Sitting Idle
+        AnimationHash: 2028741046
+        ClipLength: 4.3
+        OriginalFrameRate: 30
+        VertexCount: 4548
+        FrameRate: 8
+        FrameOffsetX: 603
+        FrameOffsetY: 1596
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288
+        ClipName: Sit To Stand
+        AnimationHash: 605113644
+        ClipLength: 2.2666667
+        OriginalFrameRate: 30
+        VertexCount: 4548
+        FrameRate: 7
+        FrameOffsetX: 570
+        FrameOffsetY: 960
+        FrameCount: 15
+        Interpolate: 1
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+  - Ragdoll: {fileID: 0}
+    LODs:
+    - Mesh: {fileID: 4300000, guid: 897b34267f422c1499700402763d096e, type: 3}
+      Material: {fileID: 2100000, guid: 3a4e1f88db2ca1f4b819dc1825ce2ebe, type: 2}
+      Animations:
+      - Guid: 2653f6db-d886-493c-909d-12f4b63f8690
+        ClipName: 0_Idle
+        AnimationHash: 2081823275
+        ClipLength: 2.1333334
+        OriginalFrameRate: 30
+        VertexCount: 5133
+        FrameRate: 6
+        FrameOffsetX: 1074
+        FrameOffsetY: 1164
+        FrameCount: 12
+        Interpolate: 1
+      - Guid: 5a5bc837-4179-4e4f-b210-96e2064b360f
+        ClipName: Walking
+        AnimationHash: 1744665739
+        ClipLength: 1.0333333
+        OriginalFrameRate: 30
+        VertexCount: 5133
+        FrameRate: 7
+        FrameOffsetX: 1104
+        FrameOffsetY: 1320
+        FrameCount: 7
+        Interpolate: 1
+      - Guid: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+        ClipName: Running
+        AnimationHash: -526601997
+        ClipLength: 0.7
+        OriginalFrameRate: 30
+        VertexCount: 5133
+        FrameRate: 10
+        FrameOffsetX: 1122
+        FrameOffsetY: 387
+        FrameCount: 6
+        Interpolate: 1
+      - Guid: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+        ClipName: Talking1
+        AnimationHash: 2002669440
+        ClipLength: 3.8666666
+        OriginalFrameRate: 30
+        VertexCount: 5133
+        FrameRate: 9
+        FrameOffsetX: 1302
+        FrameOffsetY: 1323
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+        ClipName: Talking2
+        AnimationHash: -296280518
+        ClipLength: 10.266666
+        OriginalFrameRate: 30
+        VertexCount: 5133
+        FrameRate: 9
+        FrameOffsetX: 1387
+        FrameOffsetY: 1765
+        FrameCount: 92
+        Interpolate: 1
+      - Guid: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+        ClipName: Talking3
+        AnimationHash: -1722798420
+        ClipLength: 3.9333334
+        OriginalFrameRate: 30
+        VertexCount: 5133
+        FrameRate: 9
+        FrameOffsetX: 1618
+        FrameOffsetY: 913
+        FrameCount: 35
+        Interpolate: 1
+      - Guid: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+        ClipName: Stand To Sit
+        AnimationHash: 1798334025
+        ClipLength: 2.2333333
+        OriginalFrameRate: 30
+        VertexCount: 5133
+        FrameRate: 8
+        FrameOffsetX: 1260
+        FrameOffsetY: 78
+        FrameCount: 17
+        Interpolate: 1
+      - Guid: a19cd58b-8f88-4e12-b64c-a74f74533202
+        ClipName: Sitting Idle
+        AnimationHash: 2028741046
+        ClipLength: 4.3
+        OriginalFrameRate: 30
+        VertexCount: 5133
+        FrameRate: 8
+        FrameOffsetX: 1174
+        FrameOffsetY: 1684
+        FrameCount: 34
+        Interpolate: 1
+      - Guid: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288
+        ClipName: Sit To Stand
+        AnimationHash: 605113644
+        ClipLength: 2.2666667
+        OriginalFrameRate: 30
+        VertexCount: 5133
+        FrameRate: 7
+        FrameOffsetX: 1137
+        FrameOffsetY: 465
+        FrameCount: 15
+        Interpolate: 1
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []
+    - Mesh: {fileID: 0}
+      Material: {fileID: 0}
+      Animations: []

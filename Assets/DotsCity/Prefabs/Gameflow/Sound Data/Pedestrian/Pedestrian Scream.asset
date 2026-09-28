@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e31e975bb229fd45b20b00f1350b49b, type: 3}
+  m_Name: Pedestrian Scream
+  m_EditorClassIdentifier: 
+  Id: 20
+  Name: event:/Pedestrian/Scream
+  Loop: 0
+  ClipVolume: 1
+  randomSound: 1
+  AudioClip: {fileID: 0}
+  Multiclips:
+  - {fileID: 8300000, guid: fb14bad4f8057df44b04b94d7889c4d6, type: 3}
+  - {fileID: 8300000, guid: b80de58852b90344da82959c37181941, type: 3}
+  - {fileID: 8300000, guid: 76e41eefdc1283843acc1e1133202010, type: 3}
+  - {fileID: 8300000, guid: c13a4831b5f8b664dad7ad0b42cf5744, type: 3}
+  - {fileID: 8300000, guid: 349445ba3a34aa4429bdc6f353d56073, type: 3}
+  Parameters: []

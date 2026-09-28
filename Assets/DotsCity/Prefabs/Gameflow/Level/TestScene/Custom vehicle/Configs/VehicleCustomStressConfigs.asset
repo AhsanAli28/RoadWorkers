@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6f6594aa1ed8f4c9c3c696c82052ed, type: 3}
+  m_Name: VehicleCustomStressConfigs
+  m_EditorClassIdentifier: 
+  ConfigPC: {fileID: 11400000, guid: 92353ec6b020c8947b634fad799ba516, type: 2}
+  ConfigMobile: {fileID: 11400000, guid: 3879e4379d01b484a977d29244a5b0a2, type: 2}
+  TargetScript: SpawnpointRuntimeAuthoring
+  TargetField: spawnSettings

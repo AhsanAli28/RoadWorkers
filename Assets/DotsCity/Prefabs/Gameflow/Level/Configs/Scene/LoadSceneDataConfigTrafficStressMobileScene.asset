@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d603fc779099ddf4aafd854d9e1e83d1, type: 3}
+  m_Name: LoadSceneDataConfigTrafficStressMobileScene
+  m_EditorClassIdentifier: 
+  sceneName: TrafficStressTestMobile
+  configDataDictionary:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 
+    keys:
+    - Traffic
+    - TrafficCar Settings
+    - General
+    - Cull
+    values:
+    - {fileID: 11400000, guid: 8ee9727a45066c549b2486fec3970a9a, type: 2}
+    - {fileID: 11400000, guid: 9021d48dbed969b4583b870008151f7b, type: 2}
+    - {fileID: 11400000, guid: b54919e26f0cf3446a874750ad82fdf4, type: 2}
+    - {fileID: 11400000, guid: b281ded3b0017ef49bb0e9d2ec0c9827, type: 2}

@@ -1,0 +1,26 @@
+{
+    "name": "604Spirit.DotsCity.RuntimeRoad.Tiles.Editor",
+    "rootNamespace": "",
+    "references": [
+        "604Spirit.DotsCity.RuntimeRoad.Tiles",
+        "604Spirit.DotsCity.Constans",
+        "604Spirit.RoadComponents.Core",
+        "604Spirit.SerializableDictionary.Core",
+        "604Spirit.DotsCity.Simulation",
+        "604Spirit.Extensions.Core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY",
+        "RUNTIME_ROAD"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

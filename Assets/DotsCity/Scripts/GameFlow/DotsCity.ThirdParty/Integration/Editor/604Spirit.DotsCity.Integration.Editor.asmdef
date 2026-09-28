@@ -1,0 +1,23 @@
+{
+    "name": "604Spirit.DotsCity.Integration.Editor",
+    "rootNamespace": "",
+    "references": [
+        "604Spirit.DotsCity.Integration",
+        "604Spirit.DotsCity.Simulation",
+        "604Spirit.DotsCity.EditorTools",
+        "604Spirit.Extensions.Core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

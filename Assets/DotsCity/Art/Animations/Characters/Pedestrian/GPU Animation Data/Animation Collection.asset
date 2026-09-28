@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea09436a86e0f6f4881ffa7ca3054eea, type: 3}
+  m_Name: Animation Collection
+  m_EditorClassIdentifier: 
+  showGuids: 0
+  animations:
+  - Name: Idle
+    UniqueAnimation: 0
+    AllowDuplicate: 0
+    InstanceCount: 10
+    AnimationType: 0
+    Guid: 2653f6db-d886-493c-909d-12f4b63f8690
+  - Name: Walking
+    UniqueAnimation: 0
+    AllowDuplicate: 0
+    InstanceCount: 10
+    AnimationType: 0
+    Guid: 5a5bc837-4179-4e4f-b210-96e2064b360f
+  - Name: Running
+    UniqueAnimation: 0
+    AllowDuplicate: 0
+    InstanceCount: 10
+    AnimationType: 0
+    Guid: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+  - Name: Talking1
+    UniqueAnimation: 1
+    AllowDuplicate: 1
+    InstanceCount: 10
+    AnimationType: 0
+    Guid: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+  - Name: Talking2
+    UniqueAnimation: 1
+    AllowDuplicate: 1
+    InstanceCount: 10
+    AnimationType: 0
+    Guid: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+  - Name: Talking3
+    UniqueAnimation: 1
+    AllowDuplicate: 1
+    InstanceCount: 10
+    AnimationType: 0
+    Guid: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+  - Name: StandToSit
+    UniqueAnimation: 1
+    AllowDuplicate: 0
+    InstanceCount: 20
+    AnimationType: 0
+    Guid: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+  - Name: SittingIdle
+    UniqueAnimation: 1
+    AllowDuplicate: 0
+    InstanceCount: 30
+    AnimationType: 0
+    Guid: a19cd58b-8f88-4e12-b64c-a74f74533202
+  - Name: SitToStand
+    UniqueAnimation: 1
+    AllowDuplicate: 0
+    InstanceCount: 20
+    AnimationType: 0
+    Guid: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288

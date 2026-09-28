@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &685132302176479303
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: id
+      value: Truck1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: customID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: boundsSize.x
+      value: 2.0289185
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: boundsSize.y
+      value: 1.5023321
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: boundsSize.z
+      value: 4.57344
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: boundsCenter.y
+      value: 0.75116605
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: boundsCenter.z
+      value: -0.07123804
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: boundsSourceType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076050866025218443, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076050866025218443, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076050866025218443, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076050866025218545, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: m_Name
+      value: Truck1_mono_arcade
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4076050866025218545, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5863584272394389183}
+  m_SourcePrefab: {fileID: 100100000, guid: 65b32699a75fae546a15ec6e147e6a7c, type: 3}
+--- !u!1 &3536203772017813942 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4076050866025218545, guid: 65b32699a75fae546a15ec6e147e6a7c,
+    type: 3}
+  m_PrefabInstance: {fileID: 685132302176479303}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5863584272394389183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3536203772017813942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2603f2e0d3a42a942bd6db35f6b4970d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: 
+  showBounds: 0
+  center: {x: 0, y: 0.75116605, z: -0.07123804}
+  size: {x: 2.0289185, y: 1.5023321, z: 4.57344}
+  carve: 1
+  moveThreshold: 0.5
+  timeToStationary: 0.5
+  carveOnlyStationary: 0

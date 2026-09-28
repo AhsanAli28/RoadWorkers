@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e31e975bb229fd45b20b00f1350b49b, type: 3}
+  m_Name: Revolver Realod
+  m_EditorClassIdentifier: 
+  Id: 25
+  Name: event:/Weapon/RevolverRealod
+  Loop: 0
+  ClipVolume: 1
+  randomSound: 0
+  AudioClip: {fileID: 8300000, guid: f39e399b85c20ca4bae522e822150921, type: 3}
+  Multiclips: []
+  Parameters: []

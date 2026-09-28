@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957ba268eac9e4c4db09f2475af24b01, type: 3}
+  m_Name: PlayerCar Convert Template
+  m_EditorClassIdentifier: 
+  carTemplateData:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 0
+    keys: 010000000000000005000000
+    values:
+    - HullPrefab: {fileID: 72502930621239320, guid: 31d830c73b556f747ac5b780e8003d4e,
+        type: 3}
+      EntityPrefab: {fileID: 8861466899768443106, guid: 424815133e8d571449f87e89b34c7c19,
+        type: 3}
+      Weight: 1
+    - HullPrefab: {fileID: 5478002719211633799, guid: cc635088917959b4a9150fb44eeb7cc0,
+        type: 3}
+      EntityPrefab: {fileID: 205740817880170277, guid: 2bf1ae8c0d1563145b1eee3ce6955c13,
+        type: 3}
+      Weight: 1
+    - HullPrefab: {fileID: 8645610330217918854, guid: 9517d9973c6c9fe45aab485f6783bb32,
+        type: 3}
+      EntityPrefab: {fileID: 5896310902067348102, guid: ec5093c734b25284bab5e4e905e7ebb1,
+        type: 3}
+      Weight: 1
+  controllerData:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 0
+    keys: 0000000001000000
+    values:
+    - HullPrefab: {fileID: 0}
+      EntityPrefab: {fileID: 5896310902067348102, guid: ec5093c734b25284bab5e4e905e7ebb1,
+        type: 3}
+      Weight: 1
+    - HullPrefab: {fileID: 5024689976865314603, guid: 1c012f81bee9c4b4e8f5122e576ee1b3,
+        type: 3}
+      EntityPrefab: {fileID: 1717103160720406751, guid: 16876fc58ea0a4248b2bc1e534e3ef7d,
+        type: 3}
+      Weight: 1

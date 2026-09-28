@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f3d746828b2b7438134463c10ffc9b, type: 3}
+  m_Name: RoadGeneratorPrefabContainer
+  m_EditorClassIdentifier: 
+  straightRoadOffset: 4.07872
+  lightParentName: Lights
+  generatorPrefabDictionary:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 0
+    keys: 00000000010000000200000003000000
+    values:
+    - Prefab: {fileID: 4723444824467666342, guid: 68abe283fd94ec6459cb43619d2d243c,
+        type: 3}
+      RoadViewPrefab: {fileID: 3759642223660478977, guid: 18581e89eae149d4394fcd21ccb4b1c2,
+        type: 3}
+      AngleOffset: 0
+    - Prefab: {fileID: 5243312105780296552, guid: 55210d075bb092643ac409fbeadb65f9,
+        type: 3}
+      RoadViewPrefab: {fileID: 4856095223106692811, guid: 7d046c3726873a845962372db38c21f1,
+        type: 3}
+      AngleOffset: 0
+    - Prefab: {fileID: 5368334326878597312, guid: 66453ded08d89eb47b09f9e2e4dae013,
+        type: 3}
+      RoadViewPrefab: {fileID: 7382378651085811800, guid: d0a1c3afc32700045a83a5fbc0e5125b,
+        type: 3}
+      AngleOffset: 180
+    - Prefab: {fileID: 4723444824467666342, guid: 68abe283fd94ec6459cb43619d2d243c,
+        type: 3}
+      RoadViewPrefab: {fileID: 5753965156638431638, guid: d6bd13b0e00d6df46b5d04a1fb4ad1da,
+        type: 3}
+      AngleOffset: 0

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7faccb9a429efc34ca7fa23f334a8a80, type: 3}
+  m_Name: GeneralSettingsDataCityStress
+  m_EditorClassIdentifier: 
+  worldSimulationType: 0
+  physicsSimulationType: 0
+  cullPhysics: 0
+  cullStaticPhysics: 0
+  forceLegacyPhysics: 0
+  carVisualDamageSystemSupport: 0
+  hasTraffic: 1
+  trafficBakingType: 1
+  changeLaneSupport: 1
+  trafficPublicSupport: 0
+  trainSupport: 0
+  trafficParkingSupport: 0
+  antiStuckSupport: 1
+  avoidanceSupport: 0
+  railMovementSupport: 0
+  carHitCollisionReaction: 0
+  wheelSystemSupport: 1
+  hasPedestrian: 1
+  pedestrianBakingType: 1
+  pedestrianTriggerSystemSupport: 0
+  navigationSupport: 1
+  talkingSupport: 0
+  benchSystemSupport: 0
+  propsPhysics: 0
+  propsDamageSystemSupport: 0
+  healthSystemSupport: 1
+  playerAgentType: 1
+  playerControllerType: 0
+  vehicleInteractionType: 0
+  bulletSupport: 0
+  bulletCollisionType: 0
+  shootDirectionSource: 1
+  maxTargetDistance: 12
+  maxCaptureAngle: 15
+  defaultAimPointDistance: 4
+  defaultAimPointYPosition: 0.2
+  chasingCarsSupport: 0
+  hideUI: 0
+  showFps: 1

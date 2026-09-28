@@ -1,0 +1,53 @@
+{
+    "name": "DotsCity.Init",
+    "rootNamespace": "",
+    "references": [
+        "604Spirit.DotsCity.Constans",
+        "604Spirit.Extensions.Core",
+        "604Spirit.DotsCity.Installer.Gameplay",
+        "604Spirit.DotsCity.Core",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.burst",
+            "expression": "[1.8.15]",
+            "define": "BURST_1_8_15"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "",
+            "define": "UNITY_URP"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "",
+            "define": "UNITY_HDRP"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "",
+            "define": "TEXT_MESH_PRO"
+        },
+        {
+            "name": "Unity",
+            "expression": "[2022.3.40,2022.3.51)",
+            "define": "UNITY_ISSUE_1"
+        },
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "3.0.0",
+            "define": "CINEMACHINE_V3"
+        }
+    ],
+    "noEngineReferences": false
+}

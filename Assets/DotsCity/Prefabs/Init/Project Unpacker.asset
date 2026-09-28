@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57f9ecc418cb98948b69ee8c4ce8544a, type: 3}
+  m_Name: Project Unpacker
+  m_EditorClassIdentifier: 
+  groupDatas:
+  - Pack: {fileID: 102900000, guid: e2dc360eae3c70f4cb2d29a5c48eea04, type: 3}
+    Name: CustomTrainDemo
+    Paths:
+    - Prefabs/Gameflow/Level/Configs/CustomTrainDemo/CullConfigTrainDemoScene.asset
+    - Prefabs/Gameflow/Level/Configs/CustomTrainDemo/GeneralSettingsDataTrainDemo.asset
+    - Prefabs/Gameflow/Level/Configs/CustomTrainDemo/PedestrianSettingsConfigTrainDemoScene.asset
+    - Prefabs/Gameflow/Level/Configs/CustomTrainDemo/PedestrianSpawnerConfigTrainDemoScene.asset
+    - Prefabs/Gameflow/Level/Configs/CustomTrainDemo/PedestrianSpawnerConfigTrainDemoSceneMobile.asset
+    - Prefabs/Gameflow/Level/Configs/CustomTrainDemo/TrafficSpawnerConfigTrainDemoScene.asset
+  - Pack: {fileID: 102900000, guid: fea2210b7249b884d8813300bf4c4dde, type: 3}
+    Name: Gameplay_CullConfig
+    Paths:
+    - Prefabs/Gameflow/Level/Configs/Other/Gameplay/CullConfigDemoMonoScene.asset
+    - Prefabs/Gameflow/Level/Configs/Other/Gameplay/CullConfigDemoscene.asset
+  - Pack: {fileID: 102900000, guid: 3f85bf26f9e3d6046bee061f278a4af9, type: 3}
+    Name: Gameplay_player
+    Paths:
+    - Prefabs/Gameflow/Level/Configs/Other/Gameplay/PlayerSpawnDataConfig.asset
+    - Prefabs/Gameflow/Level/Configs/Other/Gameplay/PlayerSpawnDataConfigMono.asset
+  - Pack: {fileID: 102900000, guid: 60848a64807887645924e545b1fab9bd, type: 3}
+    Name: Gameplay_common
+    Paths:
+    - Prefabs/Gameflow/Level/Configs/Other/Gameplay/PlayerSpawnDataConfig.asset
+    - Prefabs/Gameflow/Level/Configs/Other/Gameplay/PlayerSpawnDataConfigMono.asset
+    - Prefabs/Gameflow/Level/Configs/Other/Gameplay/SoundLevelConfig.asset
+    - Prefabs/Gameflow/Level/Configs/Other/Gameplay/SoundStressLevelConfig.asset
+    - Prefabs/Gameflow/Level/Configs/Npc/Gameplay/NpcCommonSettingsConfigEmtpy.asset
+  - Pack: {fileID: 102900000, guid: d55a7f03a8e0cf44eb7891f1732b6c0f, type: 3}
+    Name: Gameplay_presets
+    Paths:
+    - Prefabs/Gameflow/Level/Presets/Pedestrian/PedestrianSkinFactoryData.asset
+    - Prefabs/Gameflow/Level/Presets/Pedestrian/PedestrianSkinMonoFactoryData.asset
+    - Prefabs/Gameflow/Level/Presets/Player/PlayerCarPreset.asset
+    - Prefabs/Gameflow/Level/Presets/Player/PlayerCarPresetMono.asset
+    - Prefabs/Gameflow/Level/Presets/Traffic/VehicleDataCollection.asset
+    - Prefabs/Gameflow/Level/Presets/Traffic/TrafficPoolPresetCustomPhysicsEntity.asset
+    - Prefabs/Gameflow/Level/Presets/Traffic/TrafficPoolPresetHybridCustomPhysicsEntity.asset
+    - Prefabs/Gameflow/Level/Presets/Traffic/TrafficPoolPresetHybridMonoEntity.asset
+    - Prefabs/Gameflow/Level/Presets/Traffic/TrafficPoolPresetHybridSimpleEntity.asset
+    - Prefabs/Gameflow/Level/Presets/Traffic/TrafficPoolPresetSimplePhysicsEntity.asset
+    - Prefabs/Gameflow/Level/Presets/Traffic/TrafficPoolPresetSimplePhysicsEntity
+      LODs.asset
+    - Prefabs/Gameflow/Level/Presets/Traffic/Cache Container.asset
+    - Prefabs/Gameflow/Level/Presets/Traffic/Templates/DefaultTemplate.asset
+    - Prefabs/Gameflow/Level/Presets/Traffic/Templates/TrackTemplate_4_wheels.asset
+    - Prefabs/Gameflow/Level/Presets/Traffic/Templates/TrackTemplate_6_wheels.asset
+    - Prefabs/Gameflow/Level/Presets/Traffic/Templates/VehicleCustomTemplateContainer.asset
+  - Pack: {fileID: 102900000, guid: 44bd9951823921d4d88f8f1123c76ead, type: 3}
+    Name: Gameplay_configs
+    Paths:
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Gameplay/PedestrianSettingsConfigDemoMonoScene.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Gameplay/PedestrianSettingsConfigDemoScene.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Gameplay/PedestrianSpawnerConfigDemoMonoScene.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Gameplay/PedestrianSpawnerConfigDemoScene.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Gameplay/PedestrianSpawnerConfigDemoSceneMobile.asset
+    - Prefabs/Gameflow/Level/Configs/Npc/Gameplay/NpcCommonSettingsConfigDemoScene.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Gameplay/PedestrianPrefabEntityData.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Gameplay/AnimatorDataPreset.asset
+    - Prefabs/Gameflow/Level/Configs/Traffic/Gameplay/TrafficSettingsConfigDemoMono.asset
+    - Prefabs/Gameflow/Level/Configs/Traffic/Gameplay/TrafficSpawnerConfigDemoMonoScene.asset
+    - Prefabs/Gameflow/Level/Configs/Traffic/Gameplay/TrafficSpawnerConfigDemoScene.asset
+    - Prefabs/Gameflow/Level/Configs/Traffic/Gameplay/TrafficSettingsConfig.asset
+    - Prefabs/CityEditor/Configs/Other/GeneralSettingsData.asset
+    - Prefabs/CityEditor/Configs/Other/GeneralSettingsDataMobile.asset
+    - Prefabs/CityEditor/Configs/Other/GeneralSettingsDataMono.asset
+  - Pack: {fileID: 102900000, guid: dbaee6a1d9b10c041be3750675be3908, type: 3}
+    Name: Test_scenes_configs
+    Paths:
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Test/PedestrianSettingsConfigCityStressTestScene.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Test/PedestrianSettingsConfigPedestrianStressTestScene.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Test/PedestrianSettingsConfigPedestrianTestScene.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Test/PedestrianSpawnerConfigCityStressMobileTest.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Test/PedestrianSpawnerConfigCityStressTest.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Test/PedestrianSpawnerConfigPedestrianStressMobileTest.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Test/PedestrianSpawnerConfigPedestrianStressTest.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Test/PedestrianSpawnerConfigPedestrianTestScene.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Test/PedestrianSpawnerConfigTrafficTestScene.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Test/PedestrianTestAnimationSpawnerConfig.asset
+    - Prefabs/Gameflow/Level/Configs/Pedestrian/Test/PedestrianTestAnimationSpawnerConfigMobile.asset
+    - Prefabs/Gameflow/Level/Configs/Traffic/Gameplay/TrafficSettingsConfig PedestrianTest.asset
+    - Prefabs/CityEditor/Configs/Other/GeneralSettingsDataPedestrianStress.asset
+    - Prefabs/CityEditor/Configs/Other/GeneralSettingsDataPureCityStress.asset
+    - Prefabs/CityEditor/Configs/Other/GeneralSettingsDataPedestrianTestScene.asset
+    - Prefabs/CityEditor/Configs/Other/GeneralSettingsDataTestScene.asset
+    - Prefabs/CityEditor/Configs/Other/GeneralSettingsDataTrafficStress.asset
+    - Prefabs/CityEditor/Configs/Other/GeneralSettingsDataCityStress.asset
+  - Pack: {fileID: 102900000, guid: b753396882aaf3f489e59625076b7231, type: 3}
+    Name: RuntimeTileDemo_configs
+    Paths:
+    - Prefabs/Gameflow/Level/Configs/RuntimeTileDemo/CullConfigRuntimeDemoscene.asset
+    - Prefabs/Gameflow/Level/Configs/RuntimeTileDemo/GeneralSettingsDataRuntimeDemo.asset
+    - Prefabs/Gameflow/Level/Configs/RuntimeTileDemo/PedestrianSettingsConfigRuntimeDemoScene.asset
+    - Prefabs/Gameflow/Level/Configs/RuntimeTileDemo/PedestrianSpawnerConfigRuntimeChunkDemoScene.asset
+    - Prefabs/Gameflow/Level/Configs/RuntimeTileDemo/PedestrianSpawnerConfigRuntimeDemoScene.asset
+    - Prefabs/Gameflow/Level/Configs/RuntimeTileDemo/SoundLevelConfigRuntimeDemo.asset
+    - Prefabs/Gameflow/Level/Configs/RuntimeTileDemo/TrafficSettingsConfigRuntimeDemo.asset
+    - Prefabs/Gameflow/Level/Configs/RuntimeTileDemo/TrafficSpawnerConfigRuntimeChunkDemoScene.asset
+    - Prefabs/Gameflow/Level/Configs/RuntimeTileDemo/TrafficSpawnerConfigRuntimeDemoScene.asset
+  - Pack: {fileID: 102900000, guid: 90e8d1663d5937344a756009a43bed93, type: 3}
+    Name: EntityBase_Prefabs
+    Paths:
+    - Prefabs/Gameflow/Cars/Base/Entity/EntityMonoPhysicsBase.prefab
+    - Prefabs/Gameflow/Cars/Base/Entity/EntityMonoPhysicsPlayerBase.prefab
+    - Prefabs/Gameflow/Cars/Base/Entity/EntityMonoPhysicsPlayerBase Arcade.prefab
+    - Prefabs/Gameflow/Cars/Base/Entity/EntityMonoPhysicsTrafficBase.prefab
+    - Prefabs/Gameflow/Cars/Base/Entity/EntityMonoPhysicsTrafficBase Arcade.prefab
+    - Prefabs/Gameflow/Cars/Base/Entity/EntityNoPhysicsBase.prefab
+    - Prefabs/Gameflow/Cars/Base/Entity/EntitySimplePhysicsBase.prefab
+    - Prefabs/Gameflow/Cars/Base/Entity/PlayerEntityCustomPhysicsBase.prefab
+    - Prefabs/Gameflow/Cars/Base/Entity/EntityCustomPhysicsBase.prefab
+  - Pack: {fileID: 102900000, guid: 19748b70ab1e953499e6d76ce0ca88cf, type: 3}
+    Name: HullBase_prefabs
+    Paths:
+    - Prefabs/Gameflow/Cars/Base/Hull/HybridCarSkinBase.prefab
+    - Prefabs/Gameflow/Cars/Base/Hull/HybridTrafficCarMonoSkinBase.prefab
+    - Prefabs/Gameflow/Cars/Base/Hull/HybridTrafficCarMonoSkinBase Arcade.prefab
+    - Prefabs/Gameflow/Cars/Base/Hull/PlayerCarMonoSkinBase.prefab
+    - Prefabs/Gameflow/Cars/Base/Hull/PlayerCarMonoSkinBase Arcade.prefab
+    - Prefabs/Gameflow/Cars/Base/Hull/PlayerCarSkinBase.prefab
+    - Prefabs/Gameflow/Cars/Base/Hull/PlayerCustomCarSkinBase.prefab
+    - Prefabs/Gameflow/Cars/Base/Hull/PlayerSimpleCarSkinBase.prefab
+  - Pack: {fileID: 102900000, guid: 6f02de2ea54b0d04ba4caea408c36cc3, type: 3}
+    Name: CityEditor_Presets
+    Paths:
+    - Prefabs/CityEditor/Configs/Other/Shared Light States.asset
+    - Prefabs/CityEditor/Configs/Other/Shared Light States Third.asset
+    - Prefabs/CityEditor/Configs/RoadSegmentCreatorConfig.asset
+    - Prefabs/CityEditor/Configs/RSGeneratorConfig.asset
+    - Prefabs/CityEditor/Configs/Hotkeys/PedestrianNodeHotkeyConfig.asset
+  - Pack: {fileID: 102900000, guid: ff09e30f4d74ef944a498b524d5b979b, type: 3}
+    Name: Road_prefabs
+    Paths:
+    - Prefabs/CityEditor/RoadComponents/Path.prefab
+    - Prefabs/CityEditor/RoadComponents/PedestrianNode.prefab
+    - Prefabs/CityEditor/RoadComponents/PedestrianNodeCreator.prefab
+    - Prefabs/CityEditor/RoadComponents/RoadSegment.prefab
+    - Prefabs/CityEditor/RoadComponents/RoadSegmentPlacer.prefab
+    - Prefabs/CityEditor/RoadComponents/Route.prefab
+    - Prefabs/CityEditor/RoadComponents/TrafficLightHandler.prefab
+    - Prefabs/CityEditor/RoadComponents/TrafficNode.prefab
+  - Pack: {fileID: 102900000, guid: 4786d9c258a17b94493daef2f2d223ea, type: 3}
+    Name: CityDebugger
+    Paths:
+    - Prefabs/Gameflow/Level/City/Core/CityDebugger.prefab
+  - Pack: {fileID: 102900000, guid: 737bfdb4189229543b011f61cda60c7a, type: 3}
+    Name: Road
+    Paths:
+    - Prefabs/Gameflow/Level/City/Core/Road.prefab
+  - Pack: {fileID: 102900000, guid: 376ab7e120425114f9a5ec8f2fdeb140, type: 3}
+    Name: Main Camera Base
+    Paths:
+    - Prefabs/Gameflow/Level/Common/Main Camera Base.prefab
+  - Pack: {fileID: 102900000, guid: 3e99fd97950262c48a0bd2cd8ff1db8a, type: 3}
+    Name: Main Camera City
+    Paths:
+    - Prefabs/Gameflow/Level/Common/Main Camera City.prefab
+  - Pack: {fileID: 102900000, guid: 936f7e00b2138c544aacbc7b8b01cf3c, type: 3}
+    Name: VehicleDataHolder
+    Paths:
+    - Prefabs/Gameflow/Level/Common/VehicleDataHolder.prefab
+  prefabs:
+  - SourcePrefab: {fileID: 7774154097440466674, guid: 0e6e26db8a0a48947a72b22e7b103eb1,
+      type: 3}
+    TargetPath: Prefabs/Gameflow/Level/Configs/Core/Configs.prefab
+    Guid: d1934b1b5b65caf46804f528e33344af
+  - SourcePrefab: {fileID: 7774154097440466674, guid: 2bbd380e9d2991c46929481b46511620,
+      type: 3}
+    TargetPath: Prefabs/Gameflow/Level/Configs/Core/ConfigsBase.prefab
+    Guid: e9297a74fe10d4c40b912c2b44b225d3
+  - SourcePrefab: {fileID: 6292306170889432492, guid: 9ecfa1f5450cfb14ab33259a50ff94d6,
+      type: 3}
+    TargetPath: Prefabs/Gameflow/Level/City/Core/HubBase.prefab
+    Guid: 1587409190446ff4099751189a6e7672
+  - SourcePrefab: {fileID: 6292306170889432492, guid: 9550b1517a5fb8549b7815e2036b76d1,
+      type: 3}
+    TargetPath: Prefabs/Gameflow/Level/City/Core/Hub.prefab
+    Guid: 4a18eea3c025bab49b9d0af99d8a7221
+  sourceGroups:
+  - Name: CustomTrainDemo
+    objects:
+    - {fileID: 11400000, guid: 6e7767f4bf28ce746b7379816e65c634, type: 2}
+    - {fileID: 11400000, guid: 6156b1abbad60a54986b4090ad2e32cd, type: 2}
+    - {fileID: 11400000, guid: cadf99857a62ae94192eb0e8cc6a6b98, type: 2}
+    - {fileID: 11400000, guid: 1c1a374b506bcdb4a9ea23c7f2c066c3, type: 2}
+    - {fileID: 11400000, guid: 3eea1268999e8b842a51342fa69ef9a4, type: 2}
+    - {fileID: 11400000, guid: d94585470d48a964b96fca988d294f02, type: 2}
+  - Name: Gameplay_CullConfig
+    objects:
+    - {fileID: 11400000, guid: e13d2bbedd319324788673950e50b66b, type: 2}
+    - {fileID: 11400000, guid: 9a4b1d7904c309b4baad264e7ca21299, type: 2}
+  - Name: Gameplay_player
+    objects:
+    - {fileID: 11400000, guid: 909ec522d8271d14c8b6239a62582959, type: 2}
+    - {fileID: 11400000, guid: ac0c2289e5207274d920f722ccc13d12, type: 2}
+  - Name: Gameplay_common
+    objects:
+    - {fileID: 11400000, guid: 909ec522d8271d14c8b6239a62582959, type: 2}
+    - {fileID: 11400000, guid: ac0c2289e5207274d920f722ccc13d12, type: 2}
+    - {fileID: 11400000, guid: fb7bfae2b58dfe649991b56441b50494, type: 2}
+    - {fileID: 11400000, guid: 8a92ec8ef47cbe14bbb9cf30d8d862c1, type: 2}
+    - {fileID: 11400000, guid: 946656618d2747b41a44ef66b72df4a3, type: 2}
+  - Name: Gameplay_presets
+    objects:
+    - {fileID: 11400000, guid: fbd7a97860ca8424f82a33ace4e1ba47, type: 2}
+    - {fileID: 11400000, guid: 2c8c32107ac585246866cca12df98965, type: 2}
+    - {fileID: 11400000, guid: 388d9f93a6b1de94cb9cfa9960f8b131, type: 2}
+    - {fileID: 11400000, guid: 2a2d817bdd0ca304ca8ad6efae2bc8e2, type: 2}
+    - {fileID: 11400000, guid: 5aa1b8e1993c61a4e898a34ac87a9646, type: 2}
+    - {fileID: 11400000, guid: 94e3c0f6c6b3f9c4bbb5c204a17e6edb, type: 2}
+    - {fileID: 11400000, guid: 7b2053e4aa103244a944d5def6cf566c, type: 2}
+    - {fileID: 11400000, guid: 1cda9298193b678458afad629246dba7, type: 2}
+    - {fileID: 11400000, guid: 4e4d79a3cff17984db1d749c8c4fb0b3, type: 2}
+    - {fileID: 11400000, guid: 0069692f258a76b44be0d33d7f443acb, type: 2}
+    - {fileID: 11400000, guid: 775f67093f485cf4b9d3ad1d7a0ac103, type: 2}
+    - {fileID: 11400000, guid: 8dbc644563097f34d941f08aab8dd606, type: 2}
+    - {fileID: 11400000, guid: d236081d79a9f02469d454bebf232a2c, type: 2}
+    - {fileID: 11400000, guid: cb79a5fc7953d6e4088cf8a81f6ab695, type: 2}
+    - {fileID: 11400000, guid: c1fd010fc9191364796b055be43ec75b, type: 2}
+    - {fileID: 11400000, guid: 1a6890472da23ba42a1b2e1bddda5307, type: 2}
+  - Name: Gameplay_configs
+    objects:
+    - {fileID: 11400000, guid: 6785adef61bdaf64891585c06191e03b, type: 2}
+    - {fileID: 11400000, guid: 8aea0bcec9b136c41b557d5f56ac5c4e, type: 2}
+    - {fileID: 11400000, guid: dfbf52dc9e4ec06458c080c72cdda515, type: 2}
+    - {fileID: 11400000, guid: ef6df51db4d16e94286e2ecc8e67581c, type: 2}
+    - {fileID: 11400000, guid: ebffba4ccbbaa9d41b8369d8a93848d5, type: 2}
+    - {fileID: 11400000, guid: aa23eb437ce76234f80cc869a6195f74, type: 2}
+    - {fileID: 11400000, guid: 925d9799424035c46b8890e7cfb622c7, type: 2}
+    - {fileID: 11400000, guid: 62e018c390b334b408833ee167d47e45, type: 2}
+    - {fileID: 11400000, guid: 98f82ae7c7e883b42acdf77d1835854e, type: 2}
+    - {fileID: 11400000, guid: 159430d75b1879c45a3e48232a56cfb4, type: 2}
+    - {fileID: 11400000, guid: 8831f5ae727c01d4e80116169dae10b6, type: 2}
+    - {fileID: 11400000, guid: cd2a6a7fae7a1fc428cd62c9d03a88c2, type: 2}
+    - {fileID: 11400000, guid: 6ac608d421444b54a8008e5e0946048e, type: 2}
+    - {fileID: 11400000, guid: c3580598d8d858342a1cedddc3d33ca2, type: 2}
+    - {fileID: 11400000, guid: 619efd0f7f741b248b0275c01d870c3e, type: 2}
+  - Name: Test_scenes_configs
+    objects:
+    - {fileID: 11400000, guid: efe5673e765ef814c8297291c959bddd, type: 2}
+    - {fileID: 11400000, guid: 0ce2b0964998c2b4fa2cc6ca96c265fe, type: 2}
+    - {fileID: 11400000, guid: 51d286c07b04b2f47ba4a62aa423bb1a, type: 2}
+    - {fileID: 11400000, guid: d728f79607d31fb4d81a2a9a76063996, type: 2}
+    - {fileID: 11400000, guid: 1408b5444aca1a047bbf51ff8bc328ca, type: 2}
+    - {fileID: 11400000, guid: b000d125cd341e24a80263c79b16b4cd, type: 2}
+    - {fileID: 11400000, guid: 396c06fff69eeba41b12986d916e3163, type: 2}
+    - {fileID: 11400000, guid: a9d1f6d01f8f4ce43b52d71f47c24edf, type: 2}
+    - {fileID: 11400000, guid: 150ae9e1fa90bea41b552b5fa9e8c489, type: 2}
+    - {fileID: 11400000, guid: 20079a3de71bf4a4fb327af3c1050b8f, type: 2}
+    - {fileID: 11400000, guid: c5a1ba39cb4296743a88121c8f7c69b7, type: 2}
+    - {fileID: 11400000, guid: 04c804669e07dc34ba149a60ea8b4cb9, type: 2}
+    - {fileID: 11400000, guid: 9e9c21751aeddf9419561e316e498971, type: 2}
+    - {fileID: 11400000, guid: 501afee8d4b937b438e9fd678fb3ea0c, type: 2}
+    - {fileID: 11400000, guid: 66f561d8e45a01849ac81c0ec129e53c, type: 2}
+    - {fileID: 11400000, guid: fbaf616dfd668754f9ee8d577841dc77, type: 2}
+    - {fileID: 11400000, guid: b54919e26f0cf3446a874750ad82fdf4, type: 2}
+    - {fileID: 11400000, guid: 14e1beb8da205a1428b739992246eea3, type: 2}
+  - Name: RuntimeTileDemo_configs
+    objects:
+    - {fileID: 11400000, guid: 8f267a79c08609843bf9bb43062d76a0, type: 2}
+    - {fileID: 11400000, guid: 45ce7f392b9610943b53bd25d699f27c, type: 2}
+    - {fileID: 11400000, guid: 68e8da97463d9fd44829180daa25ec9e, type: 2}
+    - {fileID: 11400000, guid: 97ec906e01ac5c9409f7a9389b48056c, type: 2}
+    - {fileID: 11400000, guid: 697ead495ae1cc44187168a474cc6a51, type: 2}
+    - {fileID: 11400000, guid: 68bc85af284dc7a458ad28315ec5ec51, type: 2}
+    - {fileID: 11400000, guid: b163a70df5cc3c541a25ffeaf026706d, type: 2}
+    - {fileID: 11400000, guid: 6b7da0919062e5a449fb74ca79b51cf1, type: 2}
+    - {fileID: 11400000, guid: bec3c6683f4e47e4c846e134e0ba99cb, type: 2}
+  - Name: EntityBase_Prefabs
+    objects:
+    - {fileID: 1868737655413133121, guid: edb334e9bac3da94c904cfd40fc34efe, type: 3}
+    - {fileID: 5896310902067348102, guid: ec5093c734b25284bab5e4e905e7ebb1, type: 3}
+    - {fileID: 1717103160720406751, guid: 16876fc58ea0a4248b2bc1e534e3ef7d, type: 3}
+    - {fileID: 2259120768528341217, guid: 775303633def92744958596f730cd5af, type: 3}
+    - {fileID: 4076050866025218545, guid: 65b32699a75fae546a15ec6e147e6a7c, type: 3}
+    - {fileID: 205740817880170277, guid: 70d4785531602ee4a87a4ae49b6fde68, type: 3}
+    - {fileID: 205740817880170277, guid: 2bf1ae8c0d1563145b1eee3ce6955c13, type: 3}
+    - {fileID: 8861466899768443106, guid: 424815133e8d571449f87e89b34c7c19, type: 3}
+    - {fileID: 5441000140798595082, guid: 78ffbcd84bf094c48a58267ee9c09397, type: 3}
+  - Name: HullBase_prefabs
+    objects:
+    - {fileID: 6942874095803885152, guid: e47fa6b35abb5bd4abb7bc5242694f20, type: 3}
+    - {fileID: 6355562048747962829, guid: 459236a80549e6e4ba2e3df38c7c62ca, type: 3}
+    - {fileID: 2261984792849006138, guid: 5cfae09e035099645b555c49268eb2fa, type: 3}
+    - {fileID: 8645610330217918854, guid: 9517d9973c6c9fe45aab485f6783bb32, type: 3}
+    - {fileID: 5024689976865314603, guid: 1c012f81bee9c4b4e8f5122e576ee1b3, type: 3}
+    - {fileID: 1718350105058468481, guid: 034a03b81df60c24d9ce6d1dd9471443, type: 3}
+    - {fileID: 72502930621239320, guid: 31d830c73b556f747ac5b780e8003d4e, type: 3}
+    - {fileID: 5478002719211633799, guid: cc635088917959b4a9150fb44eeb7cc0, type: 3}
+  - Name: CityEditor_Presets
+    objects:
+    - {fileID: 11400000, guid: 05128ed262d92374ca183b7a8152ee1c, type: 2}
+    - {fileID: 11400000, guid: bd48ef651a7a59943b2a7c4479b76f78, type: 2}
+    - {fileID: 11400000, guid: 7829770fc28bbca4fb359f176c98ea3d, type: 2}
+    - {fileID: 11400000, guid: 147e9f55fbed9c74fb8af74c95c46497, type: 2}
+    - {fileID: 11400000, guid: d1754fa05ebeebd47bc3942970427182, type: 2}
+  - Name: Road_prefabs
+    objects:
+    - {fileID: 4830908997150463982, guid: 2819ebe28c3f60647b875c55de688821, type: 3}
+    - {fileID: 4001867937155965930, guid: b05636b187f7d144e839e95d64ad69b0, type: 3}
+    - {fileID: 6139183951651154181, guid: 32ea04dc54226414db0fd3d46f3d0f93, type: 3}
+    - {fileID: 6161394077201806166, guid: 31a2d6e547f0ebb4d970420db4ff57fb, type: 3}
+    - {fileID: 6227545281020849439, guid: 993c2c86a7e2de642837b8cf412d0922, type: 3}
+    - {fileID: 8778373907170157263, guid: 6b3bdd19cd379c649b2a66221e27bc68, type: 3}
+    - {fileID: 2042566350179527312, guid: 08581931aea954c40951217ca3656a1d, type: 3}
+    - {fileID: 8472058308688387596, guid: d9d34a56aa64c0a4d91f552ad5291b84, type: 3}
+  singlePrefabs:
+  - {fileID: 5800451855549279494, guid: a5bc8f9bea5853d47b4b2aa75f901e69, type: 3}
+  - {fileID: 644902511433803687, guid: 16c4443c5079dbe4294a9bc151c52f2d, type: 3}
+  - {fileID: 732655117356211133, guid: 7fc7ab0705684e347a4831e7003e332a, type: 3}
+  - {fileID: 7349059871991988441, guid: b69cccaaede26dd42b125e6fb17a573d, type: 3}
+  - {fileID: 6447166878448682772, guid: b32149010ab00084c96fc54edcacbd93, type: 3}
+  sourcePrefabs: []
+  deleteAssets: 1

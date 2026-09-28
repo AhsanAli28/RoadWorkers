@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09001976b813c9c41a70e9786e5cd8ff, type: 3}
+  m_Name: CullConfigCityStressScene
+  m_EditorClassIdentifier: 
+  hasCull: 1
+  ignoreY: 0
+  cullMethod: 0
+  maxDistance: 9999
+  preinitDistance: 0
+  visibleDistance: 90
+  viewPortSquareSize: 1.2
+  overrideBehindCamera: 0
+  behindMaxDistance: 65
+  behindPreinitDistance: 0
+  behindVisibleDistance: 26

@@ -1,0 +1,28 @@
+{
+    "name": "604Spirit.Extensions.Core",
+    "rootNamespace": "",
+    "references": [
+        "Unity.InputSystem",
+        "UGizmo"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.svermeulen.extenject",
+            "expression": "",
+            "define": "ZENJECT"
+        },
+        {
+            "name": "com.unity.collections",
+            "expression": "",
+            "define": "UNITY_COLLECTIONS"
+        }
+    ],
+    "noEngineReferences": false
+}

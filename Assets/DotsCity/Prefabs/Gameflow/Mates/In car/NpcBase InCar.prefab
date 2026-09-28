@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &263201008497081411
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1601178609290430, guid: 977e29dda68b0264bbe6becf2e93af22, type: 3}
+      propertyPath: m_Name
+      value: NpcBase InCar
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820624753140098, guid: 977e29dda68b0264bbe6becf2e93af22, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820624753140098, guid: 977e29dda68b0264bbe6becf2e93af22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820624753140098, guid: 977e29dda68b0264bbe6becf2e93af22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820624753140098, guid: 977e29dda68b0264bbe6becf2e93af22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593863153774526444, guid: 977e29dda68b0264bbe6becf2e93af22,
+        type: 3}
+      propertyPath: hasStartWeapon
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593863153774526444, guid: 977e29dda68b0264bbe6becf2e93af22,
+        type: 3}
+      propertyPath: shouldSaveData
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1601178609290430, guid: 977e29dda68b0264bbe6becf2e93af22,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1921088021038591020}
+    - targetCorrespondingSourceObject: {fileID: 1601178609290430, guid: 977e29dda68b0264bbe6becf2e93af22,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4483435123337388989}
+  m_SourcePrefab: {fileID: 100100000, guid: 977e29dda68b0264bbe6becf2e93af22, type: 3}
+--- !u!1 &261951701526032637 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1601178609290430, guid: 977e29dda68b0264bbe6becf2e93af22,
+    type: 3}
+  m_PrefabInstance: {fileID: 263201008497081411}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-1921088021038591020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261951701526032637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1547913b57e5aea47bbb09bc62949cf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mateType: 0
+  mateName: 0
+  factionType: 0
+--- !u!114 &4483435123337388989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261951701526032637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb0329fb9dd333478b6872fa8ca792e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,451 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805379741e2067941ba20668a1548a0a, type: 3}
+  m_Name: AnimationTextureData1
+  m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: fd81ffd4effeda54992b31807d69824c, type: 2}
+  normalTexture: {fileID: 2800000, guid: a3b0a76cba514d543be9d0b24391e1c8, type: 2}
+  textureDatas:
+  - SourceMesh: {fileID: 427299205866691949, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: ab7986e2ef684f644bd285e82c6850d6, type: 2}
+    AnimationGUID: 2653f6db-d886-493c-909d-12f4b63f8690
+    AnimationName: 0_Idle
+    FrameRate: 6
+    TextureOffset: {x: 0, y: 0}
+    VertexCount: 992
+    FrameCount: 12
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 427299205866691949, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 941fef969ea83514085f2dd7298313b5, type: 2}
+    AnimationGUID: 5a5bc837-4179-4e4f-b210-96e2064b360f
+    AnimationName: Walking
+    FrameRate: 7
+    TextureOffset: {x: 11, y: 640}
+    VertexCount: 992
+    FrameCount: 7
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 427299205866691949, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 26f1ad9453a516f4b9d62e0e33771b91, type: 2}
+    AnimationGUID: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+    AnimationName: Running
+    FrameRate: 10
+    TextureOffset: {x: 18, y: 416}
+    VertexCount: 992
+    FrameCount: 6
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 427299205866691949, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 9e60003746b46884ea7d49406de52c51, type: 2}
+    AnimationGUID: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288
+    AnimationName: Sit To Stand
+    FrameRate: 7
+    TextureOffset: {x: 24, y: 224}
+    VertexCount: 992
+    FrameCount: 15
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 427299205866691949, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 93fefe6b924c97a42a40461b74e9d26a, type: 2}
+    AnimationGUID: a19cd58b-8f88-4e12-b64c-a74f74533202
+    AnimationName: Sitting Idle
+    FrameRate: 8
+    TextureOffset: {x: 38, y: 768}
+    VertexCount: 992
+    FrameCount: 34
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 427299205866691949, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 0348bcff5c02f214ca3e4c479031b376, type: 2}
+    AnimationGUID: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+    AnimationName: Stand To Sit
+    FrameRate: 8
+    TextureOffset: {x: 71, y: 704}
+    VertexCount: 992
+    FrameCount: 17
+    BakeOffset: {x: 0, y: -0.2, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 427299205866691949, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: a815874bc291243468398145665959e7, type: 2}
+    AnimationGUID: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+    AnimationName: Talking1
+    FrameRate: 9
+    TextureOffset: {x: 88, y: 160}
+    VertexCount: 992
+    FrameCount: 34
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 427299205866691949, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: d920364832bcf32419cc0b57c993a7b4, type: 2}
+    AnimationGUID: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+    AnimationName: Talking2
+    FrameRate: 9
+    TextureOffset: {x: 121, y: 96}
+    VertexCount: 992
+    FrameCount: 92
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 427299205866691949, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: e5839bfbf9c71984993569d55642b1dc, type: 2}
+    AnimationGUID: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+    AnimationName: Talking3
+    FrameRate: 9
+    TextureOffset: {x: 210, y: 224}
+    VertexCount: 992
+    FrameCount: 35
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -417345692110346462, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: ab7986e2ef684f644bd285e82c6850d6, type: 2}
+    AnimationGUID: 2653f6db-d886-493c-909d-12f4b63f8690
+    AnimationName: 0_Idle
+    FrameRate: 6
+    TextureOffset: {x: 244, y: 128}
+    VertexCount: 762
+    FrameCount: 12
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -417345692110346462, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 941fef969ea83514085f2dd7298313b5, type: 2}
+    AnimationGUID: 5a5bc837-4179-4e4f-b210-96e2064b360f
+    AnimationName: Walking
+    FrameRate: 7
+    TextureOffset: {x: 253, y: 56}
+    VertexCount: 762
+    FrameCount: 7
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -417345692110346462, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 26f1ad9453a516f4b9d62e0e33771b91, type: 2}
+    AnimationGUID: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+    AnimationName: Running
+    FrameRate: 10
+    TextureOffset: {x: 258, y: 270}
+    VertexCount: 762
+    FrameCount: 6
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -417345692110346462, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 9e60003746b46884ea7d49406de52c51, type: 2}
+    AnimationGUID: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288
+    AnimationName: Sit To Stand
+    FrameRate: 7
+    TextureOffset: {x: 262, y: 746}
+    VertexCount: 762
+    FrameCount: 15
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -417345692110346462, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 93fefe6b924c97a42a40461b74e9d26a, type: 2}
+    AnimationGUID: a19cd58b-8f88-4e12-b64c-a74f74533202
+    AnimationName: Sitting Idle
+    FrameRate: 8
+    TextureOffset: {x: 273, y: 912}
+    VertexCount: 762
+    FrameCount: 34
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -417345692110346462, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 0348bcff5c02f214ca3e4c479031b376, type: 2}
+    AnimationGUID: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+    AnimationName: Stand To Sit
+    FrameRate: 8
+    TextureOffset: {x: 299, y: 196}
+    VertexCount: 762
+    FrameCount: 17
+    BakeOffset: {x: 0, y: -0.2, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -417345692110346462, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: a815874bc291243468398145665959e7, type: 2}
+    AnimationGUID: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+    AnimationName: Talking1
+    FrameRate: 9
+    TextureOffset: {x: 311, y: 862}
+    VertexCount: 762
+    FrameCount: 34
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -417345692110346462, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: d920364832bcf32419cc0b57c993a7b4, type: 2}
+    AnimationGUID: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+    AnimationName: Talking2
+    FrameRate: 9
+    TextureOffset: {x: 337, y: 146}
+    VertexCount: 762
+    FrameCount: 92
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -417345692110346462, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: e5839bfbf9c71984993569d55642b1dc, type: 2}
+    AnimationGUID: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+    AnimationName: Talking3
+    FrameRate: 9
+    TextureOffset: {x: 405, y: 618}
+    VertexCount: 762
+    FrameCount: 35
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 1144469062373154402, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: ab7986e2ef684f644bd285e82c6850d6, type: 2}
+    AnimationGUID: 2653f6db-d886-493c-909d-12f4b63f8690
+    AnimationName: 0_Idle
+    FrameRate: 6
+    TextureOffset: {x: 431, y: 664}
+    VertexCount: 1012
+    FrameCount: 12
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 1144469062373154402, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 941fef969ea83514085f2dd7298313b5, type: 2}
+    AnimationGUID: 5a5bc837-4179-4e4f-b210-96e2064b360f
+    AnimationName: Walking
+    FrameRate: 7
+    TextureOffset: {x: 443, y: 520}
+    VertexCount: 1012
+    FrameCount: 7
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 1144469062373154402, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 26f1ad9453a516f4b9d62e0e33771b91, type: 2}
+    AnimationGUID: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+    AnimationName: Running
+    FrameRate: 10
+    TextureOffset: {x: 450, y: 436}
+    VertexCount: 1012
+    FrameCount: 6
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 1144469062373154402, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 9e60003746b46884ea7d49406de52c51, type: 2}
+    AnimationGUID: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288
+    AnimationName: Sit To Stand
+    FrameRate: 7
+    TextureOffset: {x: 456, y: 364}
+    VertexCount: 1012
+    FrameCount: 15
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 1144469062373154402, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 93fefe6b924c97a42a40461b74e9d26a, type: 2}
+    AnimationGUID: a19cd58b-8f88-4e12-b64c-a74f74533202
+    AnimationName: Sitting Idle
+    FrameRate: 8
+    TextureOffset: {x: 471, y: 184}
+    VertexCount: 1012
+    FrameCount: 34
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 1144469062373154402, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 0348bcff5c02f214ca3e4c479031b376, type: 2}
+    AnimationGUID: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+    AnimationName: Stand To Sit
+    FrameRate: 8
+    TextureOffset: {x: 504, y: 800}
+    VertexCount: 1012
+    FrameCount: 17
+    BakeOffset: {x: 0, y: -0.2, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 1144469062373154402, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: a815874bc291243468398145665959e7, type: 2}
+    AnimationGUID: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+    AnimationName: Talking1
+    FrameRate: 9
+    TextureOffset: {x: 521, y: 596}
+    VertexCount: 1012
+    FrameCount: 34
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 1144469062373154402, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: d920364832bcf32419cc0b57c993a7b4, type: 2}
+    AnimationGUID: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+    AnimationName: Talking2
+    FrameRate: 9
+    TextureOffset: {x: 555, y: 188}
+    VertexCount: 1012
+    FrameCount: 92
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: 1144469062373154402, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: e5839bfbf9c71984993569d55642b1dc, type: 2}
+    AnimationGUID: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+    AnimationName: Talking3
+    FrameRate: 9
+    TextureOffset: {x: 646, y: 108}
+    VertexCount: 1012
+    FrameCount: 35
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -1635773004107887764, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: ab7986e2ef684f644bd285e82c6850d6, type: 2}
+    AnimationGUID: 2653f6db-d886-493c-909d-12f4b63f8690
+    AnimationName: 0_Idle
+    FrameRate: 6
+    TextureOffset: {x: 680, y: 712}
+    VertexCount: 998
+    FrameCount: 12
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -1635773004107887764, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 941fef969ea83514085f2dd7298313b5, type: 2}
+    AnimationGUID: 5a5bc837-4179-4e4f-b210-96e2064b360f
+    AnimationName: Walking
+    FrameRate: 7
+    TextureOffset: {x: 692, y: 400}
+    VertexCount: 998
+    FrameCount: 7
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -1635773004107887764, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 26f1ad9453a516f4b9d62e0e33771b91, type: 2}
+    AnimationGUID: 8fad0092-a3e4-40c5-b66c-085d2e98d8b8
+    AnimationName: Running
+    FrameRate: 10
+    TextureOffset: {x: 699, y: 218}
+    VertexCount: 998
+    FrameCount: 6
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -1635773004107887764, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 9e60003746b46884ea7d49406de52c51, type: 2}
+    AnimationGUID: 2b1d9c69-6b1e-4c03-9ae6-0c60c9ca4288
+    AnimationName: Sit To Stand
+    FrameRate: 7
+    TextureOffset: {x: 705, y: 62}
+    VertexCount: 998
+    FrameCount: 15
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -1635773004107887764, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 93fefe6b924c97a42a40461b74e9d26a, type: 2}
+    AnimationGUID: a19cd58b-8f88-4e12-b64c-a74f74533202
+    AnimationName: Sitting Idle
+    FrameRate: 8
+    TextureOffset: {x: 719, y: 696}
+    VertexCount: 998
+    FrameCount: 34
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -1635773004107887764, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: 0348bcff5c02f214ca3e4c479031b376, type: 2}
+    AnimationGUID: b8ba7e6d-12d6-4866-8af0-30c57c19538d
+    AnimationName: Stand To Sit
+    FrameRate: 8
+    TextureOffset: {x: 752, y: 836}
+    VertexCount: 998
+    FrameCount: 17
+    BakeOffset: {x: 0, y: -0.2, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -1635773004107887764, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: a815874bc291243468398145665959e7, type: 2}
+    AnimationGUID: 87bca11f-db4c-4dcd-ba8f-0153bda99fad
+    AnimationName: Talking1
+    FrameRate: 9
+    TextureOffset: {x: 769, y: 394}
+    VertexCount: 998
+    FrameCount: 34
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -1635773004107887764, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: d920364832bcf32419cc0b57c993a7b4, type: 2}
+    AnimationGUID: 22b57dca-6157-4f95-9eec-c9e29f8f1bec
+    AnimationName: Talking2
+    FrameRate: 9
+    TextureOffset: {x: 802, y: 534}
+    VertexCount: 998
+    FrameCount: 92
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  - SourceMesh: {fileID: -1635773004107887764, guid: 2786e5b88f97b294daa5214e4633e99a,
+      type: 3}
+    SourceClip: {fileID: 7400000, guid: e5839bfbf9c71984993569d55642b1dc, type: 2}
+    AnimationGUID: 6850664a-a04e-4a5a-bf40-a7fd1e60160f
+    AnimationName: Talking3
+    FrameRate: 9
+    TextureOffset: {x: 892, y: 190}
+    VertexCount: 998
+    FrameCount: 35
+    BakeOffset: {x: 0, y: 0, z: 0}
+    Interpolate: 1
+    LodLevel: 0
+  atlasWidth: 1024
+  atlasHeight: 1024

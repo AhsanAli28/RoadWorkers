@@ -1,0 +1,33 @@
+{
+    "name": "604Spirit.DotsCity.EditorTools",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Physics",
+        "Unity.Physics.Custom",
+        "Unity.Mathematics",
+        "Unity.Collections",
+        "604Spirit.DotsCity.Constans",
+        "604Spirit.DotsCity.Core",
+        "604Spirit.DotsCity.Hybrid.Core",
+        "604Spirit.DotsCity.Simulation",
+        "604Spirit.DotsCity.Simulation.Mono",
+        "604Spirit.DotsCity.Gameplay.Entities",
+        "604Spirit.DotsCity.Gameplay",
+        "604Spirit.RoadComponents.Core",
+        "604Spirit.Extensions.Core",
+        "604Spirit.SerializableDictionary.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY",
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

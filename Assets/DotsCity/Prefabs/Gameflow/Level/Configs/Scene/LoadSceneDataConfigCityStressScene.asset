@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d603fc779099ddf4aafd854d9e1e83d1, type: 3}
+  m_Name: LoadSceneDataConfigCityStressScene
+  m_EditorClassIdentifier: 
+  sceneName: CityStressTest
+  configDataDictionary:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 
+    keys:
+    - Traffic
+    - TrafficCar
+    - Pedestrian
+    - Pedestrian Settings
+    - General
+    - Cull
+    values:
+    - {fileID: 11400000, guid: bee6015e55ef57e4ab9cbd3bf6970b38, type: 2}
+    - {fileID: 11400000, guid: 7cc64973d1190384abbb31777826ce84, type: 2}
+    - {fileID: 11400000, guid: 1408b5444aca1a047bbf51ff8bc328ca, type: 2}
+    - {fileID: 11400000, guid: efe5673e765ef814c8297291c959bddd, type: 2}
+    - {fileID: 11400000, guid: 14e1beb8da205a1428b739992246eea3, type: 2}
+    - {fileID: 11400000, guid: d59bf722280a56a4c8306590ec3b0b03, type: 2}

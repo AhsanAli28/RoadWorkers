@@ -1,0 +1,40 @@
+{
+    "name": "604Spirit.DotsCity.Samples.PlayerInteract",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Mathematics",
+        "Unity.Collections",
+        "Cinemachine",
+        "Unity.Cinemachine",
+        "604Spirit.DotsCity.Core",
+        "604Spirit.DotsCity.Hybrid.Core",
+        "604Spirit.Extensions.Core",
+        "604Spirit.DotsCity.Simulation",
+        "604Spirit.DotsCity.Gameplay.Entities",
+        "604Spirit.DotsCity.Gameplay"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY",
+        "!DOTS_SIMULATION"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "3.0.0",
+            "define": "CINEMACHINE_V3"
+        },
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "",
+            "define": "CINEMACHINE"
+        }
+    ],
+    "noEngineReferences": false
+}

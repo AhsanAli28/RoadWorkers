@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4f735c1e2022a43b9da93f3b172dd5, type: 3}
+  m_Name: TrafficGroupMaskSettings
+  m_EditorClassIdentifier: 
+  DefaultGroup: -3
+  CustomGroups:
+  - GroupName: Default
+    TrafficGroup: 1
+  - GroupName: Parking
+    TrafficGroup: 41

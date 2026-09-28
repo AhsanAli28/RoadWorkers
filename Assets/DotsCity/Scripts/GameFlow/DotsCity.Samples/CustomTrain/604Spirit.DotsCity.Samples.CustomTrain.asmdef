@@ -1,0 +1,35 @@
+{
+    "name": "604Spirit.DotsCity.Samples.CustomTrain",
+    "rootNamespace": "",
+    "references": [
+        "Unity.TextMeshPro",
+        "Cinemachine",
+        "Unity.Splines",
+        "604Spirit.DotsCity.Constans",
+        "604Spirit.DotsCity.Core",
+        "604Spirit.DotsCity.Hybrid.Core",
+        "604Spirit.Extensions.Core",
+        "604Spirit.SerializableDictionary.Core",
+        "604Spirit.DotsCity.Simulation",
+        "Unity.Mathematics"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY",
+        "!DOTS_SIMULATION",
+        "UNITY_SPLINE"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.splines",
+            "expression": "",
+            "define": "UNITY_SPLINE"
+        }
+    ],
+    "noEngineReferences": false
+}

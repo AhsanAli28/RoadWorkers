@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &483315218909042592
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1868737655413133115, guid: edb334e9bac3da94c904cfd40fc34efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868737655413133115, guid: edb334e9bac3da94c904cfd40fc34efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868737655413133115, guid: edb334e9bac3da94c904cfd40fc34efe,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868737655413133121, guid: edb334e9bac3da94c904cfd40fc34efe,
+        type: 3}
+      propertyPath: m_Name
+      value: EntityMonoPhysicsTrafficBase
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 330137197321265751, guid: edb334e9bac3da94c904cfd40fc34efe, type: 3}
+    - {fileID: 428007279953627036, guid: edb334e9bac3da94c904cfd40fc34efe, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1868737655413133121, guid: edb334e9bac3da94c904cfd40fc34efe,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 576553889822945790}
+  m_SourcePrefab: {fileID: 100100000, guid: edb334e9bac3da94c904cfd40fc34efe, type: 3}
+--- !u!1 &2259120768528341217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1868737655413133121, guid: edb334e9bac3da94c904cfd40fc34efe,
+    type: 3}
+  m_PrefabInstance: {fileID: 483315218909042592}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &576553889822945790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2259120768528341217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19dc85d2a0c52548acbe3755b2ac4d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customID: 0
+  id: 
+  hullMeshRenderer: {fileID: 0}
+  physicsShape: {fileID: 0}
+  hybridMono: 1
+  factionType: 2
+  carType: 4
+  boundsSourceType: 0
+  showBounds: 1
+  boundsColor: {r: 1, g: 1, b: 1, a: 1}
+  boundsSize: {x: 2, y: 2, z: 4}
+  boundsCenter: {x: 0, y: 0.7, z: 0}
+  link: 
+  trafficGroup: 1
+  maxSteeringAngle: 40
+  interpolate: 1

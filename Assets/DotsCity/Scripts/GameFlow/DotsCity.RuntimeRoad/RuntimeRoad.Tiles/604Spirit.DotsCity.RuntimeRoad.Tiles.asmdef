@@ -1,0 +1,37 @@
+{
+    "name": "604Spirit.DotsCity.RuntimeRoad.Tiles",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Transforms",
+        "Unity.Transforms.Hybrid",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "Unity.Mathematics.Extensions",
+        "Unity.Mathematics.Extensions.Hybrid",
+        "Unity.Burst",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem",
+        "604Spirit.DotsCity.Constans",
+        "604Spirit.DotsCity.Core",
+        "604Spirit.DotsCity.Hybrid.Core",
+        "604Spirit.DotsCity.Simulation",
+        "604Spirit.DotsCity.RuntimeRoad.Custom.Core",
+        "604Spirit.RoadComponents.Core",
+        "604Spirit.DotsExtensions.Core",
+        "604Spirit.Extensions.Core",
+        "604Spirit.SerializableDictionary.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

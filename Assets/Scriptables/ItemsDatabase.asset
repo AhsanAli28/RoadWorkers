@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11f9044dbed23040bfb91144185f0af, type: 3}
+  m_Name: ItemsDatabase
+  m_EditorClassIdentifier: 
+  materialItems:
+  - ItemID: item_material_asphalt
+    Name: Asphalt
+    Icon: {fileID: 21300000, guid: da553f2d3bc85da499d884166866c4b2, type: 3}
+    Price: 50
+  - ItemID: item_material_concrete
+    Name: Concrete
+    Icon: {fileID: 21300000, guid: 95922289925cae3498453dc17ac44540, type: 3}
+    Price: 30
+  - ItemID: item_material_gravel
+    Name: Gravel
+    Icon: {fileID: 21300000, guid: b66b595a32ef8b749aaf0455cdfd13c3, type: 3}
+    Price: 15
+  equipmentItems:
+  - ItemID: item_equipment_truck
+    Name: Truck
+    Icon: {fileID: 21300000, guid: 514972ee68d857d4fb0fb205fa60c5fe, type: 3}
+    Price: 3000
+    TransportType: 1
+    BaseCondition: 100
+  - ItemID: item_equipment_miller
+    Name: Miller
+    Icon: {fileID: 21300000, guid: dd2c36b2f985e744fadb32ce5d98ccd0, type: 3}
+    Price: 20000
+    TransportType: 4
+    BaseCondition: 100
+  - ItemID: item_equipment_excavator
+    Name: Excavator
+    Icon: {fileID: 21300000, guid: d549450acde5f4046a30752978af64dd, type: 3}
+    Price: 30000
+    TransportType: 5
+    BaseCondition: 100
+  - ItemID: item_equipment_paver
+    Name: Paver
+    Icon: {fileID: 21300000, guid: a6c4420c2c2d08d4a830068553f08f7a, type: 3}
+    Price: 25000
+    TransportType: 6
+    BaseCondition: 100
+  - ItemID: item_equipment_dumptruck
+    Name: Dump truck
+    Icon: {fileID: 21300000, guid: 8546c3406586cf1449466ead0a3c1812, type: 3}
+    Price: 15000
+    TransportType: 3
+    BaseCondition: 100

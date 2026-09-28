@@ -1,0 +1,21 @@
+{
+    "name": "604Spirit.DotsCity.Gameplay.Editor",
+    "rootNamespace": "",
+    "references": [
+        "604Spirit.DotsCity.Gameplay"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY",
+        "!DOTS_SIMULATION"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

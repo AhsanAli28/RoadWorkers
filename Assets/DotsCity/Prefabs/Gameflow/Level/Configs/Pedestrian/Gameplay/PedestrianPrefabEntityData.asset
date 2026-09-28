@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4039cb3aae5c2ed48bbe9a41e29d3a7d, type: 3}
+  m_Name: PedestrianPrefabEntityData
+  m_EditorClassIdentifier: 
+  pedestrianEntityPrefabData:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 
+    keys:
+    - NoPhysics
+    - Physics
+    values:
+    - List:
+      - {fileID: 7717680540450896606, guid: e6ee617900f4f614c8c44441ca829d06, type: 3}
+    - List:
+      - {fileID: 6063058272934745326, guid: 34e19b580bece3a419f983f6f68d9aae, type: 3}

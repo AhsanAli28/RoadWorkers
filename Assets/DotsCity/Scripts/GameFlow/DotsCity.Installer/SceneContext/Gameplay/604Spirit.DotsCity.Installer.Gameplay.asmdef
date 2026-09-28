@@ -1,0 +1,33 @@
+{
+    "name": "604Spirit.DotsCity.Installer.Gameplay",
+    "rootNamespace": "",
+    "references": [
+        "604Spirit.DotsCity.Core",
+        "604Spirit.DotsCity.Hybrid.Core",
+        "604Spirit.DotsCity.Simulation",
+        "604Spirit.DotsCity.Gameplay",
+        "604Spirit.DotsCity.Gameplay.Entities",
+        "604Spirit.DotsCity.Installer.ManualContextExtension",
+        "604Spirit.DotsCity.Installer.Simulation",
+        "604Spirit.Extensions.Core",
+        "Zenject"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY",
+        "!DOTS_SIMULATION"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.svermeulen.extenject",
+            "expression": "",
+            "define": "ZENJECT"
+        }
+    ],
+    "noEngineReferences": false
+}

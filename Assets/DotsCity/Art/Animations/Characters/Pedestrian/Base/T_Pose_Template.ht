@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: T_Pose_Template
+  m_BoneTemplate:
+    Head: Head
+    Hips: Hips
+    Left Middle Intermediate: Fingers.L_end
+    Left Middle Proximal: Fingers.L
+    Left Thumb Intermediate: Thumb.L_end
+    Left Thumb Proximal: Thumb.L
+    LeftFoot: Foot.L
+    LeftHand: Hand.L
+    LeftLowerArm: LowerArm.L
+    LeftLowerLeg: LowerLeg.L
+    LeftShoulder: Shoulder.L
+    LeftUpperArm: UpperArm.L
+    LeftUpperLeg: UpperLeg.L
+    Right Middle Intermediate: Fingers.R_end
+    Right Middle Proximal: Fingers.R
+    Right Thumb Intermediate: Thumb.R_end
+    Right Thumb Proximal: Thumb.R
+    RightFoot: Foot.R
+    RightHand: Hand.R
+    RightLowerArm: LowerArm.R
+    RightLowerLeg: LowerLeg.R
+    RightShoulder: Shoulder.R
+    RightUpperArm: UpperArm.R
+    RightUpperLeg: UpperLeg.R
+    Spine: Spine1

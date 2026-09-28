@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5b6af55195625247ac3877f1a81ec68, type: 3}
+  m_Name: TrafficNodeDataViewerConfig
+  m_EditorClassIdentifier: 
+  variableDataDict:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 
+    keys:
+    - chanceToSpawn
+    - weight
+    - customAchieveDistance
+    - trafficNodeType
+    - lightType
+    - hasCrosswalk
+    - isOneWay
+    - isEndOfOneWay
+    - lockPathAutoCreation
+    values:
+    - SerializedParamName: chanceToSpawn
+      ViewParamName: chanceToSpawn
+      ViewParamShortName: ch
+      VariableType: 1
+    - SerializedParamName: weight
+      ViewParamName: weight
+      ViewParamShortName: w
+      VariableType: 1
+    - SerializedParamName: customAchieveDistance
+      ViewParamName: customAchieveDistance
+      ViewParamShortName: dist
+      VariableType: 1
+    - SerializedParamName: trafficNodeType
+      ViewParamName: trafficNodeType
+      ViewParamShortName: type
+      VariableType: 3
+    - SerializedParamName: lightType
+      ViewParamName: lightType
+      ViewParamShortName: lightType
+      VariableType: 3
+    - SerializedParamName: hasCrosswalk
+      ViewParamName: hasCrosswalk
+      ViewParamShortName: hasCross
+      VariableType: 2
+    - SerializedParamName: isOneWay
+      ViewParamName: isOneWay
+      ViewParamShortName: oway
+      VariableType: 2
+    - SerializedParamName: isEndOfOneWay
+      ViewParamName: isEndOfOneWay
+      ViewParamShortName: eoway
+      VariableType: 2
+    - SerializedParamName: lockPathAutoCreation
+      ViewParamName: lockPathAutoCreation
+      ViewParamShortName: lock
+      VariableType: 2

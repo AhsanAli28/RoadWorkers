@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac1ecd3300c7cb44aa89eef72bd4e5cd, type: 3}
+  m_Name: PedestrianSettingsConfigCityStressTestScene
+  m_EditorClassIdentifier: 
+  pedestrianSkinType: 3
+  pedestrianRigType: 1
+  pedestrianEntityType: 0
+  walkingSpeed: {x: 1.3, y: 1.5}
+  runningSpeed: {x: 2.8, y: 3.2}
+  rotationSpeed: 4
+  achieveDistance: 1
+  colliderRadius: 0.3
+  health: 1
+  talkingPedestrianSpawnChance: 0.04
+  minMaxTalkTime: {x: 10, y: 50}
+  obstacleAvoidanceType: 2
+  pedestrianNavigationType: 0
+  pedestrianCollisionType: 0
+  autoAddAgentComponents: 0
+  lerpRotation: 1
+  lerpRotationInView: 1
+  hasRagdoll: 0
+  ragdollType: 0

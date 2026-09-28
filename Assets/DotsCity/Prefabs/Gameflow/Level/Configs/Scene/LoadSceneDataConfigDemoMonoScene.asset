@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d603fc779099ddf4aafd854d9e1e83d1, type: 3}
+  m_Name: LoadSceneDataConfigDemoMonoScene
+  m_EditorClassIdentifier: 
+  sceneName: Demo Mono
+  configDataDictionary:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 
+    keys:
+    - Traffic
+    - TrafficCar
+    - Pedestrian
+    - Pedestrian Settings
+    - General
+    - Cull
+    - Player
+    - Sound
+    values:
+    - {fileID: 11400000, guid: 159430d75b1879c45a3e48232a56cfb4, type: 2}
+    - {fileID: 11400000, guid: 98f82ae7c7e883b42acdf77d1835854e, type: 2}
+    - {fileID: 11400000, guid: dfbf52dc9e4ec06458c080c72cdda515, type: 2}
+    - {fileID: 11400000, guid: 6785adef61bdaf64891585c06191e03b, type: 2}
+    - {fileID: 11400000, guid: 619efd0f7f741b248b0275c01d870c3e, type: 2}
+    - {fileID: 11400000, guid: e13d2bbedd319324788673950e50b66b, type: 2}
+    - {fileID: 11400000, guid: ac0c2289e5207274d920f722ccc13d12, type: 2}
+    - {fileID: 11400000, guid: fb7bfae2b58dfe649991b56441b50494, type: 2}

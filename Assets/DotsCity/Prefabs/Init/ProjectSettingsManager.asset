@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a2b4ab255ce7d345b7d8137d8558308, type: 3}
+  m_Name: ProjectSettingsManager
+  m_EditorClassIdentifier: 
+  constansScript: {fileID: 11500000, guid: 70880876773a7724bb3e57a9c155c83c, type: 3}
+  importAllProjectLayers: 1
+  layers:
+  - Group: 0
+    Name: TrafficNode
+    SourceLayer: 20
+    CurrentLayer: 20
+    ExistProjectLayer: 0
+    LastChangeLayer: 0
+    SetLayerChilds: 0
+    Prefabs:
+    - {fileID: 8472058308688387596, guid: d9d34a56aa64c0a4d91f552ad5291b84, type: 3}
+    Childs: []
+    DotsPhysicsPrefabs: []
+    Scenes: []
+    SceneObjectPatternNames: []
+    SceneComponentPatternNames: []
+    RowText: TRAFFIC_NODE_LAYER_INDEX
+    CurrentStatus: 1
+  - Group: 0
+    Name: PedestrianNode
+    SourceLayer: 21
+    CurrentLayer: 21
+    ExistProjectLayer: 0
+    LastChangeLayer: 0
+    SetLayerChilds: 0
+    Prefabs:
+    - {fileID: 4001867937155965930, guid: b05636b187f7d144e839e95d64ad69b0, type: 3}
+    Childs: []
+    DotsPhysicsPrefabs: []
+    Scenes: []
+    SceneObjectPatternNames: []
+    SceneComponentPatternNames: []
+    RowText: PEDESTRIAN_NODE_LAYER_INDEX
+    CurrentStatus: 1
+  - Group: 4
+    Name: CollidableNpc
+    SourceLayer: 15
+    CurrentLayer: 15
+    ExistProjectLayer: 0
+    LastChangeLayer: 0
+    SetLayerChilds: 0
+    Prefabs:
+    - {fileID: 6879220686869497533, guid: 0e88db289e43aee40a5f2a8fd6992f28, type: 3}
+    Childs: []
+    DotsPhysicsPrefabs: []
+    Scenes: []
+    SceneObjectPatternNames: []
+    SceneComponentPatternNames: []
+    RowText: 
+    CurrentStatus: 1
+  - Group: 4
+    Name: Traffic
+    SourceLayer: 16
+    CurrentLayer: 16
+    ExistProjectLayer: 0
+    LastChangeLayer: 0
+    SetLayerChilds: 0
+    Prefabs:
+    - {fileID: 6355562048747962829, guid: 459236a80549e6e4ba2e3df38c7c62ca, type: 3}
+    - {fileID: 8645610330217918854, guid: 9517d9973c6c9fe45aab485f6783bb32, type: 3}
+    Childs: []
+    DotsPhysicsPrefabs: []
+    Scenes: []
+    SceneObjectPatternNames: []
+    SceneComponentPatternNames: []
+    RowText: DEFAULT_TRAFFIC_LAYER_VALUE
+    CurrentStatus: 1
+  - Group: 2
+    Name: Npc
+    SourceLayer: 17
+    CurrentLayer: 17
+    ExistProjectLayer: 0
+    LastChangeLayer: 0
+    SetLayerChilds: 0
+    Prefabs:
+    - {fileID: 644386205634843887, guid: e59bc40c6a08fe34eb775e7a93f327a9, type: 3}
+    - {fileID: 8452278695308034295, guid: 9682e665fbf4e084481138e076be9b86, type: 3}
+    - {fileID: 6748513364233715715, guid: 49a4c630352c01e49b934e8445b2b9ca, type: 3}
+    - {fileID: 6426302679657797917, guid: 505e900ad622236409c62dd8fd8c3d41, type: 3}
+    - {fileID: 2435867082036208843, guid: 6891a1ee1d4a0bb49a34ccd92ad59171, type: 3}
+    - {fileID: 6632803694034230058, guid: 4cd5d74cacc10d740aa541f0693fac19, type: 3}
+    - {fileID: 7405735740170712262, guid: 99fbe6954e90f4f498f4e7ab25de399a, type: 3}
+    - {fileID: 1198690647381623765, guid: fbf5f5ae70ad1234ea218d5112b8b90d, type: 3}
+    - {fileID: 4193290074288350453, guid: 5966e7bfc9e117e4f85aeafdac5e58b1, type: 3}
+    Childs: []
+    DotsPhysicsPrefabs:
+    - Component: {fileID: 2699112745413801950, guid: 15f9d0e8aa13bd7439371b2c94a7fd30, type: 3}
+      PhysicsShape: 1
+    Scenes: []
+    SceneObjectPatternNames:
+    - Cell (
+    SceneComponentPatternNames: []
+    RowText: NPC_LAYER_VALUE
+    CurrentStatus: 1
+  - Group: 2
+    Name: Ground
+    SourceLayer: 18
+    CurrentLayer: 18
+    ExistProjectLayer: 0
+    LastChangeLayer: 0
+    SetLayerChilds: 0
+    Prefabs:
+    - {fileID: 8790034631466315832, guid: 5e3e04448435bbb489511d596783991f, type: 3}
+    - {fileID: 6425263789275281423, guid: e4b94f8f0cffdbe4081434f65751cf25, type: 3}
+    Childs:
+    - Prefab: {fileID: 1799716236809629744, guid: c8de1ce2d2e5ce54d99124c7fc84b805, type: 3}
+      Childs:
+      - ChildIndexes: 0000000000000000
+    - Prefab: {fileID: 1799716236809629744, guid: ea611f60efdc34e4e818668c99715cb2, type: 3}
+      Childs:
+      - ChildIndexes: 0000000000000000
+    - Prefab: {fileID: 1335056693321036808, guid: c0abc66e40168654c8b07ef071c99a1a, type: 3}
+      Childs:
+      - ChildIndexes: 0000000000000000
+    - Prefab: {fileID: 1335056693321036808, guid: 79627e4366ccce84b9931aee5db99d38, type: 3}
+      Childs:
+      - ChildIndexes: 0000000000000000
+    - Prefab: {fileID: 1644975004363101956, guid: 77c499a2729db534da5b18dd9a2d067f, type: 3}
+      Childs:
+      - ChildIndexes: 0000000000000000
+      - ChildIndexes: 0000000001000000
+      - ChildIndexes: 0000000002000000
+    - Prefab: {fileID: 1644975004363101956, guid: 47e7e905828576d42a959c5e9e5fb528, type: 3}
+      Childs:
+      - ChildIndexes: 0000000000000000
+      - ChildIndexes: 0000000001000000
+      - ChildIndexes: 0000000002000000
+    - Prefab: {fileID: 7172750312000926212, guid: aec4234206656984eb5f79fe2766d5b2, type: 3}
+      Childs:
+      - ChildIndexes: 0000000000000000
+    - Prefab: {fileID: 7172750312000926212, guid: 1f6a070fd28a9d94ea6ee9c487cbafb8, type: 3}
+      Childs:
+      - ChildIndexes: 0000000000000000
+    DotsPhysicsPrefabs:
+    - Component: {fileID: 6073139010337055776, guid: 78ffbcd84bf094c48a58267ee9c09397, type: 3}
+      PhysicsShape: 1
+    - Component: {fileID: 1217236062531973324, guid: 15f9d0e8aa13bd7439371b2c94a7fd30, type: 3}
+      PhysicsShape: 1
+    - Component: {fileID: 1217236062531973324, guid: 15f9d0e8aa13bd7439371b2c94a7fd30, type: 3}
+      PhysicsShape: 1
+    Scenes: []
+    SceneObjectPatternNames: []
+    SceneComponentPatternNames: []
+    RowText: GroundLayer
+    CurrentStatus: 1
+  - Group: 2
+    Name: Ragdoll
+    SourceLayer: 19
+    CurrentLayer: 19
+    ExistProjectLayer: 0
+    LastChangeLayer: 0
+    SetLayerChilds: 1
+    Prefabs:
+    - {fileID: 644386205634843887, guid: 56b3b6ed44f56dc429bff3d7502bc268, type: 3}
+    - {fileID: 644386205634843887, guid: 9a5e7183a3ffd334c8b0a8bb8428f436, type: 3}
+    - {fileID: 8452278695308034295, guid: 652b41e531ec7db42b9691772cb0ff41, type: 3}
+    - {fileID: 6748513364233715715, guid: da24f808783247a49ae5f6c7f71d7427, type: 3}
+    - {fileID: 6426302679657797917, guid: 6aaf72587ce785e419a33e06a6e1460e, type: 3}
+    - {fileID: 2435867082036208843, guid: e687f0039f85cd64e9b6579afcb32368, type: 3}
+    - {fileID: 8040979152658335244, guid: 8fa2ef84947cece47931b34db915607f, type: 3}
+    - {fileID: 6100097893414059373, guid: 1a63dfca4aff110439b215331866ce6d, type: 3}
+    - {fileID: 5467306649724026763, guid: b1827d82f5da55c479b04a4ff20acd9a, type: 3}
+    Childs: []
+    DotsPhysicsPrefabs: []
+    Scenes: []
+    SceneObjectPatternNames: []
+    SceneComponentPatternNames: []
+    RowText: RagdollLayer
+    CurrentStatus: 1
+  - Group: 2
+    Name: StaticPhysicsShape
+    SourceLayer: 22
+    CurrentLayer: 22
+    ExistProjectLayer: 0
+    LastChangeLayer: 0
+    SetLayerChilds: 0
+    Prefabs:
+    - {fileID: 6425263789275281423, guid: e4b94f8f0cffdbe4081434f65751cf25, type: 3}
+    Childs:
+    - Prefab: {fileID: 1141032564596179183, guid: 41e3eb9b7a499cc4f889e464f4c5ad45, type: 3}
+      Childs:
+      - ChildIndexes: 01000000
+    - Prefab: {fileID: 6082571750001899695, guid: 076d4162cbe108f4cbbb9262428de0a9, type: 3}
+      Childs:
+      - ChildIndexes: 00000000
+    - Prefab: {fileID: 1571417131572901141, guid: 1ba2ccc58b04ab349801753341f57715, type: 3}
+      Childs:
+      - ChildIndexes: 00000000
+    - Prefab: {fileID: 170796077549361769, guid: 4e869bf9a0a69b04b870f11e7baa74b0, type: 3}
+      Childs:
+      - ChildIndexes: 00000000
+    - Prefab: {fileID: 2640592116034419505, guid: d681acf8ef0328b41a8fa25fb79e8022, type: 3}
+      Childs:
+      - ChildIndexes: 00000000
+    - Prefab: {fileID: 1799716236809629744, guid: c8de1ce2d2e5ce54d99124c7fc84b805, type: 3}
+      Childs:
+      - ChildIndexes: 0000000001000000
+      - ChildIndexes: 0000000002000000
+    - Prefab: {fileID: 1799716236809629744, guid: ea611f60efdc34e4e818668c99715cb2, type: 3}
+      Childs:
+      - ChildIndexes: 0000000001000000
+      - ChildIndexes: 0000000002000000
+    - Prefab: {fileID: 1335056693321036808, guid: c0abc66e40168654c8b07ef071c99a1a, type: 3}
+      Childs:
+      - ChildIndexes: 0000000001000000
+      - ChildIndexes: 0000000002000000
+      - ChildIndexes: 0000000003000000
+      - ChildIndexes: 0000000004000000
+    - Prefab: {fileID: 1335056693321036808, guid: 79627e4366ccce84b9931aee5db99d38, type: 3}
+      Childs:
+      - ChildIndexes: 0000000001000000
+      - ChildIndexes: 0000000002000000
+      - ChildIndexes: 0000000003000000
+      - ChildIndexes: 0000000004000000
+    - Prefab: {fileID: 1644975004363101956, guid: 77c499a2729db534da5b18dd9a2d067f, type: 3}
+      Childs:
+      - ChildIndexes: 0000000003000000ffffffff
+      - ChildIndexes: 0000000004000000ffffffff
+      - ChildIndexes: 0000000005000000
+      - ChildIndexes: 0000000006000000
+    - Prefab: {fileID: 1644975004363101956, guid: 47e7e905828576d42a959c5e9e5fb528, type: 3}
+      Childs:
+      - ChildIndexes: 0000000003000000ffffffff
+      - ChildIndexes: 0000000004000000ffffffff
+      - ChildIndexes: 0000000005000000
+      - ChildIndexes: 0000000006000000
+    - Prefab: {fileID: 7172750312000926212, guid: aec4234206656984eb5f79fe2766d5b2, type: 3}
+      Childs:
+      - ChildIndexes: 0000000001000000
+      - ChildIndexes: 0000000002000000
+      - ChildIndexes: 0000000003000000
+    DotsPhysicsPrefabs: []
+    Scenes:
+    - {fileID: 102900000, guid: c79d4b9a39f2a68478e40b78aec373a7, type: 3}
+    - {fileID: 102900000, guid: 3f8384b6cede07642bbdf760caa70c61, type: 3}
+    - {fileID: 102900000, guid: 70fd9eea9fb35d444b3d2b463bfb11aa, type: 3}
+    - {fileID: 102900000, guid: a167ec9f532c64f4684f18dc92899907, type: 3}
+    - {fileID: 102900000, guid: 68a5a47b6036e6e43b7e96deb84a8267, type: 3}
+    - {fileID: 102900000, guid: 24e7bb4958fa3aa458248f146676fdae, type: 3}
+    - {fileID: 102900000, guid: bbdf4a810925a2740ac120f3cfccd872, type: 3}
+    - {fileID: 102900000, guid: dc974fd65c02fe44aa3e8a61a0c74a88, type: 3}
+    - {fileID: 102900000, guid: 1f7679b22cad65d43ae7df864dab962b, type: 3}
+    - {fileID: 102900000, guid: ff596fa0fb5896f49b46fb1310befda7, type: 3}
+    - {fileID: 102900000, guid: a776752fd29bbd740ad0bbe5e7501934, type: 3}
+    - {fileID: 102900000, guid: 908493e051923ec41a0037b67093dda0, type: 3}
+    - {fileID: 102900000, guid: d04215e22cf40294b92406dd892a0f53, type: 3}
+    - {fileID: 102900000, guid: a76c73abd6c969f41854583804515995, type: 3}
+    - {fileID: 102900000, guid: 9bfc775fbb0bc4a4bb5652cd2c671b3e, type: 3}
+    - {fileID: 102900000, guid: 56024bc7f28590d458f3cfb9048632f8, type: 3}
+    - {fileID: 102900000, guid: ce56e85b405dea24e980117762a25e86, type: 3}
+    - {fileID: 102900000, guid: cc773787027819b4da73bd8bf91514c9, type: 3}
+    SceneObjectPatternNames: []
+    SceneComponentPatternNames:
+    - MirrorPhysicsObject
+    RowText: PhysicsShapeLayer
+    CurrentStatus: 1
+  - Group: 3
+    Name: Chunk
+    SourceLayer: 23
+    CurrentLayer: 23
+    ExistProjectLayer: 0
+    LastChangeLayer: 0
+    SetLayerChilds: 0
+    Prefabs:
+    - {fileID: 7588247047037755666, guid: 684d83ac5547cba4ba6b291d40a6a3fe, type: 3}
+    - {fileID: 2012561360330085261, guid: 9c339759676325745ba3ede8e78660d4, type: 3}
+    - {fileID: 438629645798786946, guid: c06dd902807e3fc408e5bbf0227ea354, type: 3}
+    - {fileID: 1440168932944960225, guid: 95f961cc2192ff54580e77916d013c04, type: 3}
+    - {fileID: 2640592116034419505, guid: d681acf8ef0328b41a8fa25fb79e8022, type: 3}
+    - {fileID: 1141032564596179183, guid: 41e3eb9b7a499cc4f889e464f4c5ad45, type: 3}
+    - {fileID: 6082571750001899695, guid: 076d4162cbe108f4cbbb9262428de0a9, type: 3}
+    - {fileID: 1571417131572901141, guid: 1ba2ccc58b04ab349801753341f57715, type: 3}
+    - {fileID: 1889737461490606030, guid: 464b0aa52c1b62e4f8ebbedd1391ad27, type: 3}
+    - {fileID: 170796077549361769, guid: 4e869bf9a0a69b04b870f11e7baa74b0, type: 3}
+    - {fileID: 191647036768280568, guid: 230033f3fd74f3c4fa633a2154f22a07, type: 3}
+    - {fileID: 201526647671695025, guid: 5109766280e40544099c515c355f6aa3, type: 3}
+    - {fileID: 3056717384877416211, guid: 4e2aed35d891bb8498744e79d3530cd0, type: 3}
+    - {fileID: 554576729777419425, guid: 1289458418176114eb6e2501db4e64db, type: 3}
+    - {fileID: 6246248624779151632, guid: afeeae407e7574d428d83b298d030136, type: 3}
+    - {fileID: 2034362368317335266, guid: 34c6df0b12a040647ad1459354c2f771, type: 3}
+    - {fileID: 8352477494867223190, guid: e6e4b69637e97004cbb4a049eb9e5355, type: 3}
+    - {fileID: 6794862637048163961, guid: 4955948eef1bdff489131f444fcfa54a, type: 3}
+    - {fileID: 6839852123327031766, guid: 496489f2275533c4d9b282e350fa050d, type: 3}
+    - {fileID: 752852593095172277, guid: 12f08868295c9c8409d6e6ea96ee5e9c, type: 3}
+    - {fileID: 1799716236809629744, guid: c8de1ce2d2e5ce54d99124c7fc84b805, type: 3}
+    - {fileID: 1799716236809629744, guid: ea611f60efdc34e4e818668c99715cb2, type: 3}
+    - {fileID: 1335056693321036808, guid: c0abc66e40168654c8b07ef071c99a1a, type: 3}
+    - {fileID: 1335056693321036808, guid: 79627e4366ccce84b9931aee5db99d38, type: 3}
+    - {fileID: 1644975004363101956, guid: 77c499a2729db534da5b18dd9a2d067f, type: 3}
+    - {fileID: 1644975004363101956, guid: 47e7e905828576d42a959c5e9e5fb528, type: 3}
+    - {fileID: 7172750312000926212, guid: aec4234206656984eb5f79fe2766d5b2, type: 3}
+    - {fileID: 7172750312000926212, guid: 1f6a070fd28a9d94ea6ee9c487cbafb8, type: 3}
+    - {fileID: 5027590428086544221, guid: 885c8475c65225243b4e144511ed633a, type: 3}
+    - {fileID: 3210393456893941841, guid: 4588138e0e7f093439c5f98168bc0661, type: 3}
+    - {fileID: 6794862637048163961, guid: b200417862f2d094487f3c6314a1665b, type: 3}
+    - {fileID: 3096863241020599007, guid: 4229ada32851a8b41be90086fa41ea0a, type: 3}
+    - {fileID: 1260995958618094872, guid: 4d3432716afe49242b7b793d9688be1a, type: 3}
+    - {fileID: 8660484896515606328, guid: 3917b5c997efe9046ae75036f4d8126b, type: 3}
+    - {fileID: 8740072919378787207, guid: 6b456abaded1dad4b87e88a23285d204, type: 3}
+    - {fileID: 2791929557229705460, guid: cfc2e3a2542d30c4c8eac225df90b499, type: 3}
+    - {fileID: 3094463728223813968, guid: 6410cfaec1a92ff4189e3e6eb3410acd, type: 3}
+    - {fileID: 5987613790695095043, guid: 8609cdde9eaa09f469cf773c5155ec1e, type: 3}
+    Childs: []
+    DotsPhysicsPrefabs: []
+    Scenes: []
+    SceneObjectPatternNames: []
+    SceneComponentPatternNames: []
+    RowText: ChunkLayer
+    CurrentStatus: 1
+  - Group: 3
+    Name: Props
+    SourceLayer: 24
+    CurrentLayer: 24
+    ExistProjectLayer: 0
+    LastChangeLayer: 0
+    SetLayerChilds: 0
+    Prefabs:
+    - {fileID: 4210286210436843339, guid: 88355c8f04c5896428d2c1ce922225ab, type: 3}
+    - {fileID: 8994820429294543130, guid: 003c046cbee69224ea1da60ca4f4eb17, type: 3}
+    - {fileID: 797604840968167275, guid: 83d2a07d0ed8c1244ad5b59114f03b12, type: 3}
+    - {fileID: 3153370604146590064, guid: 03a290debedf546448f183d32684c09f, type: 3}
+    Childs: []
+    DotsPhysicsPrefabs: []
+    Scenes: []
+    SceneObjectPatternNames: []
+    SceneComponentPatternNames: []
+    RowText: PropsLayer
+    CurrentStatus: 1
+  - Group: 3
+    Name: Combined
+    SourceLayer: 25
+    CurrentLayer: 25
+    ExistProjectLayer: 0
+    LastChangeLayer: 0
+    SetLayerChilds: 0
+    Prefabs:
+    - {fileID: 7588247047037755666, guid: 684d83ac5547cba4ba6b291d40a6a3fe, type: 3}
+    - {fileID: 2012561360330085261, guid: 9c339759676325745ba3ede8e78660d4, type: 3}
+    - {fileID: 438629645798786946, guid: c06dd902807e3fc408e5bbf0227ea354, type: 3}
+    - {fileID: 1440168932944960225, guid: 95f961cc2192ff54580e77916d013c04, type: 3}
+    - {fileID: 2640592116034419505, guid: d681acf8ef0328b41a8fa25fb79e8022, type: 3}
+    - {fileID: 1141032564596179183, guid: 41e3eb9b7a499cc4f889e464f4c5ad45, type: 3}
+    - {fileID: 6082571750001899695, guid: 076d4162cbe108f4cbbb9262428de0a9, type: 3}
+    - {fileID: 1571417131572901141, guid: 1ba2ccc58b04ab349801753341f57715, type: 3}
+    - {fileID: 1889737461490606030, guid: 464b0aa52c1b62e4f8ebbedd1391ad27, type: 3}
+    - {fileID: 170796077549361769, guid: 4e869bf9a0a69b04b870f11e7baa74b0, type: 3}
+    - {fileID: 191647036768280568, guid: 230033f3fd74f3c4fa633a2154f22a07, type: 3}
+    - {fileID: 201526647671695025, guid: 5109766280e40544099c515c355f6aa3, type: 3}
+    - {fileID: 3056717384877416211, guid: 4e2aed35d891bb8498744e79d3530cd0, type: 3}
+    - {fileID: 554576729777419425, guid: 1289458418176114eb6e2501db4e64db, type: 3}
+    - {fileID: 6246248624779151632, guid: afeeae407e7574d428d83b298d030136, type: 3}
+    - {fileID: 2034362368317335266, guid: 34c6df0b12a040647ad1459354c2f771, type: 3}
+    - {fileID: 8352477494867223190, guid: e6e4b69637e97004cbb4a049eb9e5355, type: 3}
+    - {fileID: 6794862637048163961, guid: 4955948eef1bdff489131f444fcfa54a, type: 3}
+    - {fileID: 6839852123327031766, guid: 496489f2275533c4d9b282e350fa050d, type: 3}
+    - {fileID: 752852593095172277, guid: 12f08868295c9c8409d6e6ea96ee5e9c, type: 3}
+    - {fileID: 1799716236809629744, guid: c8de1ce2d2e5ce54d99124c7fc84b805, type: 3}
+    - {fileID: 1799716236809629744, guid: ea611f60efdc34e4e818668c99715cb2, type: 3}
+    - {fileID: 1335056693321036808, guid: c0abc66e40168654c8b07ef071c99a1a, type: 3}
+    - {fileID: 1335056693321036808, guid: 79627e4366ccce84b9931aee5db99d38, type: 3}
+    - {fileID: 1644975004363101956, guid: 77c499a2729db534da5b18dd9a2d067f, type: 3}
+    - {fileID: 1644975004363101956, guid: 47e7e905828576d42a959c5e9e5fb528, type: 3}
+    - {fileID: 7172750312000926212, guid: aec4234206656984eb5f79fe2766d5b2, type: 3}
+    - {fileID: 7172750312000926212, guid: 1f6a070fd28a9d94ea6ee9c487cbafb8, type: 3}
+    - {fileID: 5027590428086544221, guid: 885c8475c65225243b4e144511ed633a, type: 3}
+    - {fileID: 3210393456893941841, guid: 4588138e0e7f093439c5f98168bc0661, type: 3}
+    - {fileID: 6794862637048163961, guid: b200417862f2d094487f3c6314a1665b, type: 3}
+    - {fileID: 3096863241020599007, guid: 4229ada32851a8b41be90086fa41ea0a, type: 3}
+    - {fileID: 1260995958618094872, guid: 4d3432716afe49242b7b793d9688be1a, type: 3}
+    - {fileID: 8660484896515606328, guid: 3917b5c997efe9046ae75036f4d8126b, type: 3}
+    - {fileID: 8740072919378787207, guid: 6b456abaded1dad4b87e88a23285d204, type: 3}
+    - {fileID: 2791929557229705460, guid: cfc2e3a2542d30c4c8eac225df90b499, type: 3}
+    - {fileID: 3094463728223813968, guid: 6410cfaec1a92ff4189e3e6eb3410acd, type: 3}
+    - {fileID: 5987613790695095043, guid: 8609cdde9eaa09f469cf773c5155ec1e, type: 3}
+    Childs: []
+    DotsPhysicsPrefabs: []
+    Scenes:
+    - {fileID: 102900000, guid: c79d4b9a39f2a68478e40b78aec373a7, type: 3}
+    - {fileID: 102900000, guid: 3f8384b6cede07642bbdf760caa70c61, type: 3}
+    - {fileID: 102900000, guid: 70fd9eea9fb35d444b3d2b463bfb11aa, type: 3}
+    - {fileID: 102900000, guid: a167ec9f532c64f4684f18dc92899907, type: 3}
+    - {fileID: 102900000, guid: 68a5a47b6036e6e43b7e96deb84a8267, type: 3}
+    - {fileID: 102900000, guid: 24e7bb4958fa3aa458248f146676fdae, type: 3}
+    - {fileID: 102900000, guid: bbdf4a810925a2740ac120f3cfccd872, type: 3}
+    - {fileID: 102900000, guid: dc974fd65c02fe44aa3e8a61a0c74a88, type: 3}
+    - {fileID: 102900000, guid: 1f7679b22cad65d43ae7df864dab962b, type: 3}
+    - {fileID: 102900000, guid: ff596fa0fb5896f49b46fb1310befda7, type: 3}
+    - {fileID: 102900000, guid: a776752fd29bbd740ad0bbe5e7501934, type: 3}
+    - {fileID: 102900000, guid: 908493e051923ec41a0037b67093dda0, type: 3}
+    - {fileID: 102900000, guid: d04215e22cf40294b92406dd892a0f53, type: 3}
+    - {fileID: 102900000, guid: a76c73abd6c969f41854583804515995, type: 3}
+    - {fileID: 102900000, guid: 9bfc775fbb0bc4a4bb5652cd2c671b3e, type: 3}
+    - {fileID: 102900000, guid: 56024bc7f28590d458f3cfb9048632f8, type: 3}
+    - {fileID: 102900000, guid: ce56e85b405dea24e980117762a25e86, type: 3}
+    - {fileID: 102900000, guid: cc773787027819b4da73bd8bf91514c9, type: 3}
+    SceneObjectPatternNames:
+    - Cell (
+    SceneComponentPatternNames: []
+    RowText: CombinedLayer
+    CurrentStatus: 1
+  navMeshLayers:
+  - Humanoid
+  - Car
+  projectScenes:
+  - {fileID: 102900000, guid: d2cec10424a233e4aa5cf88d3217f407, type: 3}
+  - {fileID: 102900000, guid: 8e6006d612468ea409b8f6bb9898b68d, type: 3}
+  - {fileID: 102900000, guid: c79d4b9a39f2a68478e40b78aec373a7, type: 3}
+  - {fileID: 102900000, guid: af8495aa9a5c6d64ea7f0b4b562f8f85, type: 3}
+  - {fileID: 102900000, guid: 4396e3f8ccfef7946bf16a16ce0f191c, type: 3}
+  - {fileID: 102900000, guid: 2ce52f28081aafe4a844af6ad10587d9, type: 3}
+  - {fileID: 102900000, guid: 1926d57f852c3d041b3fca855fda7856, type: 3}
+  - {fileID: 102900000, guid: 56ad35ab29b886e4b8a3e67d34ba9625, type: 3}
+  - {fileID: 102900000, guid: 21b67fde92b01ce4ea85a1bd1149c7de, type: 3}
+  - {fileID: 102900000, guid: a9ef99df36560384aa268881d3f5d9f9, type: 3}
+  - {fileID: 102900000, guid: 6d597b18b0f260d48982a973876603b9, type: 3}
+  - {fileID: 102900000, guid: d3b253b3b1819594e9b6a14a60420385, type: 3}
+  - {fileID: 102900000, guid: 79bcd0e912f600341af54087766cae31, type: 3}
+  - {fileID: 102900000, guid: 42e0da1b12a7ad547b449838999b749c, type: 3}
+  - {fileID: 102900000, guid: 9ac78bf6846aa614ebd9085cb066d335, type: 3}
+  - {fileID: 102900000, guid: 67b27093c98bc59489a4df2ea9a2c98a, type: 3}
+  - {fileID: 102900000, guid: f85e183dff286f04d8b6e685f099c4b4, type: 3}
+  cleanInstall: 1
+  opened: 1

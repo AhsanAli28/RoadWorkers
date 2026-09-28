@@ -1,0 +1,29 @@
+{
+    "name": "604Spirit.DotsCity.Gameplay",
+    "rootNamespace": "",
+    "references": [
+        "Unity.TextMeshPro",
+        "Unity.InputSystem",
+        "Cinemachine",
+        "604Spirit.DotsCity.Constans",
+        "604Spirit.DotsCity.Core",
+        "604Spirit.DotsCity.Hybrid.Core",
+        "604Spirit.Extensions.Core",
+        "604Spirit.SerializableDictionary.Core",
+        "604Spirit.AnimationBaker.Core",
+        "604Spirit.StateMachine.Core",
+        "FMODUnity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY",
+        "!DOTS_SIMULATION"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

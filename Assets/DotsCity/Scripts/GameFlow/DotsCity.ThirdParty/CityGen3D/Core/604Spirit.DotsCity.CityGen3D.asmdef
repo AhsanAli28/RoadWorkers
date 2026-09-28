@@ -1,0 +1,25 @@
+{
+    "name": "604Spirit.DotsCity.CityGen3D",
+    "rootNamespace": "",
+    "references": [
+        "604Spirit.DotsCity.Core",
+        "604Spirit.DotsCity.RoadGeneration",
+        "604Spirit.Extensions.Core",
+        "604Spirit.RoadComponents.Core",
+        "Unity.Mathematics",
+        "Unity.Splines",
+        "Unity.Collections"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY",
+        "CITYGEN_3D"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

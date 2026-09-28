@@ -1,0 +1,29 @@
+{
+    "name": "604Spirit.DotsCity.Installer.Editor",
+    "rootNamespace": "",
+    "references": [
+        "604Spirit.DotsCity.Constans",
+        "604Spirit.DotsCity.Installer.ManualContext",
+        "604Spirit.DotsCity.Installer.ManualContextExtension",
+        "604Spirit.Extensions.Core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.svermeulen.extenject",
+            "expression": "",
+            "define": "ZENJECT"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957ba268eac9e4c4db09f2475af24b01, type: 3}
+  m_Name: Traffic Convert Template
+  m_EditorClassIdentifier: 
+  carTemplateData:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 1
+    newKey: 0
+    keys: 020000000100000000000000030000000400000005000000
+    values:
+    - HullPrefab: {fileID: 0}
+      EntityPrefab: {fileID: 5441000140798595082, guid: 78ffbcd84bf094c48a58267ee9c09397,
+        type: 3}
+      Weight: 1
+    - HullPrefab: {fileID: 6942874095803885152, guid: e47fa6b35abb5bd4abb7bc5242694f20,
+        type: 3}
+      EntityPrefab: {fileID: 5441000140798595082, guid: 78ffbcd84bf094c48a58267ee9c09397,
+        type: 3}
+      Weight: 1
+    - HullPrefab: {fileID: 6942874095803885152, guid: e47fa6b35abb5bd4abb7bc5242694f20,
+        type: 3}
+      EntityPrefab: {fileID: 205740817880170277, guid: 2bf1ae8c0d1563145b1eee3ce6955c13,
+        type: 3}
+      Weight: 1
+    - HullPrefab: {fileID: 0}
+      EntityPrefab: {fileID: 205740817880170277, guid: 2bf1ae8c0d1563145b1eee3ce6955c13,
+        type: 3}
+      Weight: 1
+    - HullPrefab: {fileID: 0}
+      EntityPrefab: {fileID: 205740817880170277, guid: 70d4785531602ee4a87a4ae49b6fde68,
+        type: 3}
+      Weight: 1
+    - HullPrefab: {fileID: 2261984792849006138, guid: 5cfae09e035099645b555c49268eb2fa,
+        type: 3}
+      EntityPrefab: {fileID: 2259120768528341217, guid: 775303633def92744958596f730cd5af,
+        type: 3}
+      Weight: 1
+  controllerData:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 0
+    keys: 0000000001000000
+    values:
+    - HullPrefab: {fileID: 0}
+      EntityPrefab: {fileID: 2259120768528341217, guid: 775303633def92744958596f730cd5af,
+        type: 3}
+      Weight: 1
+    - HullPrefab: {fileID: 2261984792849006138, guid: 5cfae09e035099645b555c49268eb2fa,
+        type: 3}
+      EntityPrefab: {fileID: 4076050866025218545, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      Weight: 1

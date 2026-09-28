@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcc9b20a761f5994199b7a3fe6f0076c, type: 3}
+  m_Name: TrackTemplate_4_wheels
+  m_EditorClassIdentifier: 
+  GUID: 9ca0b06e-9e70-4bf0-8ae1-2c17839bc043
+  TemplateName: TrackTemplate_4_wheels
+  VehicleMass: 2000
+  LinearDamping: 0.01
+  AngularDamping: 0.05
+  GravityFactor: 1
+  OverrideDefaultMassDistribution: 1
+  CustomMassDistribution:
+    Transform:
+      rot:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+      pos:
+        x: 0
+        y: 0
+        z: -0.5
+    InertiaTensor:
+      x: 1
+      y: 1
+      z: 1
+  VehicleMeshOffset: 0
+  WheelMass: 20
+  MaxSteeringAngle: 35
+  PowerSteering: 1.3
+  Radius: 0.55
+  Width: 0.2
+  ApplyImpulseOffset: 0
+  CastType: 0
+  CastLayer:
+    Category00: 0
+    Category01: 0
+    Category02: 0
+    Category03: 0
+    Category04: 0
+    Category05: 0
+    Category06: 0
+    Category07: 0
+    Category08: 0
+    Category09: 0
+    Category10: 0
+    Category11: 0
+    Category12: 0
+    Category13: 0
+    Category14: 0
+    Category15: 0
+    Category16: 0
+    Category17: 0
+    Category18: 1
+    Category19: 0
+    Category20: 0
+    Category21: 0
+    Category22: 0
+    Category23: 0
+    Category24: 0
+    Category25: 0
+    Category26: 0
+    Category27: 0
+    Category28: 0
+    Category29: 0
+    Category30: 0
+    Category31: 0
+  SuspensionLength: 1
+  Stiffness: 10
+  Damping: 2000
+  Longitudinal:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1.2
+      inSlope: -0.0002743011
+      outSlope: -0.0002743011
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.27846533
+    - serializedVersion: 3
+      time: 40
+      value: 0.9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  Lateral:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 2
+      inSlope: -0.0012342393
+      outSlope: -0.0012342393
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.30940595
+    - serializedVersion: 3
+      time: 20
+      value: 0.25
+      inSlope: 0.00039623003
+      outSlope: 0.00039623003
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3131188
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ForwardFriction: 2000
+  LateralFriction: 3000
+  BrakeFriction: 5000
+  UseForwardTransientForce: 1
+  MinTransientForwardSpeed: 1
+  MaxForwardFrictionRate: 50
+  ForwardRelaxMultiplier: 0.1
+  UseLateralTransientForce: 1
+  MinTransientLateralSpeed: 0.4
+  MaxLateralFrictionRate: 10
+  LateralRelaxMultiplier: 0.1
+  BrakeTorque: 0.1
+  HandbrakeTorque: 0.2
+  Torque:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1020.04553
+      inSlope: -0.070931286
+      outSlope: -0.070931286
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.35891086
+    - serializedVersion: 3
+      time: 1006.1881
+      value: 0
+      inSlope: 0.11427969
+      outSlope: 0.11427969
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.35424358
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  TransmissionRate: 0.3
+  Drag: 1
+  AllWheels:
+  - Driving: 1
+    Brake: 1
+    BrakeRate: 1
+    HandBrakeRate: 3
+    LocalOffset: 0.14599963
+  - Driving: 1
+    Brake: 1
+    BrakeRate: 1
+    HandBrakeRate: 3
+    LocalOffset: 0.14599963
+  - Driving: 1
+    Brake: 1
+    BrakeRate: 1
+    HandBrakeRate: 3
+    LocalOffset: 0.14599971
+  - Driving: 1
+    Brake: 1
+    BrakeRate: 1
+    HandBrakeRate: 3
+    LocalOffset: 0.14599971
+  - Driving: 1
+    Brake: 1
+    BrakeRate: 1
+    HandBrakeRate: 3
+    LocalOffset: 0.14599974
+  - Driving: 1
+    Brake: 1
+    BrakeRate: 1
+    HandBrakeRate: 3
+    LocalOffset: 0.14599974

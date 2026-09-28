@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &128299219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 128299220}
+  m_Layer: 0
+  m_Name: PedestrianNodes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &128299220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128299219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6139183951651154180}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6139183951651154181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6139183951651154180}
+  - component: {fileID: 6139183951651154183}
+  m_Layer: 0
+  m_Name: PedestrianNodeCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6139183951651154180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6139183951651154181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 128299220}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6139183951651154183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6139183951651154181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a24944fca0befd5418e4f944056a0392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cachedValues: 1
+  createRoot: {fileID: 128299220}
+  pedestrianNodePrefab: {fileID: 5956831531963972048, guid: b05636b187f7d144e839e95d64ad69b0,
+    type: 3}
+  pedestrianNodeCreatorConfig: {fileID: 11400000, guid: 6cca1fd81a02af749869bb2043e10f15,
+    type: 2}
+  pedestrianNodeHotkeyConfig: {fileID: 11400000, guid: d1754fa05ebeebd47bc3942970427182,
+    type: 2}
+  pedestrianNodeDataViewerConfig: {fileID: 11400000, guid: 43fc5901f9f220840bb85c5756a170d7,
+    type: 2}
+  customParent: {fileID: 0}
+  createPath: PedestrianNodes
+  showHandlers: 1
+  showHandleType: 1
+  selectionMode: 0
+  multipleHandleType: 0
+  unselectSelected: 1
+  maxPathWidth: 1
+  connectWithPreviousNode: 0
+  autoSelectConnectedNode: 0
+  allowConnectTrafficNode: 0
+  autoSplitConnection: 1
+  customSplitAngle: 5
+  autoRejoinLine: 1
+  autoAttachToSurface: 0
+  surfaceMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  attachType: 0
+  autoSnapPosition: 1
+  snapValue: 0.5
+  showPath: 1
+  showPathType: 0
+  showNodeButtons: 1
+  nodeButtonType: 0
+  showUniqueInfo: 0
+  showFullDescription: 0
+  showOnlyOnCursor: 0
+  showResetCustomRouteButtons: 0
+  showBorderRoutes: 0
+  showPathWidthType: 0
+  defaultRouteColor: {r: 0, g: 0, b: 1, a: 1}
+  customRouteColor: {r: 1, g: 0, b: 1, a: 1}
+  showTrafficNodeConnection: 0
+  trafficNodeConnectionColor: {r: 1, g: 0, b: 1, a: 1}
+  showSelectedNodeSettings: 0
+  sceneSettings: 1
+  selectedNodeSettingsFoldout: 1
+  selectionInfo: 0
+  selectedNode: {fileID: 0}
+  selectedPedestrianNodes: []
+  createdPedestrianNodes: []
+  allPedestrianNodes: []
+  customPathPedestrianNodes: []

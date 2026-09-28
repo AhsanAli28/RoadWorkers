@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9011344362153613857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ccbe9a900c1d074ba28c0f0185b9ad9, type: 3}
+  m_Name: Transition Node
+  m_EditorClassIdentifier: 
+  animContainer: {fileID: 11400000}
+  animatorNodePosition: {x: 670, y: 200}
+  guid: adbc12d9-829d-41b8-a374-4b2fa4abd946
+  connectedNodes:
+  - {fileID: -320341404794071618}
+  transitionDuration: 0.4
+  animationTransitionType: 0
+--- !u!114 &-8921419441448798872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28edfd6841567ec40bf826298430f29d, type: 3}
+  m_Name: StandToSit
+  m_EditorClassIdentifier: 
+  animContainer: {fileID: 11400000}
+  animatorNodePosition: {x: 480, y: 188}
+  guid: 3aa946af-622e-45bb-8600-00a5ba713530
+  connectedNodes:
+  - {fileID: -2210918937561170070}
+  AnimName: StandToSit
+  uniqueAnimation: 1
+  AnimHash: 1798334025
+--- !u!114 &-2210918937561170070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ccbe9a900c1d074ba28c0f0185b9ad9, type: 3}
+  m_Name: Transition Node
+  m_EditorClassIdentifier: 
+  animContainer: {fileID: 11400000}
+  animatorNodePosition: {x: 712, y: 206}
+  guid: f51550e8-890d-4fae-8780-f1b266a087c4
+  connectedNodes:
+  - {fileID: 126084446661300668}
+  transitionDuration: 1
+  animationTransitionType: 2
+--- !u!114 &-320341404794071618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28edfd6841567ec40bf826298430f29d, type: 3}
+  m_Name: Animation Node
+  m_EditorClassIdentifier: 
+  animContainer: {fileID: 11400000}
+  animatorNodePosition: {x: 908, y: 200}
+  guid: a5ff49ea-39e3-43ea-941d-cf20a6ce8210
+  connectedNodes: []
+  AnimName: Idle
+  uniqueAnimation: 0
+  AnimHash: 2081823275
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622c6990804e2b74692521caca06c848, type: 3}
+  m_Name: Animator Container
+  m_EditorClassIdentifier: 
+  layers:
+  - EntryNode: {fileID: -8921419441448798872}
+    ActivateTrigger: StartSit
+    EntryNodePosition: {x: 0, y: 0}
+    activateTriggerHash: -1880722739
+    allNodes:
+    - {fileID: -8921419441448798872}
+    - {fileID: -2210918937561170070}
+    - {fileID: 126084446661300668}
+  - EntryNode: {fileID: 7397205017363709830}
+    ActivateTrigger: Sitout
+    EntryNodePosition: {x: 0, y: 0}
+    activateTriggerHash: 218910086
+    allNodes:
+    - {fileID: 7397205017363709830}
+    - {fileID: -9011344362153613857}
+    - {fileID: -320341404794071618}
+  selectedLayerIndex: 0
+--- !u!114 &126084446661300668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28edfd6841567ec40bf826298430f29d, type: 3}
+  m_Name: Animation Node
+  m_EditorClassIdentifier: 
+  animContainer: {fileID: 11400000}
+  animatorNodePosition: {x: 1079, y: 215}
+  guid: 21a44552-9081-436d-9713-9b234ea572df
+  connectedNodes: []
+  AnimName: SittingIdle
+  uniqueAnimation: 0
+  AnimHash: 2028741046
+--- !u!114 &7397205017363709830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28edfd6841567ec40bf826298430f29d, type: 3}
+  m_Name: Animation Node
+  m_EditorClassIdentifier: 
+  animContainer: {fileID: 11400000}
+  animatorNodePosition: {x: 438, y: 200}
+  guid: 2554ccd9-c66e-490e-bc74-43e9ba0635ed
+  connectedNodes:
+  - {fileID: -9011344362153613857}
+  AnimName: SitToStand
+  uniqueAnimation: 1
+  AnimHash: 605113644

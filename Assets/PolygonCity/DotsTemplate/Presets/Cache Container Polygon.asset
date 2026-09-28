@@ -1,0 +1,828 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14962750090ec254cae1e10ba2d1a1bd, type: 3}
+  m_Name: Cache Container Polygon
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - {fileID: 164098, guid: 416c46ca128db5f4bb76f235b4f991d5, type: 3}
+  - {fileID: 157676, guid: fcd06c9319e99cc4bbee7ce7730d9422, type: 3}
+  - {fileID: 141870, guid: edf6cb56e12fba648b2cf1e7dfa5bf88, type: 3}
+  - {fileID: 189930, guid: f539f0390d17a9f4a922b722e47998fe, type: 3}
+  - {fileID: 198730, guid: 85ac88d7c46e0ea4583870a98cc13580, type: 3}
+  - {fileID: 127632, guid: 0383b854a926f1643b20f9c7cdb2e4de, type: 3}
+  - {fileID: 175378, guid: a916a44328d322240bd1aaaca22fc8a7, type: 3}
+  - {fileID: 130278, guid: 94469aeaca2d49442af381840b70bb6c, type: 3}
+  - {fileID: 164098, guid: 416c46ca128db5f4bb76f235b4f991d5, type: 3}
+  - {fileID: 157676, guid: fcd06c9319e99cc4bbee7ce7730d9422, type: 3}
+  - {fileID: 141870, guid: edf6cb56e12fba648b2cf1e7dfa5bf88, type: 3}
+  - {fileID: 189930, guid: f539f0390d17a9f4a922b722e47998fe, type: 3}
+  - {fileID: 198730, guid: 85ac88d7c46e0ea4583870a98cc13580, type: 3}
+  - {fileID: 127632, guid: 0383b854a926f1643b20f9c7cdb2e4de, type: 3}
+  - {fileID: 175378, guid: a916a44328d322240bd1aaaca22fc8a7, type: 3}
+  - {fileID: 130278, guid: 94469aeaca2d49442af381840b70bb6c, type: 3}
+  materialType: 0
+  CustomMaterial: {fileID: 0}
+  addToExistPreset: 1
+  presetSourceType: 1
+  SelectedPreset: {fileID: 11400000, guid: af310ce6e73d3a7499c02bc1d84afab4, type: 2}
+  SelectedPresetCustom: {fileID: 11400000, guid: d6c984a07172969468678224c5f9347f, type: 2}
+  SelectedPresetMono: {fileID: 0}
+  SelectedPlayerPreset: {fileID: 0}
+  InputScript: {fileID: 0}
+  scanIDSourceType: 1
+  wheelSearchType: 3
+  colliderType: 0
+  fitPhysicsShapeToMesh: 1
+  includeWheels: 1
+  physicsShapeAtFloor: 0
+  hasWheels: 1
+  addOffset: 1
+  fixPivot: 1
+  addWheelOffset: 1
+  localOffset: -0.1
+  addOffsetCustom: 1
+  fixPivotCustom: 1
+  addWheelOffsetCustom: 1
+  localOffsetCustom: -0.1
+  templateNamePlayerHull: _player_hull
+  templateNameTrafficHull: _hull
+  templateNamePlayer: _player
+  templateNameSimple: _simple
+  templateNameCustom: _custom
+  wheelRadius: 0.4
+  wheelOffset: 0
+  wheelOffsetCustom: -0.1
+  suspensionLength: 0.7
+  additiveOffset: 0
+  maxSteeringAngle: 40
+  SizeOffset: {x: 0, y: 0, z: 0}
+  CenterOffset: {x: 0, y: 0, z: 0}
+  CenterOfMass: {x: 0, y: 1, z: 0.3}
+  Mass: 200
+  MassCustom: 1500
+  BevelRadius: 0.05
+  WheelSourceType: 0
+  WheelRotationType: 0
+  SharedWheelMesh: {fileID: 0}
+  SharedWheelMeshLOD1: {fileID: 0}
+  SharedWheelMeshLOD2: {fileID: 0}
+  HasLods: 0
+  Lod0ScreenSize: 1.2
+  Lod1ScreenSize: 0.3
+  Lod2ScreenSize: 0
+  cachedDataDictionary:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 
+    keys:
+    - SM_Veh_Car_Ambo_01
+    - SM_Veh_Car_Medium_01
+    - SM_Veh_Car_Muscle_01
+    - SM_Veh_Car_Police_01
+    - SM_Veh_Car_Sedan_01
+    - SM_Veh_Car_Small_01
+    - SM_Veh_Car_Taxi_01
+    - SM_Veh_Car_Van_01
+    values:
+    - Name: SM_Veh_Car_Ambo_01
+      ID: 
+      CustomID: 0
+      IDSourceType: 0
+      Weight: 1
+      TrafficGroup: 1
+      OverrideEntityType: 0
+      EntityType: 0
+      PublicTransport: 0
+      PredefinedRoad: 0
+      Capacity: 20
+      Entries: 1
+      AllWheelsMeshes:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      HullMeshLODs:
+      - {fileID: 4300000, guid: 916b5bf2becb29f46b894a059d247f38, type: 3}
+      - {fileID: 0}
+      - {fileID: 0}
+      SharedWheelMesh:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      LOD1Meshes: []
+      LOD2Meshes: []
+      AvailableWheels:
+      - SM_Veh_Car_Ambo_Wheel_fr
+      - SM_Veh_Car_Ambo_Wheel_fl
+      - SM_Veh_Car_Ambo_Wheel_rr
+      - SM_Veh_Car_Ambo_Wheel_rl
+      SelectedWheelMeshIndex: 0
+      SettingsType: 0
+      TemplateID: 
+      CloneID: 
+      CopySettingsType: -1
+      SizeOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Size Offset
+      CenterOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Center Offset
+      CenterOfMass:
+        Value: {x: 0, y: 1, z: 0.2}
+        Enabled: 0
+        Label: Center Of Mass
+      BevelRadius:
+        Value: 0.05
+        Enabled: 0
+        Label: Bevel Radius
+        MinValue: 0
+        MaxValue: 2
+      Mass:
+        Value: 1500
+        Enabled: 0
+        Label: Mass
+        MinValue: 1
+        MaxValue: 5000
+      WheelRadius:
+        Value: 0.4
+        Enabled: 0
+        Label: Wheel Radius
+        MinValue: 0
+        MaxValue: 5
+      WheelOffset:
+        Value: -0.1
+        Enabled: 0
+        Label: Wheel Offset
+        MinValue: -5
+        MaxValue: 5
+      SuspensionLength:
+        Value: 0.7
+        Enabled: 0
+        Label: Suspension Length
+        MinValue: 0
+        MaxValue: 3
+      AdditiveOffset:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+      MaxSteeringAngle:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+    - Name: SM_Veh_Car_Medium_01
+      ID: 
+      CustomID: 0
+      IDSourceType: 0
+      Weight: 1
+      TrafficGroup: 1
+      OverrideEntityType: 0
+      EntityType: 0
+      PublicTransport: 0
+      PredefinedRoad: 0
+      Capacity: 20
+      Entries: 1
+      AllWheelsMeshes:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      HullMeshLODs:
+      - {fileID: 4300000, guid: 9e3e05b5e4951d64a9412bf0e557e6d3, type: 3}
+      - {fileID: 0}
+      - {fileID: 0}
+      SharedWheelMesh:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      LOD1Meshes: []
+      LOD2Meshes: []
+      AvailableWheels:
+      - SM_Veh_Car_Medium_Wheel_fr
+      - SM_Veh_Car_Medium_Wheel_fl
+      - SM_Veh_Car_Medium_Wheel_rr
+      - SM_Veh_Car_Medium_Wheel_rl
+      SelectedWheelMeshIndex: 0
+      SettingsType: 0
+      TemplateID: 
+      CloneID: 
+      CopySettingsType: -1
+      SizeOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Size Offset
+      CenterOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Center Offset
+      CenterOfMass:
+        Value: {x: 0, y: 1, z: 0.2}
+        Enabled: 0
+        Label: Center Of Mass
+      BevelRadius:
+        Value: 0.05
+        Enabled: 0
+        Label: Bevel Radius
+        MinValue: 0
+        MaxValue: 2
+      Mass:
+        Value: 1500
+        Enabled: 0
+        Label: Mass
+        MinValue: 1
+        MaxValue: 5000
+      WheelRadius:
+        Value: 0.42
+        Enabled: 0
+        Label: Wheel Radius
+        MinValue: 0
+        MaxValue: 5
+      WheelOffset:
+        Value: -0.1
+        Enabled: 0
+        Label: Wheel Offset
+        MinValue: -5
+        MaxValue: 5
+      SuspensionLength:
+        Value: 0.7
+        Enabled: 0
+        Label: Suspension Length
+        MinValue: 0
+        MaxValue: 3
+      AdditiveOffset:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+      MaxSteeringAngle:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+    - Name: SM_Veh_Car_Muscle_01
+      ID: 
+      CustomID: 0
+      IDSourceType: 0
+      Weight: 1
+      TrafficGroup: 1
+      OverrideEntityType: 0
+      EntityType: 0
+      PublicTransport: 0
+      PredefinedRoad: 0
+      Capacity: 20
+      Entries: 1
+      AllWheelsMeshes:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      HullMeshLODs:
+      - {fileID: 4300000, guid: 823ed423ae6ba0d4589ddb8fe51e7f14, type: 3}
+      - {fileID: 0}
+      - {fileID: 0}
+      SharedWheelMesh:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      LOD1Meshes: []
+      LOD2Meshes: []
+      AvailableWheels:
+      - SM_Veh_Car_Muscle_Wheel_fr
+      - SM_Veh_Car_Muscle_Wheel_fl
+      - SM_Veh_Car_Muscle_Wheel_rr
+      - SM_Veh_Car_Muscle_Wheel_rl
+      SelectedWheelMeshIndex: 0
+      SettingsType: 0
+      TemplateID: 
+      CloneID: 
+      CopySettingsType: -1
+      SizeOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Size Offset
+      CenterOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Center Offset
+      CenterOfMass:
+        Value: {x: 0, y: 1, z: 0.5}
+        Enabled: 1
+        Label: Center Of Mass
+      BevelRadius:
+        Value: 0.05
+        Enabled: 0
+        Label: Bevel Radius
+        MinValue: 0
+        MaxValue: 2
+      Mass:
+        Value: 1500
+        Enabled: 0
+        Label: Mass
+        MinValue: 1
+        MaxValue: 5000
+      WheelRadius:
+        Value: 0.35
+        Enabled: 0
+        Label: Wheel Radius
+        MinValue: 0
+        MaxValue: 5
+      WheelOffset:
+        Value: -0.1
+        Enabled: 0
+        Label: Wheel Offset
+        MinValue: -5
+        MaxValue: 5
+      SuspensionLength:
+        Value: 0.7
+        Enabled: 0
+        Label: Suspension Length
+        MinValue: 0
+        MaxValue: 3
+      AdditiveOffset:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+      MaxSteeringAngle:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+    - Name: SM_Veh_Car_Police_01
+      ID: 
+      CustomID: 0
+      IDSourceType: 0
+      Weight: 1
+      TrafficGroup: 1
+      OverrideEntityType: 0
+      EntityType: 0
+      PublicTransport: 0
+      PredefinedRoad: 0
+      Capacity: 20
+      Entries: 1
+      AllWheelsMeshes:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      HullMeshLODs:
+      - {fileID: 4300000, guid: 1b9e9f93cf8ada14b8dfb8c9c1b35002, type: 3}
+      - {fileID: 0}
+      - {fileID: 0}
+      SharedWheelMesh:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      LOD1Meshes: []
+      LOD2Meshes: []
+      AvailableWheels:
+      - SM_Veh_Car_Police_Wheel_fr
+      - SM_Veh_Car_Police_Wheel_fl
+      - SM_Veh_Car_Police_Wheel_rr
+      - SM_Veh_Car_Police_Wheel_rl
+      SelectedWheelMeshIndex: 0
+      SettingsType: 0
+      TemplateID: 
+      CloneID: 
+      CopySettingsType: -1
+      SizeOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Size Offset
+      CenterOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Center Offset
+      CenterOfMass:
+        Value: {x: 0, y: 1, z: 0.2}
+        Enabled: 0
+        Label: Center Of Mass
+      BevelRadius:
+        Value: 0.05
+        Enabled: 0
+        Label: Bevel Radius
+        MinValue: 0
+        MaxValue: 2
+      Mass:
+        Value: 1500
+        Enabled: 0
+        Label: Mass
+        MinValue: 1
+        MaxValue: 5000
+      WheelRadius:
+        Value: 0.36
+        Enabled: 0
+        Label: Wheel Radius
+        MinValue: 0
+        MaxValue: 5
+      WheelOffset:
+        Value: -0.1
+        Enabled: 0
+        Label: Wheel Offset
+        MinValue: -5
+        MaxValue: 5
+      SuspensionLength:
+        Value: 0.7
+        Enabled: 0
+        Label: Suspension Length
+        MinValue: 0
+        MaxValue: 3
+      AdditiveOffset:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+      MaxSteeringAngle:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+    - Name: SM_Veh_Car_Sedan_01
+      ID: 
+      CustomID: 0
+      IDSourceType: 0
+      Weight: 1
+      TrafficGroup: 1
+      OverrideEntityType: 0
+      EntityType: 0
+      PublicTransport: 0
+      PredefinedRoad: 0
+      Capacity: 20
+      Entries: 1
+      AllWheelsMeshes:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      HullMeshLODs:
+      - {fileID: 4300000, guid: 2dfd189627cfe43479265db2e35e552c, type: 3}
+      - {fileID: 0}
+      - {fileID: 0}
+      SharedWheelMesh:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      LOD1Meshes: []
+      LOD2Meshes: []
+      AvailableWheels:
+      - SM_Veh_Car_Sedan_Wheel_fr
+      - SM_Veh_Car_Sedan_Wheel_fl
+      - SM_Veh_Car_Sedan_Wheel_rr
+      - SM_Veh_Car_Sedan_Wheel_rl
+      SelectedWheelMeshIndex: 0
+      SettingsType: 0
+      TemplateID: 
+      CloneID: 
+      CopySettingsType: -1
+      SizeOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Size Offset
+      CenterOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Center Offset
+      CenterOfMass:
+        Value: {x: 0, y: 1, z: 0.2}
+        Enabled: 0
+        Label: Center Of Mass
+      BevelRadius:
+        Value: 0.05
+        Enabled: 0
+        Label: Bevel Radius
+        MinValue: 0
+        MaxValue: 2
+      Mass:
+        Value: 1500
+        Enabled: 0
+        Label: Mass
+        MinValue: 1
+        MaxValue: 5000
+      WheelRadius:
+        Value: 0.36
+        Enabled: 0
+        Label: Wheel Radius
+        MinValue: 0
+        MaxValue: 5
+      WheelOffset:
+        Value: -0.1
+        Enabled: 0
+        Label: Wheel Offset
+        MinValue: -5
+        MaxValue: 5
+      SuspensionLength:
+        Value: 0.7
+        Enabled: 0
+        Label: Suspension Length
+        MinValue: 0
+        MaxValue: 3
+      AdditiveOffset:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+      MaxSteeringAngle:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+    - Name: SM_Veh_Car_Small_01
+      ID: 
+      CustomID: 0
+      IDSourceType: 0
+      Weight: 1
+      TrafficGroup: 1
+      OverrideEntityType: 0
+      EntityType: 0
+      PublicTransport: 0
+      PredefinedRoad: 0
+      Capacity: 20
+      Entries: 1
+      AllWheelsMeshes:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      HullMeshLODs:
+      - {fileID: 4300000, guid: 5f72e1579cd001244802c30b332dae70, type: 3}
+      - {fileID: 0}
+      - {fileID: 0}
+      SharedWheelMesh:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      LOD1Meshes: []
+      LOD2Meshes: []
+      AvailableWheels:
+      - SM_Veh_Car_Small_Wheel_fr
+      - SM_Veh_Car_Small_Wheel_fl
+      - SM_Veh_Car_Small_Wheel_rr
+      - SM_Veh_Car_Small_Wheel_rl
+      SelectedWheelMeshIndex: 0
+      SettingsType: 0
+      TemplateID: 
+      CloneID: 
+      CopySettingsType: -1
+      SizeOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Size Offset
+      CenterOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Center Offset
+      CenterOfMass:
+        Value: {x: 0, y: 1, z: 0}
+        Enabled: 1
+        Label: Center Of Mass
+      BevelRadius:
+        Value: 0.05
+        Enabled: 0
+        Label: Bevel Radius
+        MinValue: 0
+        MaxValue: 2
+      Mass:
+        Value: 1500
+        Enabled: 0
+        Label: Mass
+        MinValue: 1
+        MaxValue: 5000
+      WheelRadius:
+        Value: 0.33
+        Enabled: 0
+        Label: Wheel Radius
+        MinValue: 0
+        MaxValue: 5
+      WheelOffset:
+        Value: -0.1
+        Enabled: 0
+        Label: Wheel Offset
+        MinValue: -5
+        MaxValue: 5
+      SuspensionLength:
+        Value: 0.7
+        Enabled: 0
+        Label: Suspension Length
+        MinValue: 0
+        MaxValue: 3
+      AdditiveOffset:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+      MaxSteeringAngle:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+    - Name: SM_Veh_Car_Taxi_01
+      ID: 
+      CustomID: 0
+      IDSourceType: 0
+      Weight: 1
+      TrafficGroup: 1
+      OverrideEntityType: 0
+      EntityType: 0
+      PublicTransport: 0
+      PredefinedRoad: 0
+      Capacity: 20
+      Entries: 1
+      AllWheelsMeshes:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      HullMeshLODs:
+      - {fileID: 4300000, guid: db57e923d75cb6c4e936d5e8caaa9165, type: 3}
+      - {fileID: 0}
+      - {fileID: 0}
+      SharedWheelMesh:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      LOD1Meshes: []
+      LOD2Meshes: []
+      AvailableWheels:
+      - SM_Veh_Car_Taxi_Wheel_fr
+      - SM_Veh_Car_Taxi_Wheel_fl
+      - SM_Veh_Car_Taxi_Wheel_rr
+      - SM_Veh_Car_Taxi_Wheel_rl
+      SelectedWheelMeshIndex: 0
+      SettingsType: 0
+      TemplateID: 
+      CloneID: 
+      CopySettingsType: -1
+      SizeOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Size Offset
+      CenterOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Center Offset
+      CenterOfMass:
+        Value: {x: 0, y: 1, z: 0.2}
+        Enabled: 0
+        Label: Center Of Mass
+      BevelRadius:
+        Value: 0.05
+        Enabled: 0
+        Label: Bevel Radius
+        MinValue: 0
+        MaxValue: 2
+      Mass:
+        Value: 1500
+        Enabled: 0
+        Label: Mass
+        MinValue: 1
+        MaxValue: 5000
+      WheelRadius:
+        Value: 0.36
+        Enabled: 0
+        Label: Wheel Radius
+        MinValue: 0
+        MaxValue: 5
+      WheelOffset:
+        Value: -0.1
+        Enabled: 0
+        Label: Wheel Offset
+        MinValue: -5
+        MaxValue: 5
+      SuspensionLength:
+        Value: 0.7
+        Enabled: 0
+        Label: Suspension Length
+        MinValue: 0
+        MaxValue: 3
+      AdditiveOffset:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+      MaxSteeringAngle:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+    - Name: SM_Veh_Car_Van_01
+      ID: 
+      CustomID: 0
+      IDSourceType: 0
+      Weight: 1
+      TrafficGroup: 1
+      OverrideEntityType: 0
+      EntityType: 0
+      PublicTransport: 0
+      PredefinedRoad: 0
+      Capacity: 20
+      Entries: 1
+      AllWheelsMeshes:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      HullMeshLODs:
+      - {fileID: 4300000, guid: 97982d8a36ff16f4a88f291ef2443e49, type: 3}
+      - {fileID: 0}
+      - {fileID: 0}
+      SharedWheelMesh:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      LOD1Meshes: []
+      LOD2Meshes: []
+      AvailableWheels:
+      - SM_Veh_Car_Van_Wheel_fr
+      - SM_Veh_Car_Van_Wheel_fl
+      - SM_Veh_Car_Van_Wheel_rr
+      - SM_Veh_Car_Van_Wheel_rl
+      SelectedWheelMeshIndex: 0
+      SettingsType: 0
+      TemplateID: 
+      CloneID: 
+      CopySettingsType: -1
+      SizeOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Size Offset
+      CenterOffset:
+        Value: {x: 0, y: 0, z: 0}
+        Enabled: 0
+        Label: Center Offset
+      CenterOfMass:
+        Value: {x: 0, y: 1, z: 0.2}
+        Enabled: 0
+        Label: Center Of Mass
+      BevelRadius:
+        Value: 0.05
+        Enabled: 0
+        Label: Bevel Radius
+        MinValue: 0
+        MaxValue: 2
+      Mass:
+        Value: 1500
+        Enabled: 0
+        Label: Mass
+        MinValue: 1
+        MaxValue: 5000
+      WheelRadius:
+        Value: 0.4
+        Enabled: 0
+        Label: Wheel Radius
+        MinValue: 0
+        MaxValue: 5
+      WheelOffset:
+        Value: -0.1
+        Enabled: 0
+        Label: Wheel Offset
+        MinValue: -5
+        MaxValue: 5
+      SuspensionLength:
+        Value: 0.7
+        Enabled: 0
+        Label: Suspension Length
+        MinValue: 0
+        MaxValue: 3
+      AdditiveOffset:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0
+      MaxSteeringAngle:
+        Value: 0
+        Enabled: 0
+        Label: 
+        MinValue: 0
+        MaxValue: 0

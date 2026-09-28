@@ -1,0 +1,31 @@
+{
+    "name": "604Spirit.DotsCity.MicroverseRoads",
+    "rootNamespace": "",
+    "references": [
+        "604Spirit.DotsCity.RoadGeneration",
+        "604Spirit.RoadComponents.Core",
+        "604Spirit.SerializableDictionary.Core",
+        "604Spirit.Extensions.Core",
+        "Unity.Splines",
+        "Unity.Mathematics",
+        "JBooth.MicroVerseCore"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY",
+        "MICROVERSE_ROADS"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.jbooth.microverse.roads",
+            "expression": "",
+            "define": "MICROVERSE_ROADS"
+        }
+    ],
+    "noEngineReferences": false
+}

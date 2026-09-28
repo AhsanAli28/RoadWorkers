@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8778373907170157263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8778373907170157262}
+  - component: {fileID: 8452297003923061727}
+  m_Layer: 0
+  m_Name: Route
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8778373907170157262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8778373907170157263}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8452297003923061727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8778373907170157263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0322928bcd45c114c81a1958c32b23da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceOffset: 4
+  targetOffset: 8
+  distanceBeetweenParallelNodes: 4
+  hightlightRoute: 1
+  showPathSelectionButtons: 1
+  showSwapButtons: 1
+  routesFoldout: 1
+  transitionSettingsFoldout: 1
+  sceneSettingsFoldout: 1
+  routeDataFoldout: 1
+  showOnlyRelatedNodes: 1
+  routes: []
+  trafficNodeRouteData:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: {fileID: 0}
+    keys: []
+    values: []
+  routeChangeLaneTransitions: []
+  vehicleDataCollection: {fileID: 11400000, guid: 5aa1b8e1993c61a4e898a34ac87a9646, type: 2}
+  maxVehicleCount: 3
+  preferedIntervalDistance: 10
+  ignoreCamera: 0
+  trafficPublicType: 0
+  vehicleModel: 0

@@ -1,0 +1,29 @@
+{
+    "name": "604Spirit.DotsCity.RoadConstructor.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Mathematics",
+        "604Spirit.DotsCity.Constans",
+        "604Spirit.RoadComponents.Core",
+        "604Spirit.RoadComponents.Editor",
+        "604Spirit.DotsCity.RoadConstructor.Runtime",
+        "604Spirit.Extensions.Core",
+        "604Spirit.DotsCity.RoadConstructor",
+        "PG.RoadConstructor",
+        "Unity.Splines"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY",
+        "ROAD_CONSTRUCTOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

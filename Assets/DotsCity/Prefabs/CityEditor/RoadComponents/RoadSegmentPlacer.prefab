@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6227545281020849439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6227545281020849438}
+  - component: {fileID: 6227545281020849425}
+  m_Layer: 0
+  m_Name: RoadSegmentPlacer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6227545281020849438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6227545281020849439}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6227545281020849425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6227545281020849439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4829aa4b1f74d4f80e7c876947bdaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabFoldout: 1
+  roadNodeParent: {fileID: 0}
+  roadCreatorConfig: {fileID: 11400000, guid: efb18ceb739f3164c8da38bc929f130a, type: 2}
+  roadSegmentCreatorConfig: {fileID: 11400000, guid: 7829770fc28bbca4fb359f176c98ea3d, type: 2}
+  assetPath: Assets/Prefabs/CityEditor/Roads/
+  sceneFoldout: 1
+  showMovementHandlers: 1
+  showRotationHandlers: 1
+  showDeleteButtons: 1
+  showLightInfo: 0
+  onlyShortNames: 1
+  roadSnapPosition: 1
+  snapType: 0
+  customSnapSize: 5
+  evenSizeSnapPosition: 1
+  createdSegments: []
+  roadSegmentPrefabs:
+  - {fileID: 1651558700, guid: a9c68590804be4a43857eb43f3d8abb3, type: 3}
+  - {fileID: 4599407379854791761, guid: dac16b34a0e62f74dae88837dbfeb6e0, type: 3}
+  - {fileID: 484054882810807345, guid: 049ac0a96feb38d45bfdeaa2a167489b, type: 3}
+  - {fileID: 419581882, guid: 90306d89cef830846a4e08ffc6066b82, type: 3}
+  - {fileID: 5583360580439394468, guid: 266205e723cf67c41b1520b055c7d92b, type: 3}
+  - {fileID: 5688869769313115464, guid: 7e6291e39077c7442b46cf39db4e704f, type: 3}
+  - {fileID: 5688869769313115464, guid: eac270630cc89284bad10f7a528dce22, type: 3}
+  - {fileID: 5688869769313115464, guid: 5a8940f1cf2c634478fb986b4a8072d6, type: 3}
+  - {fileID: 5688869769313115464, guid: 3c18ff4235a068a45af9a2bc5e7e2e87, type: 3}
+  - {fileID: 5688869769313115464, guid: 5032da76d35818c469bb52bafc086f3e, type: 3}
+  - {fileID: 5688869769313115464, guid: 1bec490a1a3d66d44b0e3c86fb89842b, type: 3}
+  - {fileID: 5688869769313115464, guid: 848e705168ab5784dbb05eeb88e47eba, type: 3}
+  - {fileID: 5688869769313115464, guid: 50121d983e9ed664f8ddaf73f3825d89, type: 3}
+  - {fileID: 5688869769313115464, guid: 70a22a9148a463b4aba1d05a029a4645, type: 3}
+  - {fileID: 3008474058516668922, guid: 4b797adf63c52924d9ce51101c420671, type: 3}
+  - {fileID: 6017727206692023921, guid: 7415c2f3c49e51a458cae88cb7b2a0ff, type: 3}
+  - {fileID: 7578577, guid: d8e2003f199793f4b81657e4c2697f9e, type: 3}
+  - {fileID: 3581057023394965735, guid: 4090c009e5f271c40aec65300274ce36, type: 3}
+  - {fileID: 6017727206320788092, guid: 9bfbfc3dfa3fdb4408cda8eecafcde4c, type: 3}
+  headers:
+  - 1x1_cross
+  - 1x1_cross_T
+  - 1x1_cross_turn
+  - 2x2_cross
+  - 2x2_cross_polygon
+  - 2x2_cross_turn_polygon
+  - 2x2_cross_turn_polygon
+  - 2x2_cross_turn_polygon
+  - 2x2_cross_turn_polygon
+  - 2x2_cross_turn_polygon
+  - 2x2_cross_turn_polygon
+  - 2x2_cross_turn_polygon
+  - 2x2_cross_turn_polygon
+  - 2x2_cross_turn_polygon
+  - 2x2_cross_T_polygon
+  - 2x2_T
+  - 2x2_t
+  - 2x2_T_To_Oneway
+  - 2x2_T2
+  prefabIndex: 0

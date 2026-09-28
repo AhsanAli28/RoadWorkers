@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d603fc779099ddf4aafd854d9e1e83d1, type: 3}
+  m_Name: LoadSceneDataConfigRuntimeDemoScene
+  m_EditorClassIdentifier: 
+  sceneName: RuntimeTileRoad Demo
+  configDataDictionary:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 
+    keys:
+    - Traffic
+    - Pedestrian
+    - Pedestrian Settings
+    - Tile Game
+    values:
+    - {fileID: 11400000, guid: bec3c6683f4e47e4c846e134e0ba99cb, type: 2}
+    - {fileID: 11400000, guid: 697ead495ae1cc44187168a474cc6a51, type: 2}
+    - {fileID: 11400000, guid: 68e8da97463d9fd44829180daa25ec9e, type: 2}
+    - {fileID: 11400000, guid: c783771db18016247ba2f9bdd8bdbe4a, type: 2}

@@ -1,0 +1,949 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &750509793046057942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8658405527023315836}
+  - component: {fileID: 538029565789072593}
+  - component: {fileID: 2682497347375198671}
+  - component: {fileID: 4740608454491348937}
+  - component: {fileID: 3588604390300741841}
+  - component: {fileID: 1306508792274204297}
+  m_Layer: 0
+  m_Name: Tram1_mono_arcade (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8658405527023315836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750509793046057942}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 16.08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1132673619638822439}
+  m_Father: {fileID: 3536203772017813964}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &538029565789072593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750509793046057942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19dc85d2a0c52548acbe3755b2ac4d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customID: 1
+  id: Tram1
+  hullMeshRenderer: {fileID: 0}
+  physicsShape: {fileID: 0}
+  hybridMono: 1
+  factionType: 2
+  carType: 4
+  boundsSourceType: 3
+  showBounds: 1
+  boundsColor: {r: 1, g: 1, b: 1, a: 1}
+  boundsSize: {x: 2.0289185, y: 1.5023321, z: 4.57344}
+  boundsCenter: {x: 0, y: 0.75116605, z: -0.07123804}
+  link: 
+  trafficGroup: 1
+  maxSteeringAngle: 40
+  interpolate: 1
+--- !u!114 &2682497347375198671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750509793046057942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82800771a2c27f545a192c65a361ed61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4740608454491348937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750509793046057942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2603f2e0d3a42a942bd6db35f6b4970d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: 
+  showBounds: 0
+  center: {x: 0, y: 0.75116605, z: -0.07123804}
+  size: {x: 2.0289185, y: 1.5023321, z: 4.57344}
+  carve: 1
+  moveThreshold: 0.5
+  timeToStationary: 0.2
+  carveOnlyStationary: 0
+--- !u!114 &3588604390300741841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750509793046057942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bddf3c8c1db73c4786bdecd3234c284, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxCapacity: 20
+  entryPoints:
+  - {fileID: 5269820568245998033}
+  showEntryPoint: 1
+--- !u!114 &1306508792274204297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750509793046057942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17735f20c3d46fd40a060cbb3fc8db0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: 
+  predefinedRoad: 0
+  minMaxIdleTime: {x: 5, y: 10}
+  idleTimeAfterStop: 1
+  minMaxPedestrianExitCount: {x: 1, y: 15}
+  enterExitDelayDuration: {x: 0.7, y: 1.2}
+--- !u!1 &1524785748271441391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1524785748271441301}
+  - component: {fileID: 176614985762262256}
+  - component: {fileID: 4205552042286552321}
+  - component: {fileID: 9156267678991258961}
+  - component: {fileID: 8140566049711737142}
+  - component: {fileID: 8973860011456531583}
+  m_Layer: 0
+  m_Name: Tram1_mono_arcade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1524785748271441301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524785748271441391}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 4.57}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7187690321712625343}
+  m_Father: {fileID: 3536203772017813964}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &176614985762262256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524785748271441391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19dc85d2a0c52548acbe3755b2ac4d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customID: 1
+  id: Tram1
+  hullMeshRenderer: {fileID: 0}
+  physicsShape: {fileID: 0}
+  hybridMono: 1
+  factionType: 2
+  carType: 4
+  boundsSourceType: 3
+  showBounds: 1
+  boundsColor: {r: 1, g: 1, b: 1, a: 1}
+  boundsSize: {x: 2.0289185, y: 1.5023321, z: 4.57344}
+  boundsCenter: {x: 0, y: 0.75116605, z: -0.07123804}
+  link: 
+  trafficGroup: 1
+  maxSteeringAngle: 40
+  interpolate: 1
+--- !u!114 &4205552042286552321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524785748271441391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82800771a2c27f545a192c65a361ed61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9156267678991258961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524785748271441391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2603f2e0d3a42a942bd6db35f6b4970d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: 
+  showBounds: 0
+  center: {x: 0, y: 0.75116605, z: -0.07123804}
+  size: {x: 2.0289185, y: 1.5023321, z: 4.57344}
+  carve: 1
+  moveThreshold: 0.5
+  timeToStationary: 0.2
+  carveOnlyStationary: 0
+--- !u!114 &8140566049711737142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524785748271441391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bddf3c8c1db73c4786bdecd3234c284, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxCapacity: 20
+  entryPoints:
+  - {fileID: 4486054899914433994}
+  showEntryPoint: 1
+--- !u!114 &8973860011456531583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524785748271441391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17735f20c3d46fd40a060cbb3fc8db0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: 
+  predefinedRoad: 0
+  minMaxIdleTime: {x: 5, y: 10}
+  idleTimeAfterStop: 1
+  minMaxPedestrianExitCount: {x: 1, y: 15}
+  enterExitDelayDuration: {x: 0.7, y: 1.2}
+--- !u!1 &1933742925826600098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7053482834050976391}
+  - component: {fileID: 7698775952867368628}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7053482834050976391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933742925826600098}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8217139, y: 0, z: 0.79673195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1545261063581820424}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7698775952867368628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933742925826600098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1e8614a60b57a4b93d317266608fd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <EntryType>k__BackingField: 7
+--- !u!1 &3159047380158792418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7971594086795648046}
+  - component: {fileID: 4561206018357138668}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7971594086795648046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159047380158792418}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8217139, y: 0, z: 0.7967322}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3536203772017813964}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4561206018357138668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3159047380158792418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1e8614a60b57a4b93d317266608fd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <EntryType>k__BackingField: 7
+--- !u!1 &4503522117504443009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7187690321712625343}
+  - component: {fileID: 4486054899914433994}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7187690321712625343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4503522117504443009}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8217139, y: 0, z: 0.79673195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1524785748271441301}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4486054899914433994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4503522117504443009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1e8614a60b57a4b93d317266608fd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <EntryType>k__BackingField: 7
+--- !u!1 &4955518293540338180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3501178821851498063}
+  - component: {fileID: 5473099631451452349}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3501178821851498063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4955518293540338180}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8217139, y: 0, z: 0.79673195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1027906427904466372}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5473099631451452349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4955518293540338180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1e8614a60b57a4b93d317266608fd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <EntryType>k__BackingField: 7
+--- !u!1 &5592595898483357460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1027906427904466372}
+  - component: {fileID: 1369922171449554199}
+  - component: {fileID: 9162137773134002655}
+  - component: {fileID: 8239039343374264305}
+  - component: {fileID: 2647748628561030608}
+  - component: {fileID: 3345710486634153509}
+  m_Layer: 0
+  m_Name: Tram1_mono_arcade (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1027906427904466372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5592595898483357460}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 8.98}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3501178821851498063}
+  m_Father: {fileID: 3536203772017813964}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1369922171449554199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5592595898483357460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19dc85d2a0c52548acbe3755b2ac4d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customID: 1
+  id: Tram1
+  hullMeshRenderer: {fileID: 0}
+  physicsShape: {fileID: 0}
+  hybridMono: 1
+  factionType: 2
+  carType: 4
+  boundsSourceType: 3
+  showBounds: 1
+  boundsColor: {r: 1, g: 1, b: 1, a: 1}
+  boundsSize: {x: 2.0289185, y: 1.5023321, z: 4.57344}
+  boundsCenter: {x: 0, y: 0.75116605, z: -0.07123804}
+  link: 
+  trafficGroup: 1
+  maxSteeringAngle: 40
+  interpolate: 1
+--- !u!114 &9162137773134002655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5592595898483357460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82800771a2c27f545a192c65a361ed61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8239039343374264305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5592595898483357460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2603f2e0d3a42a942bd6db35f6b4970d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: 
+  showBounds: 0
+  center: {x: 0, y: 0.75116605, z: -0.07123804}
+  size: {x: 2.0289185, y: 1.5023321, z: 4.57344}
+  carve: 1
+  moveThreshold: 0.5
+  timeToStationary: 0.2
+  carveOnlyStationary: 0
+--- !u!114 &2647748628561030608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5592595898483357460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bddf3c8c1db73c4786bdecd3234c284, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxCapacity: 20
+  entryPoints:
+  - {fileID: 5473099631451452349}
+  showEntryPoint: 1
+--- !u!114 &3345710486634153509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5592595898483357460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17735f20c3d46fd40a060cbb3fc8db0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: 
+  predefinedRoad: 0
+  minMaxIdleTime: {x: 5, y: 10}
+  idleTimeAfterStop: 1
+  minMaxPedestrianExitCount: {x: 1, y: 15}
+  enterExitDelayDuration: {x: 0.7, y: 1.2}
+--- !u!1 &5818095955088522060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1132673619638822439}
+  - component: {fileID: 5269820568245998033}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1132673619638822439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818095955088522060}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.8217139, y: 0, z: 0.79673386}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8658405527023315836}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5269820568245998033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818095955088522060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1e8614a60b57a4b93d317266608fd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <EntryType>k__BackingField: 7
+--- !u!1 &9012786062244994808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1545261063581820424}
+  - component: {fileID: 8047998655966080179}
+  - component: {fileID: 3076437489876974048}
+  - component: {fileID: 247928182737890807}
+  - component: {fileID: 8857516830910877348}
+  - component: {fileID: 7999317163664218454}
+  m_Layer: 0
+  m_Name: Tram1_mono_arcade (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1545261063581820424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012786062244994808}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 12.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7053482834050976391}
+  m_Father: {fileID: 3536203772017813964}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8047998655966080179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012786062244994808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19dc85d2a0c52548acbe3755b2ac4d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customID: 1
+  id: Tram1
+  hullMeshRenderer: {fileID: 0}
+  physicsShape: {fileID: 0}
+  hybridMono: 1
+  factionType: 2
+  carType: 4
+  boundsSourceType: 3
+  showBounds: 1
+  boundsColor: {r: 1, g: 1, b: 1, a: 1}
+  boundsSize: {x: 2.0289185, y: 1.5023321, z: 4.57344}
+  boundsCenter: {x: 0, y: 0.75116605, z: -0.07123804}
+  link: 
+  trafficGroup: 1
+  maxSteeringAngle: 40
+  interpolate: 1
+--- !u!114 &3076437489876974048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012786062244994808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82800771a2c27f545a192c65a361ed61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &247928182737890807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012786062244994808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2603f2e0d3a42a942bd6db35f6b4970d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: 
+  showBounds: 0
+  center: {x: 0, y: 0.75116605, z: -0.07123804}
+  size: {x: 2.0289185, y: 1.5023321, z: 4.57344}
+  carve: 1
+  moveThreshold: 0.5
+  timeToStationary: 0.2
+  carveOnlyStationary: 0
+--- !u!114 &8857516830910877348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012786062244994808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bddf3c8c1db73c4786bdecd3234c284, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxCapacity: 20
+  entryPoints:
+  - {fileID: 7698775952867368628}
+  showEntryPoint: 1
+--- !u!114 &7999317163664218454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012786062244994808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17735f20c3d46fd40a060cbb3fc8db0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: 
+  predefinedRoad: 0
+  minMaxIdleTime: {x: 5, y: 10}
+  idleTimeAfterStop: 1
+  minMaxPedestrianExitCount: {x: 1, y: 15}
+  enterExitDelayDuration: {x: 0.7, y: 1.2}
+--- !u!1001 &685132302176479303
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: id
+      value: Tram1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: customID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: boundsSize.x
+      value: 2.0289185
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: boundsSize.y
+      value: 1.5023321
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: boundsSize.z
+      value: 4.57344
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: boundsCenter.y
+      value: 0.75116605
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: boundsCenter.z
+      value: -0.07123804
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: boundsSourceType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3443947775770339566, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: maxSteeringAngle
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076050866025218443, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076050866025218443, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076050866025218443, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076050866025218545, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      propertyPath: m_Name
+      value: Tram1_mono_arcade
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4076050866025218443, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7971594086795648046}
+    - targetCorrespondingSourceObject: {fileID: 4076050866025218443, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1524785748271441301}
+    - targetCorrespondingSourceObject: {fileID: 4076050866025218443, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1027906427904466372}
+    - targetCorrespondingSourceObject: {fileID: 4076050866025218443, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1545261063581820424}
+    - targetCorrespondingSourceObject: {fileID: 4076050866025218443, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8658405527023315836}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4076050866025218545, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1916892826909875004}
+    - targetCorrespondingSourceObject: {fileID: 4076050866025218545, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8606935903499101504}
+    - targetCorrespondingSourceObject: {fileID: 4076050866025218545, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7805336701386605425}
+    - targetCorrespondingSourceObject: {fileID: 4076050866025218545, guid: 65b32699a75fae546a15ec6e147e6a7c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4495006656394248570}
+  m_SourcePrefab: {fileID: 100100000, guid: 65b32699a75fae546a15ec6e147e6a7c, type: 3}
+--- !u!1 &3536203772017813942 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4076050866025218545, guid: 65b32699a75fae546a15ec6e147e6a7c,
+    type: 3}
+  m_PrefabInstance: {fileID: 685132302176479303}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1916892826909875004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3536203772017813942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2603f2e0d3a42a942bd6db35f6b4970d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: 
+  showBounds: 0
+  center: {x: 0, y: 0.75116605, z: -0.07123804}
+  size: {x: 2.0289185, y: 1.5023321, z: 4.57344}
+  carve: 1
+  moveThreshold: 0.5
+  timeToStationary: 0.2
+  carveOnlyStationary: 0
+--- !u!114 &8606935903499101504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3536203772017813942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6d8a8cd6143464db741633225909a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wagonOffset: 0.3
+  wagons:
+  - {fileID: 1524785748271441391}
+  - {fileID: 5592595898483357460}
+  - {fileID: 9012786062244994808}
+  - {fileID: 750509793046057942}
+--- !u!114 &-7805336701386605425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3536203772017813942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bddf3c8c1db73c4786bdecd3234c284, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxCapacity: 20
+  entryPoints:
+  - {fileID: 4561206018357138668}
+  showEntryPoint: 1
+--- !u!114 &-4495006656394248570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3536203772017813942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17735f20c3d46fd40a060cbb3fc8db0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: 
+  predefinedRoad: 1
+  minMaxIdleTime: {x: 15, y: 25}
+  idleTimeAfterStop: 1
+  minMaxPedestrianExitCount: {x: 1, y: 15}
+  enterExitDelayDuration: {x: 0.7, y: 1.2}
+--- !u!4 &3536203772017813964 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4076050866025218443, guid: 65b32699a75fae546a15ec6e147e6a7c,
+    type: 3}
+  m_PrefabInstance: {fileID: 685132302176479303}
+  m_PrefabAsset: {fileID: 0}

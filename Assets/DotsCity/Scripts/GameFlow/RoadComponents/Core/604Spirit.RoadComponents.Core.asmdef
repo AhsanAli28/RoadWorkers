@@ -1,0 +1,28 @@
+{
+    "name": "604Spirit.RoadComponents.Core",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Mathematics",
+        "Unity.Splines",
+        "604Spirit.DotsCity.Constans",
+        "604Spirit.SerializableDictionary.Core",
+        "604Spirit.Extensions.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.splines",
+            "expression": "",
+            "define": "UNITY_SPLINE"
+        }
+    ],
+    "noEngineReferences": false
+}

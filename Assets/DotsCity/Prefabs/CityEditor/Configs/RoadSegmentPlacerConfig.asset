@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c0c985e227ba442b90bfd8f9863aec, type: 3}
+  m_Name: RoadSegmentPlacerConfig
+  m_EditorClassIdentifier: 
+  roadSegmentCreatorPrefab: {fileID: 6161394077201806165, guid: 31a2d6e547f0ebb4d970420db4ff57fb,
+    type: 3}
+  rotateButtonTextureLeft: {fileID: 2800000, guid: 974fd4633f76fe24b854d48b461656a1,
+    type: 3}
+  rotateButtonTextureRight: {fileID: 2800000, guid: 90bd95b9cd8e8f44ebb15453b5fa16cb,
+    type: 3}
+  deleteButtonTexture: {fileID: 2800000, guid: 4d2a4136ebef6f041b43fdca42412caa, type: 3}

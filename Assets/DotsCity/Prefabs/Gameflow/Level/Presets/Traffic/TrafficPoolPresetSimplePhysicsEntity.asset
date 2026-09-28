@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b14318c883e3e14f84af0bc86ee9574, type: 3}
+  m_Name: TrafficPoolPresetSimplePhysicsEntity
+  m_EditorClassIdentifier: 
+  trafficEntityType: 3
+  prefabDatas:
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 277943894378638672, guid: 4f721846a4c7ac34ead5a479f59f1e31,
+      type: 3}
+    Weight: 1
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 3270758093571760222, guid: 08372685a17068b49ad378b9fb703ee3,
+      type: 3}
+    Weight: 1
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 6098364465616153794, guid: eecb6e21a4e7a2d4f9f7a6f86487abce,
+      type: 3}
+    Weight: 1
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 2437083667796951524, guid: 303094694e6b32f4b9948c52a1d8b95a,
+      type: 3}
+    Weight: 1
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 1858887214841249282, guid: f23c20e1b80d631408a3e0ada2950fb4,
+      type: 3}
+    Weight: 1
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 5469717043355220815, guid: 481261a5412820c469c27c8d8db78c34,
+      type: 3}
+    Weight: 1
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 1323629242044388594, guid: e1f723fc1ae9b5747ad9341c7eaf650c,
+      type: 3}
+    Weight: 1
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 1616930456158536596, guid: 45bd7a328c7bbf241a1799f3f62b89ea,
+      type: 3}
+    Weight: 1
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 6903325009368748708, guid: f784ac8b775405d4d972448dfa7f89cb,
+      type: 3}
+    Weight: 1
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 4299462346627693448, guid: 8f2b9f5620a02ae478bc03082bee1c73,
+      type: 3}
+    Weight: 1
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 2073688790785875251, guid: c0b60dbedda54cd4bac8cbfcfd325f0a,
+      type: 3}
+    Weight: 1
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 5498051911443486249, guid: 664d5a5cff27c2446b784314b9b09f6f,
+      type: 3}
+    Weight: 1
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 6371553093388780353, guid: 58c50bf79d2750547bc731de5d96c135,
+      type: 3}
+    Weight: 0.5
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 6426996816093621716, guid: 1a182e9ae6bbb8243b2156bfc599d41d,
+      type: 3}
+    Weight: 0.1
+  - HullPrefab: {fileID: 0}
+    EntityPrefab: {fileID: 8389783941114248528, guid: 71e37676dbdfad246bb80161a6e52d9f,
+      type: 3}
+    Weight: 1

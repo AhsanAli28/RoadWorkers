@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d603fc779099ddf4aafd854d9e1e83d1, type: 3}
+  m_Name: LoadSceneDataConfigPedestrianStressMobileScene
+  m_EditorClassIdentifier: 
+  sceneName: PedestrianStressTestMobile
+  configDataDictionary:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 
+    keys:
+    - Pedestrian
+    - Pedestrian Settings
+    - General
+    - Cull
+    values:
+    - {fileID: 11400000, guid: b000d125cd341e24a80263c79b16b4cd, type: 2}
+    - {fileID: 11400000, guid: 0ce2b0964998c2b4fa2cc6ca96c265fe, type: 2}
+    - {fileID: 11400000, guid: 9e9c21751aeddf9419561e316e498971, type: 2}
+    - {fileID: 11400000, guid: d034fe746ca2f1b4e98af23818c397ac, type: 2}

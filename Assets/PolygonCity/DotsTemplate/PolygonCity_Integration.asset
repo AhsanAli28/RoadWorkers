@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddea6742244ab4e48b3db769e0d6c163, type: 3}
+  m_Name: PolygonCity_Integration
+  m_EditorClassIdentifier: 
+  SettingsFlag: 1
+  GeneratedCacheFlag: 0
+  AddOffset: 1
+  GlobalOffset: {x: 0, y: 0, z: 0}
+  OverrideMaterial: 0
+  subsceneRelativeAssetPath: Scenes/Demo/EntitySubScene.unity
+  subsceneRelativeFolderPath: Scenes/Demo/
+  reparentAssets: 1
+  reparentVehicles: 0
+  replaceLight: 1
+  convertMaterials: 1
+  cleanVehiclePhrase: SM_Veh_Car
+  qualityIndex: -1
+  cacheMaterialName: 
+  cacheContainer: {fileID: 11400000, guid: 3457b3c858df473468033723cb7b8b58, type: 2}
+  SkinDatas:
+  - ChildName: 
+    MeshMainAssetName: Characters
+    MaterialMainAssetName: 
+    MaterialExtension: 
+    MeshName: Character_BusinessWoman
+    TextureName: PolygonCity_Texture_01_C
+    MaterialName: 
+    Material: {fileID: 2100000, guid: 85718b814c80ebf4ea5ce27ce4e8d34d, type: 2}
+  - ChildName: 
+    MeshMainAssetName: Characters
+    MaterialMainAssetName: 
+    MaterialExtension: 
+    MeshName: Character_BusinessMan_Suit
+    TextureName: PolygonCity_Texture_01_C
+    MaterialName: 
+    Material: {fileID: 2100000, guid: 2360855be28925f46bd77c54accf5946, type: 2}
+  - ChildName: 
+    MeshMainAssetName: Characters
+    MaterialMainAssetName: 
+    MaterialExtension: 
+    MeshName: Character_BusinessMan_Shirt
+    TextureName: PolygonCity_Texture_01_C
+    MaterialName: 
+    Material: {fileID: 2100000, guid: 00f5fda361a13114989063ff07335cdc, type: 2}
+  - ChildName: 
+    MeshMainAssetName: Characters
+    MaterialMainAssetName: 
+    MaterialExtension: 
+    MeshName: Character_Female_Coat
+    TextureName: PolygonCity_Texture_01_C
+    MaterialName: 
+    Material: {fileID: 2100000, guid: a3998a238ecc1584786d77ef794ed94d, type: 2}
+  - ChildName: 
+    MeshMainAssetName: Characters
+    MaterialMainAssetName: 
+    MaterialExtension: 
+    MeshName: Character_Female_Jacket
+    TextureName: PolygonCity_Texture_01_C
+    MaterialName: 
+    Material: {fileID: 2100000, guid: 6387baedd0426d742a0eab6952396a05, type: 2}
+  - ChildName: 
+    MeshMainAssetName: Characters
+    MaterialMainAssetName: 
+    MaterialExtension: 
+    MeshName: Character_Female_Police
+    TextureName: PolygonCity_Texture_01_C
+    MaterialName: 
+    Material: {fileID: 2100000, guid: 376518a6038ee5d46a77df07adac1525, type: 2}
+  - ChildName: 
+    MeshMainAssetName: Characters
+    MaterialMainAssetName: 
+    MaterialExtension: 
+    MeshName: Character_Male_Hoodie
+    TextureName: PolygonCity_Texture_01_C
+    MaterialName: 
+    Material: {fileID: 2100000, guid: 888b7d9f1a8e0cf498f197b654a57a7b, type: 2}
+  - ChildName: 
+    MeshMainAssetName: Characters
+    MaterialMainAssetName: 
+    MaterialExtension: 
+    MeshName: Character_Male_Jacket
+    TextureName: PolygonCity_Texture_01_C
+    MaterialName: 
+    Material: {fileID: 2100000, guid: ddd394779f32c674b84b5a50a237f162, type: 2}
+  - ChildName: 
+    MeshMainAssetName: Characters
+    MaterialMainAssetName: 
+    MaterialExtension: 
+    MeshName: Character_Male_Police
+    TextureName: PolygonCity_Texture_01_C
+    MaterialName: 
+    Material: {fileID: 2100000, guid: 3a4e1f88db2ca1f4b819dc1825ce2ebe, type: 2}
+  Materials:
+  - Material: {fileID: 0}
+    MaterialName: PolygonCity_Mat_01_A
+    TextureName: PolygonCity_Texture_01_A
+  - Material: {fileID: 0}
+    MaterialName: PolygonCity_Glass_Veh_Mat
+    TextureName: 
+  ClonedMaterials: []
+  Prefabs:
+  - {fileID: 7544845358429332782, guid: 6ce668702df536243821dc6472abe17e, type: 3}
+  - {fileID: 2872500977929920541, guid: 0d0e2cf8c6e36584783b49adb1e588cb, type: 3}
+  - {fileID: 2381393347890717834, guid: bc1363f21fd7bb544a7e5189d9359962, type: 3}
+  - {fileID: 6966594331337194749, guid: c2a05bd1d17eb754f825d384b85bd5d6, type: 3}
+  - {fileID: 8741864949970668820, guid: 05ccee82b70299a43a7b83fc19f7eec8, type: 3}
+  - {fileID: 1897815741430282109, guid: 6501a153b378f924fbc67b825424b882, type: 3}
+  - {fileID: 1242547848291293141, guid: 8f54a6fe87101d5419b499f88f917840, type: 3}
+  - {fileID: 8752084052179287829, guid: 28fb37d30191f4d41a7251e37c984429, type: 3}
+  - {fileID: 3344983749143106243, guid: 97ec0da1c254a1a4f9d20dd62016d35f, type: 3}
+  - {fileID: 8039561190266817301, guid: 222b2ac7d9f610348922e1eafe2df3cf, type: 3}
+  - {fileID: 7729775642292687263, guid: bfdd9ce64456ed94da21786e3c4dee17, type: 3}
+  - {fileID: 8016401795592104443, guid: 7673f874802c87742a9e8f81b8dbdf76, type: 3}
+  - {fileID: 2979888492246014337, guid: 559a5056c1e57974bacf50a574cf4954, type: 3}
+  - {fileID: 1935077238343269680, guid: 2212847d3083e374c826c04fec55d824, type: 3}
+  - {fileID: 6452183848885493457, guid: 1ef1bd44bf9453042be898d252802f71, type: 3}
+  - {fileID: 74995164151687730, guid: 8a8b9398c690a4548992311efefd8e81, type: 3}
+  Presets:
+  - {fileID: 11400000, guid: 346e268cc017f314baa299f2a28eb0a3, type: 2}
+  - {fileID: 11400000, guid: 21404053cb94d254e92d343902304ff9, type: 2}
+  - {fileID: 11400000, guid: af310ce6e73d3a7499c02bc1d84afab4, type: 2}
+  - {fileID: 11400000, guid: d6c984a07172969468678224c5f9347f, type: 2}
+  - {fileID: 11400000, guid: 58d480f278dd1784dbfe1cecbb5d7036, type: 2}
+  - {fileID: 11400000, guid: 3457b3c858df473468033723cb7b8b58, type: 2}
+  - {fileID: 11400000, guid: d06b6c9fdf379b3488829bffe7d32665, type: 2}
+  - {fileID: 11400000, guid: a70597027c179ce4e9bf5c462cf050d8, type: 2}
+  - {fileID: 11400000, guid: a7f6e691de0df294d9ec24cff9e0e199, type: 2}
+  - {fileID: 11400000, guid: ddaa3131a15a2d642b26136b97afbf2d, type: 2}
+  - {fileID: 11400000, guid: 39b06ac8ae4e8a84592131abe7fd39e9, type: 2}
+  - {fileID: 11400000, guid: b03608e0be92e6e41b6fff6c1eb6015a, type: 2}
+  - {fileID: 11400000, guid: 779c4a263cdfed44598670a392a20ccb, type: 2}
+  LegacySkins:
+  - Prefab: {fileID: 1959877762202171555, guid: 93f5ca80f3190a14e9723bc92207cd23,
+      type: 3}
+    MainAssetName: 
+    AvatarMainAsset: Characters
+    AvatarExtension: .fbx
+    AvatarName: CharactersAvatar
+    MeshList:
+      Meshes:
+      - ChildName: Character_BusinessMan_Shirt
+        MeshMainAssetName: Characters
+        MaterialMainAssetName: PolygonCity_Mat_01_A
+        MaterialExtension: .mat
+        MeshName: Character_BusinessMan_Shirt
+        TextureName: PolygonCity_Texture_01_A
+        MaterialName: PolygonCity_Mat_01_A
+        Material: {fileID: 0}
+  - Prefab: {fileID: 5790956064758209783, guid: 1035e35aca2163340a4d7ad30e5e2894,
+      type: 3}
+    MainAssetName: 
+    AvatarMainAsset: Characters
+    AvatarExtension: .fbx
+    AvatarName: CharactersAvatar
+    MeshList:
+      Meshes:
+      - ChildName: Character_BusinessMan_Suit
+        MeshMainAssetName: Characters
+        MaterialMainAssetName: PolygonCity_Mat_01_A
+        MaterialExtension: .mat
+        MeshName: Character_BusinessMan_Suit
+        TextureName: PolygonCity_Texture_01_A
+        MaterialName: PolygonCity_Mat_01_A
+        Material: {fileID: 0}
+  - Prefab: {fileID: 605792522257793160, guid: b826b09d55b952748b96c3aadb284e12, type: 3}
+    MainAssetName: 
+    AvatarMainAsset: Characters
+    AvatarExtension: .fbx
+    AvatarName: CharactersAvatar
+    MeshList:
+      Meshes:
+      - ChildName: Character_BusinessWoman
+        MeshMainAssetName: Characters
+        MaterialMainAssetName: PolygonCity_Mat_01_A
+        MaterialExtension: .mat
+        MeshName: Character_BusinessWoman
+        TextureName: PolygonCity_Texture_01_A
+        MaterialName: PolygonCity_Mat_01_A
+        Material: {fileID: 0}
+  - Prefab: {fileID: 4591630383604521092, guid: c8b6d210ff969bb4a8cc1eceaf8f1826,
+      type: 3}
+    MainAssetName: 
+    AvatarMainAsset: Characters
+    AvatarExtension: .fbx
+    AvatarName: CharactersAvatar
+    MeshList:
+      Meshes:
+      - ChildName: Character_Female_Coat
+        MeshMainAssetName: Characters
+        MaterialMainAssetName: PolygonCity_Mat_01_A
+        MaterialExtension: .mat
+        MeshName: Character_Female_Coat
+        TextureName: PolygonCity_Texture_01_A
+        MaterialName: PolygonCity_Mat_01_A
+        Material: {fileID: 0}
+  - Prefab: {fileID: 2021348320074029021, guid: ddd26722c327e1d4e88e28a64feffa7e,
+      type: 3}
+    MainAssetName: 
+    AvatarMainAsset: Characters
+    AvatarExtension: .fbx
+    AvatarName: CharactersAvatar
+    MeshList:
+      Meshes:
+      - ChildName: Character_Female_Jacket
+        MeshMainAssetName: Characters
+        MaterialMainAssetName: PolygonCity_Mat_01_A
+        MaterialExtension: .mat
+        MeshName: Character_Female_Jacket
+        TextureName: PolygonCity_Texture_01_A
+        MaterialName: PolygonCity_Mat_01_A
+        Material: {fileID: 0}
+  - Prefab: {fileID: 4508125094693998995, guid: af22f3b6a69ed3a4794e2f94914d9596,
+      type: 3}
+    MainAssetName: 
+    AvatarMainAsset: Characters
+    AvatarExtension: .fbx
+    AvatarName: CharactersAvatar
+    MeshList:
+      Meshes:
+      - ChildName: Character_Female_Police
+        MeshMainAssetName: Characters
+        MaterialMainAssetName: PolygonCity_Mat_01_A
+        MaterialExtension: .mat
+        MeshName: Character_Female_Police
+        TextureName: PolygonCity_Texture_01_A
+        MaterialName: PolygonCity_Mat_01_A
+        Material: {fileID: 0}
+  - Prefab: {fileID: 4521243107190781021, guid: fac0d8f41a9ef6e4c9b91d7a8e930220,
+      type: 3}
+    MainAssetName: 
+    AvatarMainAsset: Characters
+    AvatarExtension: .fbx
+    AvatarName: CharactersAvatar
+    MeshList:
+      Meshes:
+      - ChildName: Character_Male_Hoodie
+        MeshMainAssetName: Characters
+        MaterialMainAssetName: PolygonCity_Mat_01_A
+        MaterialExtension: .mat
+        MeshName: Character_Male_Hoodie
+        TextureName: PolygonCity_Texture_01_A
+        MaterialName: PolygonCity_Mat_01_A
+        Material: {fileID: 0}
+  - Prefab: {fileID: 6274133287035243580, guid: 5855a1fd6714bfa4dbe029e5e04b9047,
+      type: 3}
+    MainAssetName: 
+    AvatarMainAsset: Characters
+    AvatarExtension: .fbx
+    AvatarName: CharactersAvatar
+    MeshList:
+      Meshes:
+      - ChildName: Character_Male_Jacket
+        MeshMainAssetName: Characters
+        MaterialMainAssetName: PolygonCity_Mat_01_A
+        MaterialExtension: .mat
+        MeshName: Character_Male_Jacket
+        TextureName: PolygonCity_Texture_01_A
+        MaterialName: PolygonCity_Mat_01_A
+        Material: {fileID: 0}
+  - Prefab: {fileID: 799297430343046325, guid: c312cbc90ac33dd41b9308ca8194c527, type: 3}
+    MainAssetName: 
+    AvatarMainAsset: Characters
+    AvatarExtension: .fbx
+    AvatarName: CharactersAvatar
+    MeshList:
+      Meshes:
+      - ChildName: Character_Male_Police
+        MeshMainAssetName: Characters
+        MaterialMainAssetName: PolygonCity_Mat_01_A
+        MaterialExtension: .mat
+        MeshName: Character_Male_Police
+        TextureName: PolygonCity_Texture_01_A
+        MaterialName: PolygonCity_Mat_01_A
+        Material: {fileID: 0}
+  Ragdolls: []
+  CacheContainerPrefabs:
+  - SM_Veh_Car_Ambo_01
+  - SM_Veh_Car_Medium_01
+  - SM_Veh_Car_Muscle_01
+  - SM_Veh_Car_Police_01
+  - SM_Veh_Car_Sedan_01
+  - SM_Veh_Car_Small_01
+  - SM_Veh_Car_Taxi_01
+  - SM_Veh_Car_Van_01
+  ContentScene: {fileID: 102900000, guid: 9027ed5558f33a14d9c5010c561e83e5, type: 3}
+  Subscene: {fileID: 102900000, guid: 899ba620ef0b54e4b8f346365eeb66e4, type: 3}

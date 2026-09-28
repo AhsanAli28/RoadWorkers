@@ -1,0 +1,36 @@
+{
+    "name": "604Spirit.DotsCity.Hybrid.Core",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Transforms",
+        "Unity.Transforms.Hybrid",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "Unity.Mathematics.Extensions",
+        "Unity.Burst",
+        "Unity.Entities.Graphics",
+        "Unity.Physics",
+        "Unity.Physics.Hybrid",
+        "Unity.Physics.Custom",
+        "Unity.Scenes",
+        "Unity.TextMeshPro",
+        "604Spirit.DotsCity.Constans",
+        "604Spirit.DotsCity.Core",
+        "604Spirit.DotsExtensions.Core",
+        "604Spirit.Extensions.Core",
+        "604Spirit.SerializableDictionary.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,72 @@
+{
+    "name": "604Spirit.DotsCity.Gameplay.Entities",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Transforms",
+        "Unity.Transforms.Hybrid",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "Unity.Mathematics.Extensions",
+        "Unity.Burst",
+        "Unity.Entities.Graphics",
+        "Unity.Physics",
+        "Unity.Physics.Hybrid",
+        "Unity.Physics.Custom",
+        "Unity.Scenes",
+        "Unity.TextMeshPro",
+        "Cinemachine",
+        "Unity.Cinemachine",
+        "Unity.InputSystem",
+        "604Spirit.DotsCity.Constans",
+        "604Spirit.DotsCity.Core",
+        "604Spirit.DotsCity.Hybrid.Core",
+        "604Spirit.DotsCity.Simulation",
+        "604Spirit.DotsCity.Gameplay",
+        "604Spirit.RoadComponents.Core",
+        "604Spirit.StateMachine.Core",
+        "604Spirit.DotsExtensions.Core",
+        "604Spirit.Extensions.Core",
+        "604Spirit.SerializableDictionary.Core",
+        "604Spirit.AnimationBaker.Core",
+        "604Spirit.AnimationBaker.Entities",
+        "Unity.Mathematics.Extensions.Hybrid",
+        "FMODUnity",
+        "Reese.Path",
+        "ProjectDawn.Navigation"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY",
+        "!DOTS_SIMULATION"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "3.0.0",
+            "define": "CINEMACHINE_V3"
+        },
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "",
+            "define": "CINEMACHINE"
+        },
+        {
+            "name": "com.svermeulen.extenject",
+            "expression": "",
+            "define": "ZENJECT"
+        },
+        {
+            "name": "com.projectdawn.navigation",
+            "expression": "",
+            "define": "PROJECTDAWN_NAV"
+        }
+    ],
+    "noEngineReferences": false
+}

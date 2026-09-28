@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e75e0b942ea7bb9479cdc7ce4c1cd200, type: 3}
+  m_Name: Tile Grid View Icon Data
+  m_EditorClassIdentifier: 
+  data:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 
+    keys:
+    - road_bendSidewalk
+    - road_bridge
+    - road_crossroad
+    - road_crossroad_upper
+    - road_crossroadLight
+    - road_crossroadTurnOnly
+    - road_default
+    - road_default_upper
+    - road_end
+    - road_end_upper
+    - road_intersection
+    - road_intersection_upper
+    - road_intersectionLight
+    - road_intersectionLine
+    - road_slantHigh
+    - road_straight
+    - road_straight_crosswalk
+    - road_turn_upper
+    - road_upper1
+    - road_upper2
+    - DefaultHouse1
+    values:
+    - {fileID: 21300000, guid: fef7037f4f2a29b40aa70240ba346f91, type: 3}
+    - {fileID: 21300000, guid: c9c88b4ac885b3a40814c0a1328d5071, type: 3}
+    - {fileID: 21300000, guid: c16b3ab11776f5b41981186036cc767c, type: 3}
+    - {fileID: 21300000, guid: 5dfea5e4562815140babc9b8aca92055, type: 3}
+    - {fileID: 21300000, guid: 5d105b1703cc8064b9a2748b23cb4ea3, type: 3}
+    - {fileID: 21300000, guid: b63ecbdfc9b09354799f688b3678a826, type: 3}
+    - {fileID: 21300000, guid: aae23a1d046e2344b9e5e8094a917fe4, type: 3}
+    - {fileID: 21300000, guid: e17760ec1282e7b49aecb29459052042, type: 3}
+    - {fileID: 21300000, guid: 8023814163ca9324b8762a91eecd8d64, type: 3}
+    - {fileID: 21300000, guid: 35445b199b6c9634eb3311b3bf11b541, type: 3}
+    - {fileID: 21300000, guid: 3cbcda7a79529684fa326da9bddfddf1, type: 3}
+    - {fileID: 21300000, guid: ace5ff17647b47a4e93b5638210d1451, type: 3}
+    - {fileID: 21300000, guid: 3550d9eb33897fb40ba8211eb36e691f, type: 3}
+    - {fileID: 21300000, guid: 9cf02412843e4b0469a39422d3730f81, type: 3}
+    - {fileID: 21300000, guid: b66930f6dc322d34dbca3bb51cd3a47b, type: 3}
+    - {fileID: 21300000, guid: ad1744c8b82216a42858e38bc0c1d3e8, type: 3}
+    - {fileID: 21300000, guid: 38ec9f55e5edcb44ea25109430940d9b, type: 3}
+    - {fileID: 21300000, guid: b3789ccb49438024bb9f9cb71686f6fe, type: 3}
+    - {fileID: 21300000, guid: 1b107f0055396a74cb5d12283fbd7682, type: 3}
+    - {fileID: 21300000, guid: 62e4cede8c5f5ea439e6de57c08e7d74, type: 3}
+    - {fileID: 21300000, guid: cbc6a71965ab0ea41a40a3f3d35c91a2, type: 3}

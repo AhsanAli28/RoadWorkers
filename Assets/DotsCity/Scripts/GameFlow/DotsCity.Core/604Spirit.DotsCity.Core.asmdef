@@ -1,0 +1,32 @@
+{
+    "name": "604Spirit.DotsCity.Core",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Transforms",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "Unity.Burst",
+        "Unity.Physics",
+        "Unity.Physics.Custom",
+        "Unity.Scenes",
+        "604Spirit.DotsCity.Constans",
+        "604Spirit.RoadComponents.Core",
+        "604Spirit.Extensions.Core",
+        "604Spirit.DotsExtensions.Core",
+        "604Spirit.SerializableDictionary.Core",
+        "FMODUnity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DOTS_CITY"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
